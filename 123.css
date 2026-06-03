@@ -1550,7 +1550,27 @@ body.light-theme figcaption {
 
     .container {
         margin-left: 0 !important;
-        padding: 16px;
+        padding: 16px 16px 100px 16px;
+    }
+
+    .floating-controls {
+        bottom: 20px;
+        right: 16px;
+        gap: 12px;
+    }
+
+    .control-btn {
+        width: 46px;
+        height: 46px;
+        font-size: 1.15rem;
+    }
+
+    .specimen-drawer-btn .btn-badge {
+        width: 16px;
+        height: 16px;
+        font-size: 0.6rem;
+        top: -1px;
+        right: -1px;
     }
 
     .header {
