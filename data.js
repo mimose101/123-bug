@@ -4191,6 +4191,21 @@ const insectData = [
       "recordist": "Albert Lastukhin",
       "quality": "B",
       "length": "0:10"
+    },
+    "inaturalist": {
+      "taxonId": 563986,
+      "displayName": "滨双针蟋",
+      "name": "Dianemobius csikii",
+      "photos": [
+        {
+          "url": "images/inat/inat_i126_1.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i126_2.jpg",
+          "attribution": "(c) LICHIEH_PAN, some rights reserved (CC BY-NC)"
+        }
+      ]
     }
   },
   {
