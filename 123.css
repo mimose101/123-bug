@@ -1402,6 +1402,11 @@
                 gap: 12px;
             }
 
+            .sound-info-modern,
+            .sound-info-modern:has(.custom-audio-player) {
+                grid-column: span 1 !important;
+            }
+
             .species-card-modern {
                 padding: 18px;
                 margin-bottom: 18px;
