@@ -396,7 +396,8 @@
 
         if (item.inaturalist) {
             const inat = item.inaturalist;
-            const showContrast = inat.displayName && inat.displayName !== rawChineseName;
+            // 总是显示学术对照名，以保证排版一致性
+            const showAcademicName = !!inat.displayName;
             
             cardHtml += `
                 <div class="info-card-item-modern inat-info-modern">
@@ -404,7 +405,7 @@
                         <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
                         <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
                     </div>
-                    ${showContrast ? `<div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.75rem;"><span style="font-weight:bold;">学术对照名:</span> ${highlight(inat.displayName)}</div>` : ''}
+                    ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
                     ${inat.photos && inat.photos.length > 0 ? `
                         <div class="inat-photo-gallery">
                             ${inat.photos.slice(0, 2).map((p, i) => `
@@ -415,6 +416,18 @@
                             `).join('')}
                         </div>
                     ` : ''}
+                </div>
+            `;
+        } else {
+            // 对于未匹配到 iNaturalist 的种类，提供精美的提示并允许去官网自行搜索
+            cardHtml += `
+                <div class="info-card-item-modern inat-info-modern" style="opacity: 0.85; border-style: dashed;">
+                    <div class="info-card-title-modern">
+                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                        <a class="inat-link-btn" href="https://www.inaturalist.org/search?q=${encodeURIComponent(rawChineseName)}" target="_blank" rel="noopener noreferrer" style="background:#78909c; box-shadow: 0 2px 6px rgba(120,144,156,0.3);">官网搜索 →</a>
+                    </div>
+                    <div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:var(--text-muted); margin-right:6px;">学术对照名:</span><span style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span></div>
+                    <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。您可以点击右上角按钮前往官网进行模糊搜索。</div>
                 </div>
             `;
         }
