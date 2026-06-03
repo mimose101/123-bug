@@ -1,0 +1,466 @@
+{
+  "2": {
+    "id": "1103545",
+    "file": "https://xeno-canto.org/1103545/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103545/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "3:34"
+  },
+  "5": {
+    "id": "1082459",
+    "file": "https://xeno-canto.org/1082459/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082459/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "2:08"
+  },
+  "9": {
+    "id": "978053",
+    "file": "https://xeno-canto.org/978053/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978053/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "B",
+    "length": "0:12"
+  },
+  "12": {
+    "id": "1009912",
+    "file": "https://xeno-canto.org/1009912/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1009912/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "2:31"
+  },
+  "13": {
+    "id": "874262",
+    "file": "https://xeno-canto.org/874262/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874262/colour.png",
+    "recordist": "S. Ingrisch",
+    "quality": "B",
+    "length": "0:15"
+  },
+  "15": {
+    "id": "993269",
+    "file": "https://xeno-canto.org/993269/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/993269/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "2:20"
+  },
+  "17": {
+    "id": "1033754",
+    "file": "https://xeno-canto.org/1033754/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1033754/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "0:45"
+  },
+  "18": {
+    "id": "931856",
+    "file": "https://xeno-canto.org/931856/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/931856/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "0:58"
+  },
+  "19": {
+    "id": "1047588",
+    "file": "https://xeno-canto.org/1047588/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047588/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:43"
+  },
+  "24": {
+    "id": "958626",
+    "file": "https://xeno-canto.org/958626/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958626/colour.png",
+    "recordist": "Ming Kai Tan",
+    "quality": "A",
+    "length": "7:58"
+  },
+  "29": {
+    "id": "958405",
+    "file": "https://xeno-canto.org/958405/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958405/colour.png",
+    "recordist": "Ming Kai Tan",
+    "quality": "A",
+    "length": "0:02"
+  },
+  "32": {
+    "id": "1047719",
+    "file": "https://xeno-canto.org/1047719/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047719/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:32"
+  },
+  "34": {
+    "id": "1047486",
+    "file": "https://xeno-canto.org/1047486/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047486/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:36"
+  },
+  "35": {
+    "id": "1136497",
+    "file": "https://xeno-canto.org/1136497/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136497/colour.png",
+    "recordist": "Albert Lastukhin",
+    "quality": "A",
+    "length": "0:13"
+  },
+  "36": {
+    "id": "1034632",
+    "file": "https://xeno-canto.org/1034632/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034632/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "1:04"
+  },
+  "37": {
+    "id": "1105794",
+    "file": "https://xeno-canto.org/1105794/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/POVKNQVSGU/1105794/colour.png",
+    "recordist": "João Ferreira Tomás",
+    "quality": "A",
+    "length": "1:01"
+  },
+  "38": {
+    "id": "1047487",
+    "file": "https://xeno-canto.org/1047487/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047487/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:16"
+  },
+  "40": {
+    "id": "1047745",
+    "file": "https://xeno-canto.org/1047745/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047745/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:46"
+  },
+  "41": {
+    "id": "1047591",
+    "file": "https://xeno-canto.org/1047591/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047591/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:41"
+  },
+  "42": {
+    "id": "874429",
+    "file": "https://xeno-canto.org/874429/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874429/colour.png",
+    "recordist": "S. Ingrisch",
+    "quality": "B",
+    "length": "0:32"
+  },
+  "43": {
+    "id": "1102471",
+    "file": "https://xeno-canto.org/1102471/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1102471/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "3:18"
+  },
+  "44": {
+    "id": "829915",
+    "file": "https://xeno-canto.org/829915/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/829915/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "0:46"
+  },
+  "45": {
+    "id": "1047228",
+    "file": "https://xeno-canto.org/1047228/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047228/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:15"
+  },
+  "47": {
+    "id": "992894",
+    "file": "https://xeno-canto.org/992894/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/992894/colour.png",
+    "recordist": "Daniel Parker",
+    "quality": "A",
+    "length": "0:21"
+  },
+  "48": {
+    "id": "962876",
+    "file": "https://xeno-canto.org/962876/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/962876/colour.png",
+    "recordist": "Dave GUO",
+    "quality": "A",
+    "length": "0:19"
+  },
+  "49": {
+    "id": "1082455",
+    "file": "https://xeno-canto.org/1082455/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082455/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "3:00"
+  },
+  "52": {
+    "id": "974272",
+    "file": "https://xeno-canto.org/974272/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/974272/colour.png",
+    "recordist": "Dave GUO",
+    "quality": "A",
+    "length": "1:46"
+  },
+  "54": {
+    "id": "1035385",
+    "file": "https://xeno-canto.org/1035385/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035385/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "0:44"
+  },
+  "55": {
+    "id": "1136471",
+    "file": "https://xeno-canto.org/1136471/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136471/colour.png",
+    "recordist": "Albert Lastukhin",
+    "quality": "A",
+    "length": "0:14"
+  },
+  "56": {
+    "id": "1047740",
+    "file": "https://xeno-canto.org/1047740/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047740/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "1:01"
+  },
+  "57": {
+    "id": "1059321",
+    "file": "https://xeno-canto.org/1059321/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1059321/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "1:07"
+  },
+  "58": {
+    "id": "1034631",
+    "file": "https://xeno-canto.org/1034631/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034631/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "0:33"
+  },
+  "61": {
+    "id": "1035458",
+    "file": "https://xeno-canto.org/1035458/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035458/colour.png",
+    "recordist": "Oriental Stork",
+    "quality": "A",
+    "length": "2:00"
+  },
+  "62": {
+    "id": "826385",
+    "file": "https://xeno-canto.org/826385/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/826385/colour.png",
+    "recordist": "Daniel Parker",
+    "quality": "A",
+    "length": "0:15"
+  },
+  "63": {
+    "id": "978054",
+    "file": "https://xeno-canto.org/978054/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978054/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "B",
+    "length": "0:27"
+  },
+  "64": {
+    "id": "1056720",
+    "file": "https://xeno-canto.org/1056720/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/YQVNUDRMZN/1056720/colour.png",
+    "recordist": "Keisuke Nakaoka",
+    "quality": "B",
+    "length": "0:31"
+  },
+  "65": {
+    "id": "1043430",
+    "file": "https://xeno-canto.org/1043430/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1043430/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "B",
+    "length": "0:20"
+  },
+  "66": {
+    "id": "1047437",
+    "file": "https://xeno-canto.org/1047437/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047437/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "1:00"
+  },
+  "67": {
+    "id": "1007150",
+    "file": "https://xeno-canto.org/1007150/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007150/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "1:08"
+  },
+  "72": {
+    "id": "874572",
+    "file": "https://xeno-canto.org/874572/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874572/colour.png",
+    "recordist": "S. Ingrisch",
+    "quality": "B",
+    "length": "0:20"
+  },
+  "73": {
+    "id": "1052495",
+    "file": "https://xeno-canto.org/1052495/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1052495/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "0:45"
+  },
+  "74": {
+    "id": "874515",
+    "file": "https://xeno-canto.org/874515/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874515/colour.png",
+    "recordist": "S. Ingrisch",
+    "quality": "B",
+    "length": "0:20"
+  },
+  "77": {
+    "id": "1007151",
+    "file": "https://xeno-canto.org/1007151/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007151/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "B",
+    "length": "0:42"
+  },
+  "84": {
+    "id": "1047143",
+    "file": "https://xeno-canto.org/1047143/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047143/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "2:29"
+  },
+  "85": {
+    "id": "1086746",
+    "file": "https://xeno-canto.org/1086746/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086746/colour.png",
+    "recordist": "Howon Rhee",
+    "quality": "A",
+    "length": "1:09"
+  },
+  "89": {
+    "id": "1047434",
+    "file": "https://xeno-canto.org/1047434/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047434/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:35"
+  },
+  "90": {
+    "id": "875007",
+    "file": "https://xeno-canto.org/875007/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875007/colour.png",
+    "recordist": "K.-G. Heller",
+    "quality": "B",
+    "length": "0:22"
+  },
+  "91": {
+    "id": "1102475",
+    "file": "https://xeno-canto.org/1102475/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102475/colour.png",
+    "recordist": "Marc Anderson",
+    "quality": "A",
+    "length": "0:10"
+  },
+  "92": {
+    "id": "874895",
+    "file": "https://xeno-canto.org/874895/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/874895/colour.png",
+    "recordist": "K.-G. Heller",
+    "quality": "B",
+    "length": "0:48"
+  },
+  "94": {
+    "id": "832218",
+    "file": "https://xeno-canto.org/832218/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/832218/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "3:25"
+  },
+  "96": {
+    "id": "1053503",
+    "file": "https://xeno-canto.org/1053503/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1053503/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "4:47"
+  },
+  "97": {
+    "id": "927474",
+    "file": "https://xeno-canto.org/927474/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/927474/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "1:41"
+  },
+  "98": {
+    "id": "1086759",
+    "file": "https://xeno-canto.org/1086759/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086759/colour.png",
+    "recordist": "Howon Rhee",
+    "quality": "A",
+    "length": "0:47"
+  },
+  "99": {
+    "id": "1103550",
+    "file": "https://xeno-canto.org/1103550/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103550/colour.png",
+    "recordist": "Ray Tsu 诸仁",
+    "quality": "A",
+    "length": "2:18"
+  },
+  "103": {
+    "id": "873849",
+    "file": "https://xeno-canto.org/873849/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/873849/colour.png",
+    "recordist": "S. Ingrisch",
+    "quality": "B",
+    "length": "5:23"
+  },
+  "104": {
+    "id": "1047246",
+    "file": "https://xeno-canto.org/1047246/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047246/colour.png",
+    "recordist": "Dave Guo",
+    "quality": "A",
+    "length": "0:45"
+  },
+  "112": {
+    "id": "1102477",
+    "file": "https://xeno-canto.org/1102477/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102477/colour.png",
+    "recordist": "Marc Anderson",
+    "quality": "B",
+    "length": "0:34"
+  },
+  "113": {
+    "id": "875057",
+    "file": "https://xeno-canto.org/875057/download",
+    "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875057/colour.png",
+    "recordist": "K.-G. Heller",
+    "quality": "B",
+    "length": "0:37"
+  }
+}

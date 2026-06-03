@@ -1,4 +1,4 @@
-﻿        /* ===== 1. 设计系统 — Organic Biophilic × Editorial ===== */
+        /* ===== 1. 设计系统 — Organic Biophilic × Editorial ===== */
         :root {
             --primary: #1B5E20;
             --primary-light: #2E7D32;
@@ -356,6 +356,27 @@
             position: relative;
             z-index: 1;
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        h1.title {
+            margin-top: 0;
+        }
+
+        /* 前言样式 */
+        .header-preface {
+            max-width: 780px;
+            margin: 24px auto 0;
+            font-size: 0.92rem;
+            line-height: 1.9;
+            color: rgba(255, 255, 255, 0.82);
+            text-align: justify;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 18px 24px;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            position: relative;
+            z-index: 1;
         }
 
         .subtitle {
@@ -960,3 +981,765 @@
         img.loaded {
             opacity: 1;
         }
+
+        /* ===== 搜索功能 ===== */
+        .search-container {
+            position: relative;
+            max-width: 600px;
+            margin: 24px auto 0;
+        }
+        #searchInput {
+            width: 100%;
+            padding: 14px 24px 14px 48px;
+            font-size: 1.1rem;
+            color: var(--text-main);
+            background-color: var(--bg-glass);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231B5E20' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: 18px center;
+            background-size: 18px;
+            border: 2px solid transparent;
+            border-radius: 30px;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            font-family: 'Noto Sans SC', sans-serif;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        #searchInput::placeholder {
+            color: var(--text-muted);
+            opacity: 0.8;
+        }
+        #searchInput:hover {
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+            transform: translateY(-1px);
+        }
+        #searchInput:focus {
+            background-color: var(--bg-card);
+            border-color: var(--primary-lighter);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+        #searchResultsView {
+            display: none;
+            padding-top: 20px;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        #searchResultsView.active {
+            display: block;
+        }
+        .empty-result {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-top: 40px;
+            padding: 40px;
+            background: var(--bg-glass);
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        /* ===== TOC 激活项高亮 ===== */
+        .toc a.toc-active {
+            color: var(--accent-light) !important;
+            background: rgba(255, 143, 0, 0.12) !important;
+            border-left-color: var(--accent) !important;
+            font-weight: 600;
+        }
+
+        .toc li li a.toc-active {
+            color: var(--accent-light) !important;
+            background: rgba(255, 143, 0, 0.08) !important;
+            border-left-color: var(--accent) !important;
+        }
+
+        /* ===== 搜索结果高亮 ===== */
+        mark.search-highlight {
+            background: linear-gradient(135deg, rgba(255, 143, 0, 0.3) 0%, rgba(255, 167, 38, 0.25) 100%);
+            color: var(--text-main);
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .search-result-tag {
+            display: inline-block;
+            background: var(--primary-pale);
+            color: var(--primary);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-bottom: 8px;
+        }
+
+        /* ===== 图片加载失败 ===== */
+        .img-error-placeholder {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e3 100%);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            gap: 8px;
+        }
+
+        .img-error-placeholder::before {
+            content: '🦗';
+            font-size: 2rem;
+            opacity: 0.4;
+        }
+
+        /* ===== 统计看板 ===== */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            padding: 20px 0;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-num {
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-family: 'Noto Serif SC', serif;
+            background: var(--nature-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        /* ===== 随机探索按钮 ===== */
+        .random-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            background: var(--warm-gradient);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s var(--ease-out);
+            box-shadow: 0 4px 16px rgba(255, 143, 0, 0.25);
+            margin-top: 8px;
+        }
+
+        .random-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(255, 143, 0, 0.35);
+        }
+
+        .random-btn:active {
+            transform: translateY(0);
+        }
+
+        /* ===== 现代鸣虫卡片重构与互动收藏样式 ===== */
+        .species-card-modern {
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
+            transition: all 0.4s var(--ease-out);
+            margin-bottom: 24px;
+            position: relative;
+            overflow: hidden;
+            animation: floatUp 0.6s var(--ease-out) both;
+        }
+
+        .species-card-modern::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--primary-gradient);
+            border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+        }
+
+        .species-card-modern:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-light);
+        }
+
+        .species-header-modern {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+            flex-wrap: nowrap;
+        }
+
+        .species-badge-modern {
+            font-family: 'Lora', serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent);
+            background: var(--primary-pale);
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            letter-spacing: 0.5px;
+            border: 1px solid rgba(27, 94, 32, 0.08);
+            flex-shrink: 0;
+        }
+
+        .species-title-container-modern {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            flex-grow: 1;
+            min-width: 0;
+        }
+
+        .species-name-modern {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .species-latin-modern {
+            font-family: 'Lora', serif;
+            font-style: italic;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* 收藏心形按钮样式 */
+        .favorite-btn-modern {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            outline: none;
+            flex-shrink: 0;
+        }
+
+        .favorite-btn-modern:hover {
+            background: rgba(255, 61, 0, 0.08);
+            transform: scale(1.18);
+        }
+
+        .favorite-btn-modern:active {
+            transform: scale(0.85);
+        }
+
+        .heart-svg {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke: var(--text-muted);
+            stroke-width: 2.2;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .favorite-btn-modern.active .heart-svg {
+            fill: #FF3D00;
+            stroke: #FF3D00;
+            filter: drop-shadow(0 2px 6px rgba(255, 61, 0, 0.4));
+        }
+
+        .favorite-btn-modern:hover .heart-svg {
+            stroke: #FF3D00;
+        }
+
+        /* 别名俗称标签 */
+        .species-tags-modern {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .tags-label-modern {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .species-tag-modern {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--primary-light);
+            background: rgba(46, 125, 50, 0.06);
+            padding: 2px 8px;
+            border-radius: 12px;
+            transition: all 0.3s var(--ease-out);
+            border: 1px solid rgba(46, 125, 50, 0.08);
+        }
+
+        .species-tag-modern:hover {
+            background: var(--primary-light);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .species-desc-modern {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--text-main);
+            margin-bottom: 18px;
+            text-align: justify;
+        }
+
+        /* 品种特征信息卡片网格 */
+        .species-info-grid-modern {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .info-card-item-modern {
+            background: #FAF9F5;
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            border: 1px solid rgba(27, 94, 32, 0.04);
+            transition: all 0.3s var(--ease-out);
+        }
+
+        .info-card-item-modern:hover {
+            background: var(--bg-card);
+            box-shadow: var(--shadow-sm);
+            border-color: rgba(27, 94, 32, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .info-card-title-modern {
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sound-info-modern {
+            grid-column: span 1;
+        }
+
+        /* 核心修复：当声音卡片包含音频播放器时，自动拉宽为双列，实现进度条与声谱图的自适应页面宽度显示 */
+        .sound-info-modern:has(.custom-audio-player) {
+            grid-column: span 2 !important;
+        }
+
+        .sound-info-modern .info-card-title-modern {
+            color: #2E7D32;
+        }
+
+        .care-info-modern .info-card-title-modern {
+            color: #D84315;
+        }
+
+        .info-card-text-modern {
+            font-size: 0.82rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .header-preface {
+                padding: 14px 16px;
+                font-size: 0.85rem;
+                line-height: 1.8;
+            }
+
+            .stats-bar {
+                gap: 20px;
+            }
+
+            .stat-num {
+                font-size: 1.4rem;
+            }
+
+            .img-error-placeholder {
+                height: 130px;
+            }
+
+            /* 移动端卡片自适应 */
+            .species-info-grid-modern {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .species-card-modern {
+                padding: 18px;
+                margin-bottom: 18px;
+            }
+
+            .species-name-modern {
+                font-size: 1.15rem;
+            }
+
+            .species-header-modern {
+                gap: 10px;
+            }
+        }
+
+        /* ==========================================================
+           ☘️ iNaturalist 生态观察图鉴板样式
+           ========================================================== */
+        .inat-info-modern {
+            grid-column: span 2;
+            background: #F4FAF9;
+            border: 1px solid rgba(0, 150, 136, 0.12);
+            border-radius: var(--radius-sm);
+            padding: 18px;
+            transition: all 0.3s var(--ease-out);
+            position: relative;
+        }
+
+        .inat-info-modern:hover {
+            background: #EDF7F6;
+            border-color: rgba(0, 150, 136, 0.25);
+            box-shadow: var(--shadow-sm);
+            transform: translateY(-2px);
+        }
+
+        .inat-info-modern .info-card-title-modern {
+            color: #00796B;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .inat-title-left {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* iNaturalist 官方跳转按钮 */
+        .inat-link-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: #74ac00;
+            color: #ffffff !important;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 500;
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(116, 172, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .inat-link-btn:hover {
+            background: #8cc41f;
+            transform: translateY(-1px) scale(1.03);
+            box-shadow: 0 4px 10px rgba(116, 172, 0, 0.3);
+        }
+
+        .inat-link-btn svg {
+            width: 11px;
+            height: 11px;
+            fill: currentColor;
+        }
+
+        /* 学术名对照小徽章 */
+        .inat-badge-modern {
+            font-size: 0.72rem;
+            color: #00796B;
+            background: rgba(0, 150, 136, 0.08);
+            border: 1px solid rgba(0, 150, 136, 0.15);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: normal;
+            display: inline-block;
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+
+        .inat-badge-label {
+            font-weight: bold;
+            margin-right: 4px;
+        }
+
+        /* 生态摄影画廊 */
+        .inat-photo-gallery {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+            width: 100%;
+            justify-content: center; /* 水平居中图片 */
+        }
+
+        .inat-photo-item {
+            flex: 1;
+            max-width: 480px; /* 限制宽屏下的最大显示宽度，显得更加精致 */
+            min-width: 0;
+            position: relative;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid rgba(0, 150, 136, 0.08);
+            background: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .inat-photo-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+        }
+
+        .inat-photo-item img {
+            width: 100%;
+            height: auto; /* 自动匹配高度，保持原始高宽比例 */
+            max-height: 280px; /* 限制最大高度，防止图片过高 */
+            object-fit: contain; /* 保证完整显示不裁剪不扭曲 */
+            background-color: rgba(0, 0, 0, 0.02); /* 给空白区域增加微灰质感底色 */
+            display: block;
+            cursor: zoom-in;
+            transition: transform 0.4s ease;
+        }
+
+        .inat-photo-item img:hover {
+            transform: scale(1.05);
+        }
+
+        /* 摄影师署名行 */
+        .inat-photo-attribution {
+            padding: 6px 8px;
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            background: #fafafa;
+            border-top: 1px solid #f0f0f0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-style: italic;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .inat-info-modern {
+                grid-column: span 1 !important;
+                padding: 14px;
+            }
+            .inat-photo-gallery {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .inat-photo-item img {
+                height: auto; /* 移动端同步自适应自动匹配高度 */
+                max-height: 240px;
+            }
+        }
+
+        /* ==========================================================
+           🔊 自定义交互式野生鸣声与声谱图播放器样式
+           ========================================================== */
+        .custom-audio-player {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 14px;
+            background: rgba(46, 125, 50, 0.05);
+            border: 1px solid rgba(46, 125, 50, 0.08);
+            padding: 8px 12px;
+            border-radius: 30px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .audio-play-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #2E7D32;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: #ffffff;
+            transition: all 0.2s var(--ease-out);
+            box-shadow: 0 2px 8px rgba(46, 125, 50, 0.3);
+            flex-shrink: 0;
+            padding: 0;
+        }
+
+        .audio-play-btn:hover {
+            background: #1B5E20;
+            transform: scale(1.08);
+            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.4);
+        }
+
+        .audio-play-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .audio-progress-container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            min-width: 0;
+        }
+
+        .audio-progress-bar {
+            height: 4px;
+            background: rgba(0, 0, 0, 0.08);
+            border-radius: 2px;
+            position: relative;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .audio-progress-fill {
+            height: 100%;
+            background: #2E7D32;
+            width: 0%;
+            border-radius: 2px;
+            position: relative;
+            transition: width 0.1s linear;
+        }
+
+        .audio-progress-fill::after {
+            content: '';
+            position: absolute;
+            right: -4px;
+            top: -3px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #1B5E20;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .audio-progress-bar:hover .audio-progress-fill::after {
+            opacity: 1;
+        }
+
+        .audio-time-indicator {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            font-family: monospace;
+            text-align: right;
+        }
+
+        /* 科学声谱图面板 */
+        .spectrogram-container {
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .spectrogram-wrapper {
+            position: relative;
+            height: 64px;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.06);
+            background: #000000;
+            box-shadow: inset 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .spectrogram-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            opacity: 0.85;
+            transition: opacity 0.3s ease;
+        }
+
+        /* 动态红色时间扫频线 */
+        .spectrogram-progress-line {
+            position: absolute;
+            top: 0;
+            left: 0%;
+            width: 1.5px;
+            height: 100%;
+            background: #ff1744;
+            box-shadow: 0 0 4px #ff1744;
+            z-index: 10;
+            pointer-events: none;
+            transition: left 0.1s linear;
+            display: none;
+        }
+
+        /* 已播/未播白半透明遮罩 */
+        .spectrogram-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.45);
+            backdrop-filter: grayscale(1);
+            pointer-events: none;
+            transition: width 0.1s linear;
+            z-index: 5;
+        }
+
+        .audio-recordist {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+            font-style: italic;
+            text-align: left;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* 播放器 Loading 旋转动画 */
+        @keyframes audio-spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+
