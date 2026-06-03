@@ -442,7 +442,10 @@
         if (!container) return;
         
         // 查找属于当前分类的所有鸣虫数据
-        const catItems = typeof insectData !== 'undefined' ? insectData.filter(d => d.category === catId) : [];
+        // 查找属于当前分类且包含有效物种 ID 的鸣虫数据
+        const catItems = typeof insectData !== 'undefined' 
+            ? insectData.filter(d => d.category === catId && d.textHtml.includes('id="i')) 
+            : [];
         if (catItems.length === 0) return;
         
         // 保留原有的返回首页按钮和分类标题
@@ -1414,6 +1417,8 @@
                 document.querySelectorAll('.category-view').forEach(v => v.classList.remove('active'));
 
                 const results = typeof insectData !== 'undefined' ? insectData.filter(item => {
+                    // 过滤掉非物种的讨论段落（没有 id="i..."）
+                    if (!item.textHtml.includes('id="i')) return false;
                     const temp = document.createElement('div');
                     temp.innerHTML = item.textHtml;
                     const text = temp.innerText.toLowerCase();
@@ -1606,7 +1611,9 @@
                     navigateTo(targetCat);
 
                     // 2. 标本馆模式下定位当前索引并展示
-                    const catItems = typeof insectData !== 'undefined' ? insectData.filter(d => d.category === targetCat) : [];
+                    const catItems = typeof insectData !== 'undefined' 
+                        ? insectData.filter(d => d.category === targetCat && d.textHtml.includes('id="i')) 
+                        : [];
                     const index = catItems.findIndex(item => {
                         const match = item.textHtml.match(/id="i(\d+)"/);
                         return match && parseInt(match[1]) === speciesNum;
