@@ -415,7 +415,11 @@
                                 </div>
                             `).join('')}
                         </div>
-                    ` : ''}
+                    ` : `
+                        <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; padding: 10px 0; font-style: italic; text-align:justify;">
+                            该物种在 iNaturalist 数据库中暂无公开的生态观察照片。您可以点击右上角前往官网查看更多观察记录。
+                        </div>
+                    `}
                 </div>
             `;
         } else {
