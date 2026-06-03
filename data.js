@@ -47,7 +47,16 @@ const insectData = [
       "taxonId": 1228189,
       "displayName": "红胸金蛉蟋",
       "name": "Svistella rufonotata",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i2_1.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i2_2.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+        }
+      ]
     }
   },
   {
@@ -80,7 +89,16 @@ const insectData = [
       "taxonId": 638246,
       "displayName": "松浦氏小黄蛉蟋",
       "name": "Natula matsuurai",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i3_1.jpg",
+          "attribution": "(c) 肚纸有虫, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i3_2.jpg",
+          "attribution": "(c) 肚纸有虫, all rights reserved"
+        }
+      ]
     },
     "audio": {
       "id": "1103545",
@@ -222,7 +240,16 @@ const insectData = [
       "taxonId": 1157064,
       "displayName": "亮黑拟蛉蟋",
       "name": "Paratrigonidium nitidum",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i8_1.jpg",
+          "attribution": "(c) Spark, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i8_2.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        }
+      ]
     }
   },
   {
@@ -493,7 +520,16 @@ const insectData = [
       "taxonId": 1103161,
       "displayName": "亮褐异针蟋",
       "name": "Pteronemobius nitidus",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i16_1.jpg",
+          "attribution": "(c) biolin36, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i16_2.jpg",
+          "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)"
+        }
+      ]
     },
     "audio": {
       "id": "993269",
@@ -811,7 +847,16 @@ const insectData = [
       "taxonId": 1204487,
       "displayName": "Ornebius rufonigrus",
       "name": "Ornebius rufonigrus",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i25_1.jpg",
+          "attribution": "(c) Lumin Ong, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i25_2.jpg",
+          "attribution": "(c) jon, some rights reserved (CC BY-NC)"
+        }
+      ]
     },
     "audio": {
       "id": "958626",
@@ -1207,7 +1252,16 @@ const insectData = [
       "taxonId": 1323843,
       "displayName": "皮卡南蟋",
       "name": "Vietacheta picea",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i39_1.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i39_2.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        }
+      ]
     },
     "audio": {
       "id": "1047487",
@@ -2403,7 +2457,16 @@ const insectData = [
       "taxonId": 1294229,
       "displayName": "云南茨娓蟋",
       "name": "Zvenella yunnana",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i73_1.jpg",
+          "attribution": "(c) chentian, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i73_2.jpg",
+          "attribution": "(c) chentian, some rights reserved (CC BY-NC)"
+        }
+      ]
     },
     "audio": {
       "id": "874572",
@@ -2756,7 +2819,16 @@ const insectData = [
       "taxonId": 1282761,
       "displayName": "香港优兰蟋",
       "name": "Duolandrevus dendrophilus",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i84_1.jpg",
+          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i84_2.jpg",
+          "attribution": "(c) angryphyco, some rights reserved (CC BY)"
+        }
+      ]
     }
   },
   {
@@ -3021,7 +3093,16 @@ const insectData = [
       "taxonId": 1415030,
       "displayName": "相似纺织娘",
       "name": "Mecopoda fallax",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i92_1.jpg",
+          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i92_2.jpg",
+          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+        }
+      ]
     },
     "audio": {
       "id": "1102475",
@@ -3585,7 +3666,16 @@ const insectData = [
       "taxonId": 1557841,
       "displayName": "截叶糙颈螽",
       "name": "Ruidocollaris truncatolobata",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i110_1.jpg",
+          "attribution": "(c) 云鸮, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i110_2.jpg",
+          "attribution": "(c) 政策, some rights reserved (CC BY-NC)"
+        }
+      ]
     }
   },
   {
@@ -3793,7 +3883,16 @@ const insectData = [
       "taxonId": 1410506,
       "displayName": "大鼓叶螽",
       "name": "Tympanophyllum maximum",
-      "photos": []
+      "photos": [
+        {
+          "url": "images/inat/inat_i117_1.jpg",
+          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i117_2.jpg",
+          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
+        }
+      ]
     }
   },
   {
