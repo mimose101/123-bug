@@ -162,7 +162,7 @@ const insectData = [
       "name": "Svistella argentata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394090171/medium.jpg",
+          "url": "images/inat/inat_i6_1.jpg",
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC), uploaded by Yi-Shan Zhao"
         }
       ]
@@ -253,7 +253,7 @@ const insectData = [
       "name": "Svistella wuyong",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339874561/medium.jpeg",
+          "url": "images/inat/inat_i9_1.jpeg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
         }
       ]
@@ -318,7 +318,7 @@ const insectData = [
       "name": "Homoeoxipha obliterata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318434715/medium.jpg",
+          "url": "images/inat/inat_i11_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -353,7 +353,7 @@ const insectData = [
       "name": "Homoeoxipha nigripes",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293523539/medium.jpg",
+          "url": "images/inat/inat_i12_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -399,7 +399,7 @@ const insectData = [
       "name": "Homoeoxipha lycoides",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321548404/medium.jpg",
+          "url": "images/inat/inat_i13_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -433,7 +433,7 @@ const insectData = [
       "name": "Paratrigonidium venustulum",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97069569/medium.jpeg",
+          "url": "images/inat/inat_i14_1.jpeg",
           "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
         }
       ]
@@ -472,7 +472,7 @@ const insectData = [
       "name": "Polionemobius taprobanensis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3902941/medium.JPG",
+          "url": "images/inat/inat_i15_1.jpg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
         }
       ]
@@ -540,7 +540,7 @@ const insectData = [
       "name": "Dianemobius furumagiensis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57952700/medium.jpg",
+          "url": "images/inat/inat_i17_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -575,7 +575,7 @@ const insectData = [
       "name": "Polionemobius flavoantennalis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58027765/medium.jpg",
+          "url": "images/inat/inat_i18_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -621,7 +621,7 @@ const insectData = [
       "name": "Ornebius kanetataki",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337313177/medium.jpg",
+          "url": "images/inat/inat_i19_1.jpg",
           "attribution": "(c) 虫虫, some rights reserved (CC BY-NC), uploaded by 虫虫"
         }
       ]
@@ -667,7 +667,7 @@ const insectData = [
       "name": "Ornebius fuscicerci",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293523188/medium.jpg",
+          "url": "images/inat/inat_i20_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -705,7 +705,7 @@ const insectData = [
       "name": "Ornebius formosanus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58904452/medium.jpeg",
+          "url": "images/inat/inat_i21_1.jpeg",
           "attribution": "(c) 羅忠良, some rights reserved (CC BY-NC), uploaded by 羅忠良"
         }
       ]
@@ -727,7 +727,7 @@ const insectData = [
       "name": "Ornebius apterus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149990133/medium.jpeg",
+          "url": "images/inat/inat_i22_1.jpeg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
         }
       ]
@@ -749,7 +749,7 @@ const insectData = [
       "name": "Ornebius infuscatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24577569/medium.jpg",
+          "url": "images/inat/inat_i23_1.jpg",
           "attribution": "(c) 張智偉(Chang, Jack, Chih-Wei), some rights reserved (CC BY-NC), uploaded by 張智偉(Chang, Jack, Chih-Wei)"
         }
       ]
@@ -783,7 +783,7 @@ const insectData = [
       "name": "Ornebius bimaculatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20971575/medium.jpg",
+          "url": "images/inat/inat_i24_1.jpg",
           "attribution": "(c) 張智偉(Chang, Jack, Chih-Wei), some rights reserved (CC BY-NC), uploaded by 張智偉(Chang, Jack, Chih-Wei)"
         }
       ]
@@ -939,7 +939,7 @@ const insectData = [
       "name": "Ornebius polycomus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101441246/medium.jpeg",
+          "url": "images/inat/inat_i31_1.jpeg",
           "attribution": "(c) Yan Cai, some rights reserved (CC BY-NC), uploaded by Yan Cai"
         }
       ]
@@ -969,7 +969,7 @@ const insectData = [
       "name": "Ornebius carnificare",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149139081/medium.jpeg",
+          "url": "images/inat/inat_i32_1.jpeg",
           "attribution": "(c) 吕天朗, some rights reserved (CC BY-NC), uploaded by 吕天朗"
         }
       ]
@@ -1000,7 +1000,7 @@ const insectData = [
       "name": "Teleogryllus emma",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160634566/medium.jpg",
+          "url": "images/inat/inat_i33_1.jpg",
           "attribution": "(c) Observações Naturalistas | Bruno Uehara, some rights reserved (CC BY-NC), uploaded by Observações Naturalistas | Bruno Uehara"
         }
       ]
@@ -1058,7 +1058,7 @@ const insectData = [
       "name": "Meloimorpha japonica",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92655163/medium.jpg",
+          "url": "images/inat/inat_i35_1.jpg",
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
@@ -1105,7 +1105,7 @@ const insectData = [
       "name": "Velarifictorus micado",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4649712/medium.jpg",
+          "url": "images/inat/inat_i36_1.jpg",
           "attribution": "(c) John Himmelman, some rights reserved (CC BY-NC-ND), uploaded by John Himmelman"
         }
       ]
@@ -1144,7 +1144,7 @@ const insectData = [
       "name": "Turanogryllus eous",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186197004/medium.jpg",
+          "url": "images/inat/inat_i37_1.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
@@ -1179,7 +1179,7 @@ const insectData = [
       "name": "Gryllus bimaculatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30959658/medium.jpg",
+          "url": "images/inat/inat_i38_1.jpg",
           "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei"
         }
       ]
@@ -1265,7 +1265,7 @@ const insectData = [
       "name": "Teleogryllus derelictus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164030519/medium.jpg",
+          "url": "images/inat/inat_i41_1.jpg",
           "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC), uploaded by Masatoshi Sone"
         }
       ]
@@ -1312,7 +1312,7 @@ const insectData = [
       "name": "Teleogryllus mitratus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90253860/medium.jpg",
+          "url": "images/inat/inat_i42_1.jpg",
           "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
         }
       ]
@@ -1358,7 +1358,7 @@ const insectData = [
       "name": "Turanogryllus rufoniger",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148742048/medium.jpeg",
+          "url": "images/inat/inat_i43_1.jpeg",
           "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
         }
       ]
@@ -1396,7 +1396,7 @@ const insectData = [
       "name": "Svercacheta siamensis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83589734/medium.jpeg",
+          "url": "images/inat/inat_i44_1.jpeg",
           "attribution": "(c) Yoshihiro Tokue, some rights reserved (CC BY), uploaded by Yoshihiro Tokue"
         }
       ]
@@ -1431,7 +1431,7 @@ const insectData = [
       "name": "Mitius minor",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57952774/medium.jpg",
+          "url": "images/inat/inat_i45_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -1473,7 +1473,7 @@ const insectData = [
       "name": "Sclerogryllus punctatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317772549/medium.jpg",
+          "url": "images/inat/inat_i46_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -1503,7 +1503,7 @@ const insectData = [
       "name": "Acanthoplistus testaceus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391100893/medium.jpg",
+          "url": "images/inat/inat_i47_1.jpg",
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC), uploaded by Yi-Shan Zhao"
         }
       ]
@@ -1525,7 +1525,7 @@ const insectData = [
       "name": "Gryllus pennsylvanicus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167219/medium.jpg",
+          "url": "images/inat/inat_i48_1.jpg",
           "attribution": "(c) Mr. T in DC, some rights reserved (CC BY-ND)"
         }
       ]
@@ -1568,7 +1568,7 @@ const insectData = [
       "name": "Teleogryllus infernalis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31643334/medium.jpg",
+          "url": "images/inat/inat_i49_1.jpg",
           "attribution": "(c) V.S. Volkotrub, some rights reserved (CC BY-NC), uploaded by V.S. Volkotrub"
         }
       ]
@@ -1599,7 +1599,7 @@ const insectData = [
       "name": "Gryllodes sigillatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319071752/medium.jpg",
+          "url": "images/inat/inat_i50_1.jpg",
           "attribution": "(c) Michel Serjeant, some rights reserved (CC BY-NC), uploaded by Michel Serjeant"
         }
       ]
@@ -1697,7 +1697,7 @@ const insectData = [
       "name": "Phonarellus minor",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49885832/medium.jpeg",
+          "url": "images/inat/inat_i53_1.jpeg",
           "attribution": "(c) K S Gopi Sundar, some rights reserved (CC BY), uploaded by K S Gopi Sundar"
         }
       ]
@@ -1770,7 +1770,7 @@ const insectData = [
       "name": "Loxoblemmus doenitzi",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415218502/medium.jpeg",
+          "url": "images/inat/inat_i55_1.jpeg",
           "attribution": "(c) 蒋迪（涂璟）, some rights reserved (CC BY-NC), uploaded by 蒋迪（涂璟）"
         }
       ]
@@ -1800,7 +1800,7 @@ const insectData = [
       "name": "Loxoblemmus equestris",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294262127/medium.jpg",
+          "url": "images/inat/inat_i56_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -1830,7 +1830,7 @@ const insectData = [
       "name": "Loxoblemmus appendicularis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517146490/medium.jpg",
+          "url": "images/inat/inat_i57_1.jpg",
           "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC), uploaded by Sakern | 永隔一江水"
         }
       ]
@@ -1868,7 +1868,7 @@ const insectData = [
       "name": "Oecanthus euryelytra",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90255561/medium.jpg",
+          "url": "images/inat/inat_i58_1.jpg",
           "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
         }
       ]
@@ -1915,7 +1915,7 @@ const insectData = [
       "name": "Oecanthus longicauda",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24496810/medium.jpg",
+          "url": "images/inat/inat_i59_1.jpg",
           "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B."
         }
       ]
@@ -1957,7 +1957,7 @@ const insectData = [
       "name": "Oecanthus similator",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144027872/medium.jpg",
+          "url": "images/inat/inat_i60_1.jpg",
           "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
         }
       ]
@@ -1988,7 +1988,7 @@ const insectData = [
       "name": "Oecanthus zhengi",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111339116/medium.jpeg",
+          "url": "images/inat/inat_i61_1.jpeg",
           "attribution": "(c) Cédric DEL RIO, some rights reserved (CC BY-NC), uploaded by Cédric DEL RIO"
         }
       ]
@@ -2031,7 +2031,7 @@ const insectData = [
       "name": "Oecanthus antennalis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88000704/medium.jpeg",
+          "url": "images/inat/inat_i62_1.jpeg",
           "attribution": "(c) 博甫, some rights reserved (CC BY-NC), uploaded by 博甫"
         }
       ]
@@ -2069,7 +2069,7 @@ const insectData = [
       "name": "Oecanthus fultoni",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43965139/medium.jpg",
+          "url": "images/inat/inat_i63_1.jpg",
           "attribution": "(c) Russell Pfau, some rights reserved (CC BY-NC), uploaded by Russell Pfau"
         }
       ]
@@ -2111,7 +2111,7 @@ const insectData = [
       "name": "Xabea levissima",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30406949/medium.jpeg",
+          "url": "images/inat/inat_i64_1.jpeg",
           "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC), uploaded by Pam Piombino"
         }
       ]
@@ -2145,7 +2145,7 @@ const insectData = [
       "name": "Truljalia hibinonis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4901728/medium.jpg",
+          "url": "images/inat/inat_i65_1.jpg",
           "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae"
         }
       ]
@@ -2179,7 +2179,7 @@ const insectData = [
       "name": "Truljalia forceps",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237157710/medium.jpg",
+          "url": "images/inat/inat_i66_1.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
@@ -2226,7 +2226,7 @@ const insectData = [
       "name": "Truljalia tylacantha",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79846339/medium.jpg",
+          "url": "images/inat/inat_i67_1.jpg",
           "attribution": "(c) Irina Bobyleva, some rights reserved (CC BY-NC), uploaded by Irina Bobyleva"
         }
       ]
@@ -2264,7 +2264,7 @@ const insectData = [
       "name": "Truljalia citri",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511732098/medium.jpg",
+          "url": "images/inat/inat_i68_1.jpg",
           "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC), uploaded by 一颗行走的白菜"
         }
       ]
@@ -2352,7 +2352,7 @@ const insectData = [
       "name": "Mnesibulus bicolor",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138756815/medium.jpg",
+          "url": "images/inat/inat_i71_1.jpg",
           "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC), uploaded by Masatoshi Sone"
         }
       ]
@@ -2439,7 +2439,7 @@ const insectData = [
       "name": "Xenogryllus marmoratus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311829816/medium.jpg",
+          "url": "images/inat/inat_i74_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -2477,7 +2477,7 @@ const insectData = [
       "name": "Xenogryllus maichauensis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346937755/medium.jpg",
+          "url": "images/inat/inat_i75_1.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
         }
       ]
@@ -2570,7 +2570,7 @@ const insectData = [
       "name": "Vescelia pieli",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332915338/medium.jpg",
+          "url": "images/inat/inat_i78_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -2724,7 +2724,7 @@ const insectData = [
       "name": "Nisitrus vittatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106610199/medium.jpeg",
+          "url": "images/inat/inat_i83_1.jpeg",
           "attribution": "(c) dawnclare409, some rights reserved (CC BY-NC)"
         }
       ]
@@ -2780,7 +2780,7 @@ const insectData = [
       "name": "Gampsocleis gratiosa",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24917056/medium.jpg",
+          "url": "images/inat/inat_i85_1.jpg",
           "attribution": "(c) 茶棚, some rights reserved (CC BY-NC), uploaded by 茶棚"
         }
       ]
@@ -2814,7 +2814,7 @@ const insectData = [
       "name": "Gampsocleis sedakovii",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108674052/medium.jpeg",
+          "url": "images/inat/inat_i86_1.jpeg",
           "attribution": "(c) Daba, some rights reserved (CC BY-NC), uploaded by Daba"
         }
       ]
@@ -2868,7 +2868,7 @@ const insectData = [
       "name": "Gampsocleis carinata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112508326/medium.jpg",
+          "url": "images/inat/inat_i88_1.jpg",
           "attribution": "(c) 夏仲归, some rights reserved (CC BY), uploaded by 夏仲归"
         }
       ]
@@ -2903,7 +2903,7 @@ const insectData = [
       "name": "Atlanticus magnificus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330432048/medium.jpeg",
+          "url": "images/inat/inat_i89_1.jpeg",
           "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND), uploaded by Li Jianbo"
         }
       ]
@@ -2942,7 +2942,7 @@ const insectData = [
       "name": "Mecopoda niponensis",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92239295/medium.jpg",
+          "url": "images/inat/inat_i90_1.jpg",
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
@@ -2981,7 +2981,7 @@ const insectData = [
       "name": "Mecopoda elongata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5997621/medium.jpeg",
+          "url": "images/inat/inat_i91_1.jpeg",
           "attribution": "(c) Chief RedEarth, some rights reserved (CC BY-NC-ND), uploaded by Chief RedEarth"
         }
       ]
@@ -3073,7 +3073,7 @@ const insectData = [
       "name": "Hexacentrus unicolor",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224166382/medium.jpg",
+          "url": "images/inat/inat_i93_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -3115,7 +3115,7 @@ const insectData = [
       "name": "Hexacentrus expansus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377019321/medium.jpg",
+          "url": "images/inat/inat_i94_1.jpg",
           "attribution": "(c) mantis_, some rights reserved (CC BY-NC)"
         }
       ]
@@ -3149,7 +3149,7 @@ const insectData = [
       "name": "Hexacentrus fuscipes",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222142757/medium.jpg",
+          "url": "images/inat/inat_i95_1.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
@@ -3191,7 +3191,7 @@ const insectData = [
       "name": "Hexacentrus expansus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377019321/medium.jpg",
+          "url": "images/inat/inat_i96_1.jpg",
           "attribution": "(c) mantis_, some rights reserved (CC BY-NC)"
         }
       ]
@@ -3213,7 +3213,7 @@ const insectData = [
       "name": "Conocephalus maculatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12374522/medium.jpg",
+          "url": "images/inat/inat_i97_1.jpg",
           "attribution": "(c) marcelfinlay, some rights reserved (CC BY-NC), uploaded by marcelfinlay"
         }
       ]
@@ -3251,7 +3251,7 @@ const insectData = [
       "name": "Conocephalus melaenus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317882647/medium.jpg",
+          "url": "images/inat/inat_i98_1.jpg",
           "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak"
         }
       ]
@@ -3285,7 +3285,7 @@ const insectData = [
       "name": "Conocephalus exemptus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24980464/medium.jpg",
+          "url": "images/inat/inat_i99_1.jpg",
           "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY-NC), uploaded by Kim, Hyun-tae"
         }
       ]
@@ -3328,7 +3328,7 @@ const insectData = [
       "name": "Euconocephalus nasutus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/744872/medium.jpg",
+          "url": "images/inat/inat_i100_1.jpg",
           "attribution": "(c) Donald Hobern, some rights reserved (CC BY)"
         }
       ]
@@ -3395,7 +3395,7 @@ const insectData = [
       "name": "Conocephalus dorsalidentatus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239283139/medium.jpg",
+          "url": "images/inat/inat_i103_1.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
@@ -3434,7 +3434,7 @@ const insectData = [
       "name": "Conocephalus bambusanus",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385755274/medium.jpg",
+          "url": "images/inat/inat_i104_1.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
         }
       ]
@@ -3477,7 +3477,7 @@ const insectData = [
       "name": "Ducetia japonica",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52079872/medium.jpg",
+          "url": "images/inat/inat_i105_1.jpg",
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
@@ -3553,7 +3553,7 @@ const insectData = [
       "name": "Phaneroptera nigroantennata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352384225/medium.jpg",
+          "url": "images/inat/inat_i109_1.jpg",
           "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B."
         }
       ]
@@ -3663,7 +3663,7 @@ const insectData = [
       "name": "Pseudophyllus titan",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143320/medium.jpg",
+          "url": "images/inat/inat_i113_1.jpg",
           "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC), uploaded by Thomas Calame"
         }
       ]
@@ -3761,7 +3761,7 @@ const insectData = [
       "name": "Rhomboptera ligata",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229068225/medium.jpeg",
+          "url": "images/inat/inat_i116_1.jpeg",
           "attribution": "(c) manassas, some rights reserved (CC BY-NC), uploaded by manassas"
         }
       ]
@@ -3828,7 +3828,7 @@ const insectData = [
       "name": "Sanaa intermedia",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134550716/medium.jpeg",
+          "url": "images/inat/inat_i118_1.jpeg",
           "attribution": "(c) Wat Wongpan, some rights reserved (CC BY-NC), uploaded by Wat Wongpan"
         }
       ]
@@ -3866,7 +3866,7 @@ const insectData = [
       "name": "Tegra novaehollandiae",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/879479/medium.JPG",
+          "url": "images/inat/inat_i119_1.jpg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
         }
       ]
@@ -3935,7 +3935,7 @@ const insectData = [
       "name": "Chloracris brunneri",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243493530/medium.jpg",
+          "url": "images/inat/inat_i121_1.jpg",
           "attribution": "(c) eec, some rights reserved (CC BY-NC), uploaded by eec"
         }
       ]
@@ -3973,7 +3973,7 @@ const insectData = [
       "name": "Lipotactes dorsaspina",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20957250/medium.jpg",
+          "url": "images/inat/inat_i122_1.jpg",
           "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC), uploaded by Michael Zelun Lee"
         }
       ]
@@ -4007,7 +4007,7 @@ const insectData = [
       "name": "Kansua diebua",
       "photos": [
         {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444804132/medium.jpeg",
+          "url": "images/inat/inat_i123_1.jpeg",
           "attribution": "(c) filianore, some rights reserved (CC BY-NC)"
         }
       ]
