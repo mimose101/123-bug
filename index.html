@@ -7,219 +7,268 @@
     <meta name="referrer" content="no-referrer">
     <meta name="description" content="123种中国鸣虫图文百科，涵盖蛉蟋、奥蟋、蟋蟀、树蟋、片蟋、蝈螽、纺织娘、草螽、拟叶螽等九大类鸣虫的详细介绍、高清图片与饲养建议。">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦗</text></svg>" type="image/svg+xml">
-    <title>123种鸣虫的图文简介 — 自然图鉴</title>
+    <title>123种鸣虫图鉴 — 沉浸式自然博物馆</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="123.css">
 </head>
 
-<body>
-    <button class="menu-toggle" id="menuToggle">☰</button>
+<body class="dark-theme">
+    <!-- 萤火虫微光粒子背景 -->
+    <div class="fireflies-container" id="firefliesContainer"></div>
+
+    <!-- 全局悬浮控制盘 -->
+    <div class="floating-controls">
+        <button class="control-btn theme-toggle-btn" id="themeToggleBtn" title="切换日夜主题">🌙</button>
+        <button class="control-btn specimen-drawer-btn" id="specimenDrawerBtn" title="打开收藏标本盒">
+            <span class="btn-star">★</span>
+            <span class="btn-badge" id="floatingBadge">0</span>
+        </button>
+    </div>
+
+    <!-- 侧滑收藏标本盒抽屉 -->
+    <div class="specimen-drawer" id="specimenDrawer">
+        <div class="drawer-header">
+            <h3>★ 鸣虫收藏标本盒</h3>
+            <button class="drawer-close-btn" id="drawerCloseBtn">✕</button>
+        </div>
+        <div class="drawer-summary">
+            在这里您可以对比已收藏的鸣虫叫声，支持交替或同时播放。
+        </div>
+        <div class="drawer-content" id="drawerContent">
+            <!-- 动态渲染收藏列表 -->
+        </div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">☰</button>
     <div class="overlay" id="overlay"></div>
+    
     <div class="toc">
         <div class="toc-header">
             <h2>目录</h2>
-        </div><button class="toc-home-btn" onclick="navigateTo('home')">🏠 返回首页</button>
+        </div>
+        <button class="toc-home-btn" onclick="navigateTo('home')">🏠 返回首页</button>
         <div class="toc-content">
-        <ul>
-            <li><a href="#pf">前言</a></li>
-            <li>
-                <a href="#c1">一、小型蛉虫类</a>
-                <ul>
-                    <li><a href="#i1">1. 安徽金蛉蟋</a></li>
-                    <li><a href="#i2">2. 小耳金蛉蟋</a></li>
-                    <li><a href="#i3">3. 灰黄蛉蟋</a></li>
-                    <li><a href="#i4">4. 高山小黄蛉</a></li>
-                    <li><a href="#i5">5. 双带金蛉蟋</a></li>
-                    <li><a href="#i6">6. 银翅金蛉蟋</a></li>
-                    <li><a href="#i7">7. 翠股拟蛉蟋</a></li>
-                    <li><a href="#i8">8. 亮黑拟蛉蟋</a></li>
-                    <li><a href="#i9">9. 误用金蛉蟋</a></li>
-                    <li><a href="#i10">10. 暗端金蛉蟋</a></li>
-                    <li><a href="#i11">11. 黑头墨蛉蟋</a></li>
-                    <li><a href="#i12">12. 黑足墨蛉蟋</a></li>
-                    <li><a href="#i13">13. 赤胸墨蛉蟋</a></li>
-                    <li><a href="#i14">14. 斑翅拟蛉蟋</a></li>
-                    <li><a href="#i15">15. 斑翅灰针蟋</a></li>
-                    <li><a href="#i16">16. 亮褐异针蟋</a></li>
-                    <li><a href="#i17">17. 白须双针蟋</a></li>
-                    <li><a href="#i18">18. 黄角灰针蟋</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c2">二、奥蟋类</a>
-                <ul>
-                    <li><a href="#i19">19. 凯纳奥蟋</a></li>
-                    <li><a href="#i20">20. 锤须奥蟋</a></li>
-                    <li><a href="#i21">21. 金奥蟋</a></li>
-                    <li><a href="#i22">22. 隐翅奥蟋</a></li>
-                    <li><a href="#i23">23. 褐翅奥蟋</a></li>
-                    <li><a href="#i24">24. 双痣奥蟋</a></li>
-                    <li><a href="#i25">25. 红黑奥蟋</a></li>
-                    <li><a href="#i26">26. 墨沿奥蟋</a></li>
-                    <li><a href="#i27">27. 景奥蟋</a></li>
-                    <li><a href="#i28">28. 雏奥蟋</a></li>
-                    <li><a href="#i29">29. 宽翅三音奥蟋</a></li>
-                    <li><a href="#i30">30. 刻痕奥蟋</a></li>
-                    <li><a href="#i31">31. 多毛奥蟋</a></li>
-                    <li><a href="#i32">32. 断头奥蟋</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c3">三、地栖蟋蟀类</a>
-                <ul>
-                    <li><a href="#i33">33. 黄脸油葫芦</a></li>
-                    <li><a href="#i34">34. 周氏扩胸蟋</a></li>
-                    <li><a href="#i35">35. 马蛉</a></li>
-                    <li><a href="#i36">36. 中华斗蟋</a></li>
-                    <li><a href="#i37">37. 东方特蟋</a></li>
-                    <li><a href="#i38">38. 双斑蟋</a></li>
-                    <li><a href="#i39">39. 沥色南蟋</a></li>
-                    <li><a href="#i40">40. 黑蟋</a></li>
-                    <li><a href="#i41">41. 污褐油葫芦</a></li>
-                    <li><a href="#i42">42. 南方油葫芦</a></li>
-                    <li><a href="#i43">43. 红背特蟋</a></li>
-                    <li><a href="#i44">44. 长翅姬蟋</a></li>
-                    <li><a href="#i45">45. 小素蟋</a></li>
-                    <li><a href="#i46">46. 刻点铁蟋</a></li>
-                    <li><a href="#i47">47. 赤褐甲蟋</a></li>
-                    <li><a href="#i48">48. 宾夕法尼亚蟋蟀</a></li>
-                    <li><a href="#i49">49. 银川油葫芦</a></li>
-                    <li><a href="#i50">50. 短翅灶蟋</a></li>
-                    <li><a href="#i51">51. 黑脸油葫芦</a></li>
-                    <li><a href="#i52">52. 云南钟蟋</a></li>
-                    <li><a href="#i53">53. 小音蟋</a></li>
-                    <li><a href="#i54">54. 利特音蟋</a></li>
-                    <li><a href="#i55">55. 多伊棺头蟋</a></li>
-                    <li><a href="#i56">56. 石首棺头蟋</a></li>
-                    <li><a href="#i57">57. 垂角棺头蟋</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c4">四、树蟋类</a>
-                <ul>
-                    <li><a href="#i58">58. 青树蟋</a></li>
-                    <li><a href="#i59">59. 长瓣树蟋</a></li>
-                    <li><a href="#i60">60. 相似树蟋</a></li>
-                    <li><a href="#i61">61. 郑氏树蟋</a></li>
-                    <li><a href="#i62">62. 斑角树蟋</a></li>
-                    <li><a href="#i63">63. 雪白树蟋</a></li>
-                    <li><a href="#i64">64. 丽树蟋</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c5">五、片蟋类及其它外观相似种</a>
-                <ul>
-                    <li><a href="#i65">65. 梨片蟋</a></li>
-                    <li><a href="#i66">66. 尾铗片蟋</a></li>
-                    <li><a href="#i67">67. 瘤突片蟋</a></li>
-                    <li><a href="#i68">68. 橙柑片蟋</a></li>
-                    <li><a href="#i69">69. 霍氏片蟋</a></li>
-                    <li><a href="#i70">70. 丽维蟋</a></li>
-                    <li><a href="#i71">71. 双色扩胫蟋</a></li>
-                    <li><a href="#i72">72. 褐啼蟋</a></li>
-                    <li><a href="#i73">73. 云南茨娓蟋</a></li>
-                    <li><a href="#i74">74. 云斑金蟋</a></li>
-                    <li><a href="#i75">75. 梅州金蟋</a></li>
-                    <li><a href="#i76">76. 小额蟋</a></li>
-                    <li><a href="#i77">77. 高山翅额蟋</a></li>
-                    <li><a href="#i78">78. 比尔亮蟋</a></li>
-                    <li><a href="#i79">79. 梁氏亮蟋</a></li>
-                    <li><a href="#i80">80. 天马亮蟋</a></li>
-                    <li><a href="#i81">81. 镰亮蟋</a></li>
-                    <li><a href="#i82">82. 麒蛉</a></li>
-                    <li><a href="#i83">83. 金琥珀蛉</a></li>
-                    <li><a href="#i84">84. 幽兰蟋</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c6">六、蝈螽、纺织娘和似织螽</a>
-                <ul>
-                    <li><a href="#i85">85. 优雅蝈螽</a></li>
-                    <li><a href="#i86">86. 暗褐蝈螽</a></li>
-                    <li><a href="#i87">87. 鼓翅蝈螽</a></li>
-                    <li><a href="#i88">88. 隆线蝈螽</a></li>
-                    <li><a href="#i89">89. 大寰螽</a></li>
-                    <li><a href="#i90">90. 宽翅纺织娘</a></li>
-                    <li><a href="#i91">91. 窄翅纺织娘</a></li>
-                    <li><a href="#i92">92. 相似纺织娘</a></li>
-                    <li><a href="#i93">93. 素色似织螽</a></li>
-                    <li><a href="#i94">94. 宽翅似织螽</a></li>
-                    <li><a href="#i95">95. 褐足似织螽</a></li>
-                    <li><a href="#i96">96. 宽胸似织螽</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c7">七、草螽、露螽和拟叶螽</a>
-                <ul>
-                    <li><a href="#i97">97. 斑翅草螽</a></li>
-                    <li><a href="#i98">98. 悦鸣草螽</a></li>
-                    <li><a href="#i99">99. 长瓣草螽</a></li>
-                    <li><a href="#i100">100. 鼻优草螽</a></li>
-                    <li><a href="#i101">101. 糖果草螽</a></li>
-                    <li><a href="#i102">102. 英俊草螽</a></li>
-                    <li><a href="#i103">103. 背齿草螽</a></li>
-                    <li><a href="#i104">104. 北竹叶娘</a></li>
-                    <li><a href="#i105">105. 条螽</a></li>
-                    <li><a href="#i106">106. 桑螽</a></li>
-                    <li><a href="#i107">107. 端尖斜缘螽</a></li>
-                    <li><a href="#i108">108. 掩耳螽</a></li>
-                    <li><a href="#i109">109. 黑角露螽</a></li>
-                    <li><a href="#i110">110. 截叶糙颈螽</a></li>
-                    <li><a href="#i111">111. 华绿螽</a></li>
-                    <li><a href="#i112">112. 翡螽</a></li>
-                    <li><a href="#i113">113. 巨拟叶螽</a></li>
-                    <li><a href="#i114">114. 素背肘隆螽</a></li>
-                    <li><a href="#i115">115. 大弧翅螽</a></li>
-                    <li><a href="#i116">116. 贯脉菱螽</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c8">八、拟叶螽类</a>
-                <ul>
-                    <li><a href="#i117">117. 鼓叶螽</a></li>
-                    <li><a href="#i118">118. 黄斑珊螽</a></li>
-                    <li><a href="#i119">119. 覆翅螽</a></li>
-                    <li><a href="#i120">120. 腐叶螽</a></li>
-                    <li><a href="#i121">121. 布鲁纳翠螽</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#c9">九、其他种类</a>
-                <ul>
-                    <li><a href="#i122">122. 背刺迟螽</a></li>
-                    <li><a href="#i123">123. 迭部甘螽</a></li>
-                </ul>
-            </li>
-
-        </ul>
-        </li>
-        </ul>
+            <ul>
+                <li><a href="#pf">前言</a></li>
+                <li>
+                    <a href="#c1">一、小型蛉虫类</a>
+                    <ul>
+                        <li><a href="#i1">1. 安徽金蛉蟋</a></li>
+                        <li><a href="#i2">2. 小耳金蛉蟋</a></li>
+                        <li><a href="#i3">3. 灰黄蛉蟋</a></li>
+                        <li><a href="#i4">4. 高山小黄蛉</a></li>
+                        <li><a href="#i5">5. 双带金蛉蟋</a></li>
+                        <li><a href="#i6">6. 银翅金蛉蟋</a></li>
+                        <li><a href="#i7">7. 翠股拟蛉蟋</a></li>
+                        <li><a href="#i8">8. 亮黑拟蛉蟋</a></li>
+                        <li><a href="#i9">9. 误用金蛉蟋</a></li>
+                        <li><a href="#i10">10. 暗端金蛉蟋</a></li>
+                        <li><a href="#i11">11. 黑头墨蛉蟋</a></li>
+                        <li><a href="#i12">12. 黑足墨蛉蟋</a></li>
+                        <li><a href="#i13">13. 赤胸墨蛉蟋</a></li>
+                        <li><a href="#i14">14. 斑翅拟蛉蟋</a></li>
+                        <li><a href="#i15">15. 斑翅灰针蟋</a></li>
+                        <li><a href="#i16">16. 亮褐异针蟋</a></li>
+                        <li><a href="#i17">17. 白须双针蟋</a></li>
+                        <li><a href="#i18">18. 黄角灰针蟋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c2">二、奥蟋类</a>
+                    <ul>
+                        <li><a href="#i19">19. 凯纳奥蟋</a></li>
+                        <li><a href="#i20">20. 锤须奥蟋</a></li>
+                        <li><a href="#i21">21. 金奥蟋</a></li>
+                        <li><a href="#i22">22. 隐翅奥蟋</a></li>
+                        <li><a href="#i23">23. 褐翅奥蟋</a></li>
+                        <li><a href="#i24">24. 双痣奥蟋</a></li>
+                        <li><a href="#i25">25. 红黑奥蟋</a></li>
+                        <li><a href="#i26">26. 墨沿奥蟋</a></li>
+                        <li><a href="#i27">27. 景奥蟋</a></li>
+                        <li><a href="#i28">28. 雏奥蟋</a></li>
+                        <li><a href="#i29">29. 宽翅三音奥蟋</a></li>
+                        <li><a href="#i30">30. 刻痕奥蟋</a></li>
+                        <li><a href="#i31">31. 多毛奥蟋</a></li>
+                        <li><a href="#i32">32. 断头奥蟋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c3">三、地栖蟋蟀类</a>
+                    <ul>
+                        <li><a href="#i33">33. 黄脸油葫芦</a></li>
+                        <li><a href="#i34">34. 周氏扩胸蟋</a></li>
+                        <li><a href="#i35">35. 马蛉</a></li>
+                        <li><a href="#i36">36. 中华斗蟋</a></li>
+                        <li><a href="#i37">37. 东方特蟋</a></li>
+                        <li><a href="#i38">38. 双斑蟋</a></li>
+                        <li><a href="#i39">39. 沥色南蟋</a></li>
+                        <li><a href="#i40">40. 黑蟋</a></li>
+                        <li><a href="#i41">41. 污褐油葫芦</a></li>
+                        <li><a href="#i42">42. 南方油葫芦</a></li>
+                        <li><a href="#i43">43. 红背特蟋</a></li>
+                        <li><a href="#i44">44. 长翅姬蟋</a></li>
+                        <li><a href="#i45">45. 小素蟋</a></li>
+                        <li><a href="#i46">46. 刻点铁蟋</a></li>
+                        <li><a href="#i47">47. 赤褐甲蟋</a></li>
+                        <li><a href="#i48">48. 宾夕法尼亚蟋蟀</a></li>
+                        <li><a href="#i49">49. 银川油葫芦</a></li>
+                        <li><a href="#i50">50. 短翅灶蟋</a></li>
+                        <li><a href="#i51">51. 黑脸油葫芦</a></li>
+                        <li><a href="#i52">52. 云南钟蟋</a></li>
+                        <li><a href="#i53">53. 小音蟋</a></li>
+                        <li><a href="#i54">54. 利特音蟋</a></li>
+                        <li><a href="#i55">55. 多伊棺头蟋</a></li>
+                        <li><a href="#i56">56. 石首棺头蟋</a></li>
+                        <li><a href="#i57">57. 垂角棺头蟋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c4">四、树蟋类</a>
+                    <ul>
+                        <li><a href="#i58">58. 青树蟋</a></li>
+                        <li><a href="#i59">59. 长瓣树蟋</a></li>
+                        <li><a href="#i60">60. 相似树蟋</a></li>
+                        <li><a href="#i61">61. 郑氏树蟋</a></li>
+                        <li><a href="#i62">62. 斑角树蟋</a></li>
+                        <li><a href="#i63">63. 雪白树蟋</a></li>
+                        <li><a href="#i64">64. 丽树蟋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c5">五、片蟋类及其它外观相似种</a>
+                    <ul>
+                        <li><a href="#i65">65. 梨片蟋</a></li>
+                        <li><a href="#i66">66. 尾铗片蟋</a></li>
+                        <li><a href="#i67">67. 瘤突片蟋</a></li>
+                        <li><a href="#i68">68. 橙柑片蟋</a></li>
+                        <li><a href="#i69">69. 霍氏片蟋</a></li>
+                        <li><a href="#i70">70. 丽维蟋</a></li>
+                        <li><a href="#i71">71. 双色扩胫蟋</a></li>
+                        <li><a href="#i72">72. 褐啼蟋</a></li>
+                        <li><a href="#i73">73. 云南茨娓蟋</a></li>
+                        <li><a href="#i74">74. 云斑金蟋</a></li>
+                        <li><a href="#i75">75. 梅州金蟋</a></li>
+                        <li><a href="#i76">76. 小额蟋</a></li>
+                        <li><a href="#i77">77. 高山翅额蟋</a></li>
+                        <li><a href="#i78">78. 比尔亮蟋</a></li>
+                        <li><a href="#i79">79. 梁氏亮蟋</a></li>
+                        <li><a href="#i80">80. 天马亮蟋</a></li>
+                        <li><a href="#i81">81. 镰亮蟋</a></li>
+                        <li><a href="#i82">82. 麒蛉</a></li>
+                        <li><a href="#i83">83. 金琥珀蛉</a></li>
+                        <li><a href="#i84">84. 幽兰蟋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c6">六、蝈螽、纺织娘和似织螽</a>
+                    <ul>
+                        <li><a href="#i85">85. 优雅蝈螽</a></li>
+                        <li><a href="#i86">86. 暗褐蝈螽</a></li>
+                        <li><a href="#i87">87. 鼓翅蝈螽</a></li>
+                        <li><a href="#i88">88. 隆线蝈螽</a></li>
+                        <li><a href="#i89">89. 大寰螽</a></li>
+                        <li><a href="#i90">90. 宽翅纺织娘</a></li>
+                        <li><a href="#i91">91. 窄翅纺织娘</a></li>
+                        <li><a href="#i92">92. 相似纺织娘</a></li>
+                        <li><a href="#i93">93. 素色似织螽</a></li>
+                        <li><a href="#i94">94. 宽翅似织螽</a></li>
+                        <li><a href="#i95">95. 褐足似织螽</a></li>
+                        <li><a href="#i96">96. 宽胸似织螽</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c7">七、草螽、露螽和拟叶螽</a>
+                    <ul>
+                        <li><a href="#i97">97. 斑翅草螽</a></li>
+                        <li><a href="#i98">98. 悦鸣草螽</a></li>
+                        <li><a href="#i99">99. 长瓣草螽</a></li>
+                        <li><a href="#i100">100. 鼻优草螽</a></li>
+                        <li><a href="#i101">101. 糖果草螽</a></li>
+                        <li><a href="#i102">102. 英俊草螽</a></li>
+                        <li><a href="#i103">103. 背齿草螽</a></li>
+                        <li><a href="#i104">104. 北竹叶娘</a></li>
+                        <li><a href="#i105">105. 条螽</a></li>
+                        <li><a href="#i106">106. 桑螽</a></li>
+                        <li><a href="#i107">107. 端尖斜缘螽</a></li>
+                        <li><a href="#i108">108. 掩耳螽</a></li>
+                        <li><a href="#i109">109. 黑角露螽</a></li>
+                        <li><a href="#i110">110. 截叶糙颈螽</a></li>
+                        <li><a href="#i111">111. 华绿螽</a></li>
+                        <li><a href="#i112">112. 翡螽</a></li>
+                        <li><a href="#i113">113. 巨拟叶螽</a></li>
+                        <li><a href="#i114">114. 素背肘隆螽</a></li>
+                        <li><a href="#i115">115. 大弧翅螽</a></li>
+                        <li><a href="#i116">116. 贯脉菱螽</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c8">八、拟叶螽类</a>
+                    <ul>
+                        <li><a href="#i117">117. 鼓叶螽</a></li>
+                        <li><a href="#i118">118. 黄斑珊螽</a></li>
+                        <li><a href="#i119">119. 覆翅螽</a></li>
+                        <li><a href="#i120">120. 腐叶螽</a></li>
+                        <li><a href="#i121">121. 布鲁纳翠螽</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#c9">九、其他种类</a>
+                    <ul>
+                        <li><a href="#i122">122. 背刺迟螽</a></li>
+                        <li><a href="#i123">123. 迭部甘螽</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 
+
+
     <div class="container">
+        <!-- 头部 Hero 区域 -->
         <div class="header">
-            <h1 class="title">123种鸣虫的图文简介</h1>
-            <div class="subtitle">Chinese Singing Insects Illustrated Guide</div>
-            <p class="header-preface">
+            <div class="hero-glow"></div>
+            <h1 class="title">听，自然的声音</h1>
+            <div class="subtitle">123种中国鸣虫图鉴百科</div>
+            
+            <p class="header-preface" id="pf">
                 前言：为丰富贴吧对鸣虫品种的专项介绍，补足一直以来鸣虫图片零星而不集中的情况，特此本着图文并茂、具一定科学性的原则制作本帖，同时因本人不怎么拍照，故所有借用的图片都会附上拍摄者或首次发布者的网名。本帖大部分品种都附上了拉丁学名，将中文正式名放在标题部分进行展示，文字部分是本人编写的，希望本帖能加深朋友们对鸣虫的认识。（本帖中的"市场"特指上海的虫市）
-                <br>原贴链接：https://tieba.baidu.com/p/9215432235
+                <br><span class="source-link-span">原贴链接：<a href="https://tieba.baidu.com/p/9215432235" target="_blank" rel="noopener noreferrer">https://tieba.baidu.com/p/9215432235</a></span>
             </p>
+            
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="搜索鸣虫 (如：黄脸油葫芦)..." autocomplete="off">
+                <input type="text" id="searchInput" placeholder="搜索鸣虫名字、学名或饲养特征..." autocomplete="off">
             </div>
         </div>
+
         <div id="hubView" class="hub-view">
+            <!-- 纯 CSS Conic-Gradient 原生实现的可视化仪表盘 (在 JS 里进一步初始化或在 CSS 中静态高品质布局) -->
+            <div class="stats-visual-panel">
+                <div class="chart-box">
+                    <div class="chart-circle" id="audioRatioChart"></div>
+                    <div class="chart-legend">
+                        <span class="legend-title">🔊 音频覆盖率</span>
+                        <span class="legend-val" id="audioRatioVal">0%</span>
+                    </div>
+                </div>
+                <div class="chart-box">
+                    <div class="chart-circle" id="inatRatioChart"></div>
+                    <div class="chart-legend">
+                        <span class="legend-title">🌿 生态照片率</span>
+                        <span class="legend-val" id="inatRatioVal">0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 分类卡片网格 -->
             <div class="category-cards">
                 <div class="category-card" onclick="navigateTo('c1')" data-card="c1">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)">
                         <span class="category-card-num">一</span>
-                        <div class="category-card-title">一、小型蛉虫类</div>
+                        <div class="category-card-title">小型蛉虫类</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 18 种鸣虫</div>
@@ -228,10 +277,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c2')" data-card="c2">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #00897B 0%, #00695C 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #00897B 0%, #00695C 100%)">
                         <span class="category-card-num">二</span>
-                        <div class="category-card-title">二、奥蟋类</div>
+                        <div class="category-card-title">奥蟋类</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 14 种鸣虫</div>
@@ -240,10 +288,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c3')" data-card="c3">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #558B2F 0%, #33691E 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #558B2F 0%, #33691E 100%)">
                         <span class="category-card-num">三</span>
-                        <div class="category-card-title">三、地栖蟋蟀类</div>
+                        <div class="category-card-title">地栖蟋蟀类</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 25 种鸣虫</div>
@@ -252,10 +299,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c4')" data-card="c4">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #EF6C00 0%, #E65100 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #EF6C00 0%, #E65100 100%)">
                         <span class="category-card-num">四</span>
-                        <div class="category-card-title">四、树蟋类（竹蛉及其近似种）</div>
+                        <div class="category-card-title">树蟋类</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 7 种鸣虫</div>
@@ -264,10 +310,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c5')" data-card="c5">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #6D4C41 0%, #4E342E 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #6D4C41 0%, #4E342E 100%)">
                         <span class="category-card-num">五</span>
-                        <div class="category-card-title">五、片蟋类及其它外观相似种</div>
+                        <div class="category-card-title">片蟋类及其它外观相似种</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 20 种鸣虫</div>
@@ -276,10 +321,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c6')" data-card="c6">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #1976D2 0%, #1565C0 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #1976D2 0%, #1565C0 100%)">
                         <span class="category-card-num">六</span>
-                        <div class="category-card-title">六、蝈螽、纺织娘和似织螽</div>
+                        <div class="category-card-title">蝈螽、纺织娘和似织螽</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 12 种鸣虫</div>
@@ -288,10 +332,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c7')" data-card="c7">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #7B1FA2 0%, #6A1B9A 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #7B1FA2 0%, #6A1B9A 100%)">
                         <span class="category-card-num">七</span>
-                        <div class="category-card-title">七、草螽、露螽和拟叶螽(含外观近似种)</div>
+                        <div class="category-card-title">草螽、露螽和拟叶螽</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 20 种鸣虫</div>
@@ -300,10 +343,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c8')" data-card="c8">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #C62828 0%, #AD1457 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #C62828 0%, #AD1457 100%)">
                         <span class="category-card-num">八</span>
-                        <div class="category-card-title">八、拟叶螽类</div>
+                        <div class="category-card-title">拟叶螽类</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 5 种鸣虫</div>
@@ -312,10 +354,9 @@
                     </div>
                 </div>
                 <div class="category-card" onclick="navigateTo('c9')" data-card="c9">
-                    <div class="category-card-header"
-                        style="background: linear-gradient(135deg, #D84315 0%, #BF360C 100%)">
+                    <div class="category-card-header" style="background: linear-gradient(135deg, #D84315 0%, #BF360C 100%)">
                         <span class="category-card-num">九</span>
-                        <div class="category-card-title">九、其他种类及补充</div>
+                        <div class="category-card-title">其他种类及补充</div>
                     </div>
                     <div class="category-card-body">
                         <div class="category-card-count">📋 13 种鸣虫</div>
@@ -332,6 +373,7 @@
         <!-- 搜索结果容器 -->
         <div id="searchResultsView"></div>
     </div>
+
     <script src="data.js"></script>
     <script src="123.js"></script>
 </body>

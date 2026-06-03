@@ -714,13 +714,24 @@ const insectData = [
   {
     "category": "c2",
     "textId": null,
-    "textHtml": "<h3 id=\"i22\">22.隐翅奥蟋：俗称\"台湾重金属\"，体色深似披铠甲，翅膀隐藏在背板下，每当鸣叫时总是低头向下，双翅从背板下竖起振翅歌唱，颇有意趣。\n                </h3>",
+    "textHtml": "<h3 id=\"i22\">22.隐翅奥蟋（Ornebius apterus）:俗称\"台湾重金属\"，体色深似披铠甲，翅膀隐藏在背板下，每当鸣叫时总是低头向下，双翅从背板下竖起振翅歌唱，颇有意趣。</h3>",
     "images": [
       {
         "src": "images/image_055.jpg",
         "caption": "台湾重金属1（josson）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 1204439,
+      "displayName": "隐翅奥蟋",
+      "name": "Ornebius apterus",
+      "photos": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149990133/medium.jpeg",
+          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
+        }
+      ]
+    }
   },
   {
     "category": "c2",
