@@ -764,7 +764,7 @@
                         </div>
                         <div class="spectrogram-container">
                             <div class="spectrogram-wrapper">
-                                <img class="spectrogram-img" src="${item.audio.spectrogram}" alt="科学声谱图" loading="lazy" />
+                                <img class="spectrogram-img" src="https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(item.audio.spectrogram)}" alt="科学声谱图" loading="lazy" />
                                 <div class="spectrogram-progress-line"></div>
                                 <div class="spectrogram-overlay"></div>
                             </div>

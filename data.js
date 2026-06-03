@@ -81,6 +81,14 @@ const insectData = [
       "displayName": "松浦氏小黄蛉蟋",
       "name": "Natula matsuurai",
       "photos": []
+    },
+    "audio": {
+      "id": "1103545",
+      "file": "https://xeno-canto.org/1103545/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103545/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "3:34"
     }
   },
   {
@@ -105,7 +113,7 @@ const insectData = [
   {
     "category": "c1",
     "textId": null,
-    "textHtml": "<h3 id=\"i5\">5.双带金蛉蟋（Svistella bifasciatum）:俗称\"金蛉子\"，次于\"大黄蛉\"的一种广受欢迎的蛉虫，双须很长是玩赏重点（比大黄蛉更长），鸣声还可以，多在白天鸣叫，鸣声带有明显间隔，音质相较大黄蛉总显逊色。但本种在耐干燥、皮实度方面胜过大黄蛉和其他部分小蛉虫，部分个体甚至能在晚秋不加温的情况下，继续鸣叫。</h3>",
+    "textHtml": "<h3 id=\"i5\">5.双带金蛉蟋（Svistella bifasciata）:俗称\"金蛉子\"，次于\"大黄蛉\"的一种广受欢迎的蛉虫，双须很长是玩赏重点（比大黄蛉更长），鸣声还可以，多在白天鸣叫，鸣声带有明显间隔，音质相较大黄蛉总显逊色。但本种在耐干燥、皮实度方面胜过大黄蛉和其他部分小蛉虫，部分个体甚至能在晚秋不加温的情况下，继续鸣叫。</h3>",
     "images": [
       {
         "src": "images/image_098.jpg",
@@ -120,7 +128,15 @@ const insectData = [
         "caption": "金蛉子鸣叫3（乐事）"
       }
     ],
-    "description": "体型较小，褐色。头部近颈部非明显缩狭，复眼突出。前胸背板侧缘近乎平行，前缘直或微凸。前翅光滑，侧域和发音区黑色;雄性前翅较宽，镜膜长大于宽，镜膜内具伪脉;雌性前翅角质，较强地凸起，翅脉之间缺伪脉。前足胫节具膜质听器，后足股节外侧面具2条暗色纵纹。雄性下生殖板端部具凹口，生殖器如图4一160 ;雌性产卵瓣弯刀状，背缘端部具细齿。体长:♂7-8 mm , ♀6-7mm;前翅长:♂ 5-5 . 5 mm , ♀4mm;后足股节长:♂ 5.5-6mm, ♀6mm;产卵瓣长:3mm。"
+    "audio": {
+      "id": "1047493",
+      "file": "https://xeno-canto.org/1047493/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047493/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:35"
+    },
+    "description": "体型较小，褐色。头部近颈部非明显缩狭，复眼突出。前胸背板侧缘近乎平行，前缘直或微凸。前翅光滑，侧域和发音区黑色;雄性前翅较宽，镜膜长大于宽，镜膜内具伪脉;雌性前翅角质，较强地凸起，翅脉之间缺伪脉.前足胫节具膜质听器，后足股节外侧面具2条暗色纵纹。雄性下生殖板端部具凹口，生殖器如图4一160 ;雌性产卵瓣弯刀状，背缘端部具细齿。体长:♂7-8 mm , ♀6-7mm;前翅长:♂ 5-5 . 5 mm , ♀4mm;后足股节长:♂ 5.5-6mm, ♀6mm;产卵瓣长:3mm。"
   },
   {
     "category": "c1",
@@ -150,6 +166,14 @@ const insectData = [
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC), uploaded by Yi-Shan Zhao"
         }
       ]
+    },
+    "audio": {
+      "id": "1082459",
+      "file": "https://xeno-canto.org/1082459/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082459/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "2:08"
     }
   },
   {
@@ -256,7 +280,15 @@ const insectData = [
         "src": "images/image_284.jpg",
         "caption": "暗端金蛉雌虫4（鸣虫子）"
       }
-    ]
+    ],
+    "audio": {
+      "id": "978053",
+      "file": "https://xeno-canto.org/978053/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978053/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "B",
+      "length": "0:12"
+    }
   },
   {
     "category": "c1",
@@ -371,6 +403,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1009912",
+      "file": "https://xeno-canto.org/1009912/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1009912/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "2:31"
     }
   },
   {
@@ -397,6 +437,14 @@ const insectData = [
           "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
         }
       ]
+    },
+    "audio": {
+      "id": "874262",
+      "file": "https://xeno-canto.org/874262/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874262/colour.png",
+      "recordist": "S. Ingrisch",
+      "quality": "B",
+      "length": "0:15"
     }
   },
   {
@@ -446,6 +494,14 @@ const insectData = [
       "displayName": "亮褐异针蟋",
       "name": "Pteronemobius nitidus",
       "photos": []
+    },
+    "audio": {
+      "id": "993269",
+      "file": "https://xeno-canto.org/993269/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/993269/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "2:20"
     }
   },
   {
@@ -523,6 +579,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1033754",
+      "file": "https://xeno-canto.org/1033754/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1033754/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "0:45"
     }
   },
   {
@@ -561,6 +625,14 @@ const insectData = [
           "attribution": "(c) 虫虫, some rights reserved (CC BY-NC), uploaded by 虫虫"
         }
       ]
+    },
+    "audio": {
+      "id": "931856",
+      "file": "https://xeno-canto.org/931856/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/931856/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "0:58"
     }
   },
   {
@@ -599,6 +671,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1047588",
+      "file": "https://xeno-canto.org/1047588/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047588/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:43"
     }
   },
   {
@@ -721,6 +801,14 @@ const insectData = [
       "displayName": "Ornebius rufonigrus",
       "name": "Ornebius rufonigrus",
       "photos": []
+    },
+    "audio": {
+      "id": "958626",
+      "file": "https://xeno-canto.org/958626/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958626/colour.png",
+      "recordist": "Ming Kai Tan",
+      "quality": "A",
+      "length": "7:58"
     }
   },
   {
@@ -810,6 +898,14 @@ const insectData = [
       "displayName": "Ornebius insculptus",
       "name": "Ornebius insculptus",
       "photos": []
+    },
+    "audio": {
+      "id": "958405",
+      "file": "https://xeno-canto.org/958405/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958405/colour.png",
+      "recordist": "Ming Kai Tan",
+      "quality": "A",
+      "length": "0:02"
     }
   },
   {
@@ -897,6 +993,14 @@ const insectData = [
           "attribution": "(c) Observações Naturalistas | Bruno Uehara, some rights reserved (CC BY-NC), uploaded by Observações Naturalistas | Bruno Uehara"
         }
       ]
+    },
+    "audio": {
+      "id": "1047719",
+      "file": "https://xeno-canto.org/1047719/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047719/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:32"
     }
   },
   {
@@ -947,6 +1051,14 @@ const insectData = [
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
+    },
+    "audio": {
+      "id": "1047486",
+      "file": "https://xeno-canto.org/1047486/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047486/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:36"
     }
   },
   {
@@ -986,6 +1098,14 @@ const insectData = [
           "attribution": "(c) John Himmelman, some rights reserved (CC BY-NC-ND), uploaded by John Himmelman"
         }
       ]
+    },
+    "audio": {
+      "id": "1136497",
+      "file": "https://xeno-canto.org/1136497/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136497/colour.png",
+      "recordist": "Albert Lastukhin",
+      "quality": "A",
+      "length": "0:13"
     }
   },
   {
@@ -1017,6 +1137,14 @@ const insectData = [
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
+    },
+    "audio": {
+      "id": "1034632",
+      "file": "https://xeno-canto.org/1034632/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034632/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "1:04"
     }
   },
   {
@@ -1044,6 +1172,14 @@ const insectData = [
           "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei"
         }
       ]
+    },
+    "audio": {
+      "id": "1105794",
+      "file": "https://xeno-canto.org/1105794/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/POVKNQVSGU/1105794/colour.png",
+      "recordist": "João Ferreira Tomás",
+      "quality": "A",
+      "length": "1:01"
     }
   },
   {
@@ -1061,6 +1197,14 @@ const insectData = [
       "displayName": "皮卡南蟋",
       "name": "Vietacheta picea",
       "photos": []
+    },
+    "audio": {
+      "id": "1047487",
+      "file": "https://xeno-canto.org/1047487/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047487/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:16"
     }
   },
   {
@@ -1114,6 +1258,14 @@ const insectData = [
           "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC), uploaded by Masatoshi Sone"
         }
       ]
+    },
+    "audio": {
+      "id": "1047745",
+      "file": "https://xeno-canto.org/1047745/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047745/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:46"
     }
   },
   {
@@ -1153,6 +1305,14 @@ const insectData = [
           "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
         }
       ]
+    },
+    "audio": {
+      "id": "1047591",
+      "file": "https://xeno-canto.org/1047591/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047591/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:41"
     }
   },
   {
@@ -1191,6 +1351,14 @@ const insectData = [
           "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
         }
       ]
+    },
+    "audio": {
+      "id": "874429",
+      "file": "https://xeno-canto.org/874429/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874429/colour.png",
+      "recordist": "S. Ingrisch",
+      "quality": "B",
+      "length": "0:32"
     }
   },
   {
@@ -1221,6 +1389,14 @@ const insectData = [
           "attribution": "(c) Yoshihiro Tokue, some rights reserved (CC BY), uploaded by Yoshihiro Tokue"
         }
       ]
+    },
+    "audio": {
+      "id": "1102471",
+      "file": "https://xeno-canto.org/1102471/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1102471/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "3:18"
     }
   },
   {
@@ -1248,6 +1424,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "829915",
+      "file": "https://xeno-canto.org/829915/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/829915/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "0:46"
     }
   },
   {
@@ -1282,6 +1466,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1047228",
+      "file": "https://xeno-canto.org/1047228/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047228/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:15"
     }
   },
   {
@@ -1326,6 +1518,14 @@ const insectData = [
           "attribution": "(c) Mr. T in DC, some rights reserved (CC BY-ND)"
         }
       ]
+    },
+    "audio": {
+      "id": "992894",
+      "file": "https://xeno-canto.org/992894/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/992894/colour.png",
+      "recordist": "Daniel Parker",
+      "quality": "A",
+      "length": "0:21"
     }
   },
   {
@@ -1361,6 +1561,14 @@ const insectData = [
           "attribution": "(c) V.S. Volkotrub, some rights reserved (CC BY-NC), uploaded by V.S. Volkotrub"
         }
       ]
+    },
+    "audio": {
+      "id": "962876",
+      "file": "https://xeno-canto.org/962876/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/962876/colour.png",
+      "recordist": "Dave GUO",
+      "quality": "A",
+      "length": "0:19"
     }
   },
   {
@@ -1384,12 +1592,20 @@ const insectData = [
           "attribution": "(c) Michel Serjeant, some rights reserved (CC BY-NC), uploaded by Michel Serjeant"
         }
       ]
+    },
+    "audio": {
+      "id": "1082455",
+      "file": "https://xeno-canto.org/1082455/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082455/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "3:00"
     }
   },
   {
     "category": "c3",
     "textId": null,
-    "textHtml": "<h3 id=\"i51\">51.黑脸油葫芦（Teleogryllus occiptalis）:本种成虫一般早于黄脸油葫芦，两者鸣声不同，分布地域亦南（黑脸）北（黄脸）有别，鸣声连续不断，但无颤音或悠。</h3>",
+    "textHtml": "<h3 id=\"i51\">51.黑脸油葫芦（Teleogryllus occipitalis）:本种成虫一般早于黄脸油葫芦，两者鸣声不同，分布地域亦南（黑脸）北（黄脸）有别，鸣声连续不断，但无颤音或悠。</h3>",
     "images": [
       {
         "src": "images/image_108.jpg",
@@ -1403,7 +1619,15 @@ const insectData = [
         "src": "images/image_082.jpg",
         "caption": "黑脸油葫芦头部特写3（原生态）"
       }
-    ]
+    ],
+    "audio": {
+      "id": "1047590",
+      "file": "https://xeno-canto.org/1047590/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047590/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:27"
+    }
   },
   {
     "category": "c3",
@@ -1466,12 +1690,20 @@ const insectData = [
           "attribution": "(c) K S Gopi Sundar, some rights reserved (CC BY), uploaded by K S Gopi Sundar"
         }
       ]
+    },
+    "audio": {
+      "id": "974272",
+      "file": "https://xeno-canto.org/974272/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/974272/colour.png",
+      "recordist": "Dave GUO",
+      "quality": "A",
+      "length": "1:46"
     }
   },
   {
     "category": "c3",
     "textId": null,
-    "textHtml": "<h3 id=\"i54\">\n                    54.利特音蟋：俗称地蛉，本种是典型的地栖品种，虽然个头很小，但习性和花生大蟋近似，打洞穴居；触角中部有一段白色区域，鸣声是响亮的单音，节奏近似灶蟋，但音量大得多。据文献记载，本种的野外生境为朝南的砂石地斜坡，5月下旬~8月出现。\n                </h3>",
+    "textHtml": "<h3 id=\"i54\">\n                    54.利特音蟋（Phonarellus ritsemae）：俗称地蛉，本种是典型的地栖品种，虽然个头很小，但习性和花生大蟋近似，打洞穴居；触角中部有一段白色区域，鸣声是响亮的单音，节奏近似灶蟋，但音量大得多。据文献记载，本种的野外生境为朝南的砂石地斜坡，5月下旬~8月出现。\n                </h3>",
     "images": [
       {
         "src": "images/image_132.jpg",
@@ -1485,7 +1717,15 @@ const insectData = [
         "src": "images/image_004.jpg",
         "caption": "地蛉3（千年小何）"
       }
-    ]
+    ],
+    "audio": {
+      "id": "926637",
+      "file": "https://xeno-canto.org/926637/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/DMQOAFYYUO/926637/colour.png",
+      "recordist": "Miyagi Kunitaro",
+      "quality": "A",
+      "length": "0:22"
+    }
   },
   {
     "category": "c3",
@@ -1523,6 +1763,14 @@ const insectData = [
           "attribution": "(c) 蒋迪（涂璟）, some rights reserved (CC BY-NC), uploaded by 蒋迪（涂璟）"
         }
       ]
+    },
+    "audio": {
+      "id": "1035385",
+      "file": "https://xeno-canto.org/1035385/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035385/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "0:44"
     }
   },
   {
@@ -1545,6 +1793,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1136471",
+      "file": "https://xeno-canto.org/1136471/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136471/colour.png",
+      "recordist": "Albert Lastukhin",
+      "quality": "A",
+      "length": "0:14"
     }
   },
   {
@@ -1567,6 +1823,14 @@ const insectData = [
           "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC), uploaded by Sakern | 永隔一江水"
         }
       ]
+    },
+    "audio": {
+      "id": "1047740",
+      "file": "https://xeno-canto.org/1047740/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047740/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "1:01"
     }
   },
   {
@@ -1597,6 +1861,14 @@ const insectData = [
           "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
         }
       ]
+    },
+    "audio": {
+      "id": "1059321",
+      "file": "https://xeno-canto.org/1059321/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1059321/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "1:07"
     }
   },
   {
@@ -1636,6 +1908,14 @@ const insectData = [
           "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B."
         }
       ]
+    },
+    "audio": {
+      "id": "1034631",
+      "file": "https://xeno-canto.org/1034631/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034631/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "0:33"
     }
   },
   {
@@ -1744,6 +2024,14 @@ const insectData = [
           "attribution": "(c) 博甫, some rights reserved (CC BY-NC), uploaded by 博甫"
         }
       ]
+    },
+    "audio": {
+      "id": "1035458",
+      "file": "https://xeno-canto.org/1035458/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035458/colour.png",
+      "recordist": "Oriental Stork",
+      "quality": "A",
+      "length": "2:00"
     }
   },
   {
@@ -1774,6 +2062,14 @@ const insectData = [
           "attribution": "(c) Russell Pfau, some rights reserved (CC BY-NC), uploaded by Russell Pfau"
         }
       ]
+    },
+    "audio": {
+      "id": "826385",
+      "file": "https://xeno-canto.org/826385/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/826385/colour.png",
+      "recordist": "Daniel Parker",
+      "quality": "A",
+      "length": "0:15"
     }
   },
   {
@@ -1808,6 +2104,14 @@ const insectData = [
           "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC), uploaded by Pam Piombino"
         }
       ]
+    },
+    "audio": {
+      "id": "978054",
+      "file": "https://xeno-canto.org/978054/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978054/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "B",
+      "length": "0:27"
     }
   },
   {
@@ -1834,6 +2138,14 @@ const insectData = [
           "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae"
         }
       ]
+    },
+    "audio": {
+      "id": "1056720",
+      "file": "https://xeno-canto.org/1056720/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/YQVNUDRMZN/1056720/colour.png",
+      "recordist": "Keisuke Nakaoka",
+      "quality": "B",
+      "length": "0:31"
     }
   },
   {
@@ -1860,6 +2172,14 @@ const insectData = [
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
+    },
+    "audio": {
+      "id": "1043430",
+      "file": "https://xeno-canto.org/1043430/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1043430/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "B",
+      "length": "0:20"
     }
   },
   {
@@ -1899,6 +2219,14 @@ const insectData = [
           "attribution": "(c) Irina Bobyleva, some rights reserved (CC BY-NC), uploaded by Irina Bobyleva"
         }
       ]
+    },
+    "audio": {
+      "id": "1047437",
+      "file": "https://xeno-canto.org/1047437/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047437/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "1:00"
     }
   },
   {
@@ -1929,6 +2257,14 @@ const insectData = [
           "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC), uploaded by 一颗行走的白菜"
         }
       ]
+    },
+    "audio": {
+      "id": "1007150",
+      "file": "https://xeno-canto.org/1007150/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007150/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "1:08"
     }
   },
   {
@@ -2057,6 +2393,14 @@ const insectData = [
       "displayName": "云南茨娓蟋",
       "name": "Zvenella yunnana",
       "photos": []
+    },
+    "audio": {
+      "id": "874572",
+      "file": "https://xeno-canto.org/874572/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874572/colour.png",
+      "recordist": "S. Ingrisch",
+      "quality": "B",
+      "length": "0:20"
     }
   },
   {
@@ -2088,6 +2432,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1052495",
+      "file": "https://xeno-canto.org/1052495/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1052495/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "0:45"
     }
   },
   {
@@ -2118,12 +2470,20 @@ const insectData = [
           "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
         }
       ]
+    },
+    "audio": {
+      "id": "874515",
+      "file": "https://xeno-canto.org/874515/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874515/colour.png",
+      "recordist": "S. Ingrisch",
+      "quality": "B",
+      "length": "0:20"
     }
   },
   {
     "category": "c5",
     "textId": null,
-    "textHtml": "<h3 id=\"i76\">76.小额蟋（Itara minorchopard）:本种前些年已基本淡出市场，体淡褐色，体态略扁平，前翅宽阔，后翅较长，鸣声较差有些刺耳，此虫会啃咬竹木虫具及树枝，不建议饲养。</h3>",
+    "textHtml": "<h3 id=\"i76\">76.小额蟋（Itara minor）:本种前些年已基本淡出市场，体淡褐色，体态略扁平，前翅宽阔，后翅较长，鸣声较差有些刺耳，此虫会啃咬竹木虫具及树枝，不建议饲养。</h3>",
     "images": [
       {
         "src": "images/image_089.jpg",
@@ -2137,7 +2497,15 @@ const insectData = [
         "src": "images/image_376.jpg",
         "caption": "小额蟋3（机器猪）"
       }
-    ]
+    ],
+    "audio": {
+      "id": "1047438",
+      "file": "https://xeno-canto.org/1047438/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047438/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "B",
+      "length": "0:33"
+    }
   },
   {
     "category": "c5",
@@ -2195,6 +2563,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "1007151",
+      "file": "https://xeno-canto.org/1007151/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007151/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "B",
+      "length": "0:42"
     }
   },
   {
@@ -2397,6 +2773,14 @@ const insectData = [
           "attribution": "(c) 茶棚, some rights reserved (CC BY-NC), uploaded by 茶棚"
         }
       ]
+    },
+    "audio": {
+      "id": "1047143",
+      "file": "https://xeno-canto.org/1047143/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047143/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "2:29"
     }
   },
   {
@@ -2423,6 +2807,14 @@ const insectData = [
           "attribution": "(c) Daba, some rights reserved (CC BY-NC), uploaded by Daba"
         }
       ]
+    },
+    "audio": {
+      "id": "1086746",
+      "file": "https://xeno-canto.org/1086746/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086746/colour.png",
+      "recordist": "Howon Rhee",
+      "quality": "A",
+      "length": "1:09"
     }
   },
   {
@@ -2543,6 +2935,14 @@ const insectData = [
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
+    },
+    "audio": {
+      "id": "1047434",
+      "file": "https://xeno-canto.org/1047434/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047434/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:35"
     }
   },
   {
@@ -2574,6 +2974,14 @@ const insectData = [
           "attribution": "(c) Chief RedEarth, some rights reserved (CC BY-NC-ND), uploaded by Chief RedEarth"
         }
       ]
+    },
+    "audio": {
+      "id": "875007",
+      "file": "https://xeno-canto.org/875007/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875007/colour.png",
+      "recordist": "K.-G. Heller",
+      "quality": "B",
+      "length": "0:22"
     }
   },
   {
@@ -2603,6 +3011,14 @@ const insectData = [
       "displayName": "相似纺织娘",
       "name": "Mecopoda fallax",
       "photos": []
+    },
+    "audio": {
+      "id": "1102475",
+      "file": "https://xeno-canto.org/1102475/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102475/colour.png",
+      "recordist": "Marc Anderson",
+      "quality": "A",
+      "length": "0:10"
     }
   },
   {
@@ -2650,6 +3066,14 @@ const insectData = [
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
         }
       ]
+    },
+    "audio": {
+      "id": "874895",
+      "file": "https://xeno-canto.org/874895/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/874895/colour.png",
+      "recordist": "K.-G. Heller",
+      "quality": "B",
+      "length": "0:48"
     }
   },
   {
@@ -2718,6 +3142,14 @@ const insectData = [
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
         }
       ]
+    },
+    "audio": {
+      "id": "832218",
+      "file": "https://xeno-canto.org/832218/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/832218/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "3:25"
     }
   },
   {
@@ -2774,6 +3206,14 @@ const insectData = [
           "attribution": "(c) marcelfinlay, some rights reserved (CC BY-NC), uploaded by marcelfinlay"
         }
       ]
+    },
+    "audio": {
+      "id": "1053503",
+      "file": "https://xeno-canto.org/1053503/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1053503/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "4:47"
     }
   },
   {
@@ -2804,6 +3244,14 @@ const insectData = [
           "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak"
         }
       ]
+    },
+    "audio": {
+      "id": "927474",
+      "file": "https://xeno-canto.org/927474/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/927474/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "1:41"
     }
   },
   {
@@ -2830,6 +3278,14 @@ const insectData = [
           "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY-NC), uploaded by Kim, Hyun-tae"
         }
       ]
+    },
+    "audio": {
+      "id": "1086759",
+      "file": "https://xeno-canto.org/1086759/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086759/colour.png",
+      "recordist": "Howon Rhee",
+      "quality": "A",
+      "length": "0:47"
     }
   },
   {
@@ -2865,6 +3321,14 @@ const insectData = [
           "attribution": "(c) Donald Hobern, some rights reserved (CC BY)"
         }
       ]
+    },
+    "audio": {
+      "id": "1103550",
+      "file": "https://xeno-canto.org/1103550/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103550/colour.png",
+      "recordist": "Ray Tsu 诸仁",
+      "quality": "A",
+      "length": "2:18"
     }
   },
   {
@@ -2963,6 +3427,14 @@ const insectData = [
           "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
         }
       ]
+    },
+    "audio": {
+      "id": "873849",
+      "file": "https://xeno-canto.org/873849/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/873849/colour.png",
+      "recordist": "S. Ingrisch",
+      "quality": "B",
+      "length": "5:23"
     }
   },
   {
@@ -2998,6 +3470,14 @@ const insectData = [
           "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
         }
       ]
+    },
+    "audio": {
+      "id": "1047246",
+      "file": "https://xeno-canto.org/1047246/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047246/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "0:45"
     }
   },
   {
@@ -3176,6 +3656,14 @@ const insectData = [
           "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC), uploaded by Thomas Calame"
         }
       ]
+    },
+    "audio": {
+      "id": "1102477",
+      "file": "https://xeno-canto.org/1102477/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102477/colour.png",
+      "recordist": "Marc Anderson",
+      "quality": "B",
+      "length": "0:34"
     }
   },
   {
@@ -3207,7 +3695,15 @@ const insectData = [
         "src": "images/image_453.jpg",
         "caption": "素背肘隆螽雌虫6（鸣虫子）"
       }
-    ]
+    ],
+    "audio": {
+      "id": "875057",
+      "file": "https://xeno-canto.org/875057/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875057/colour.png",
+      "recordist": "K.-G. Heller",
+      "quality": "B",
+      "length": "0:37"
+    }
   },
   {
     "category": "c7",
@@ -3521,7 +4017,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i124\">124.花生大蟋:这组3张图片均来自于\"szsz007\"</h3>",
+    "textHtml": "<h3 id=\"i124\">124.花生大蟋（Tarbinskiellus portentosus）:这组3张图片均来自于\"szsz007\"</h3>",
     "images": [
       {
         "src": "images/image_234.jpg",
@@ -3535,12 +4031,20 @@ const insectData = [
         "src": "images/image_014.jpg",
         "caption": "花生大蟋3"
       }
-    ]
+    ],
+    "audio": {
+      "id": "1047716",
+      "file": "https://xeno-canto.org/1047716/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047716/colour.png",
+      "recordist": "Dave Guo",
+      "quality": "A",
+      "length": "2:29"
+    }
   },
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i125\">125.铜蛉:也称\"铜丸子\"、\"东方大蟋\"，裸蟋的一种，擅长打洞和穴居。本组3张图来自于\"雅鸣\"</h3>",
+    "textHtml": "<h3 id=\"i125\">125.铜蛉（Tarbinskiellus orientalis）:也称\"铜丸子\"、\"东方大蟋\"，裸蟋的一种，擅长打洞和穴居。本组3张图来自于\"雅鸣\"</h3>",
     "images": [
       {
         "src": "images/image_358.jpg",
@@ -3559,7 +4063,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i126\">126.滨双针蟋:俗称\"滨蛉\"，本组2张图来自于\"千年小何\"</h3>",
+    "textHtml": "<h3 id=\"i126\">126.滨双针蟋（Dianemobius csikii）:俗称\"滨蛉\"，本组2张图来自于\"千年小何\"</h3>",
     "images": [
       {
         "src": "images/image_171.jpg",
@@ -3569,7 +4073,15 @@ const insectData = [
         "src": "images/image_129.jpg",
         "caption": "滨双针蟋2"
       }
-    ]
+    ],
+    "audio": {
+      "id": "840500",
+      "file": "https://xeno-canto.org/840500/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/840500/colour.png",
+      "recordist": "Albert Lastukhin",
+      "quality": "B",
+      "length": "0:10"
+    }
   },
   {
     "category": "c9",
@@ -3604,7 +4116,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<p>最后是优草螽的其他5个近似种，它们因头型尖突，叫声刺耳似电流，也被称为\"尖顶六鬼\"。</p>\n                <h3 id=\"i129\">129.钩额螽:本种和优草螽都耐寒且长寿，本组4张图来自于\"ZHOUYU\"</h3>",
+    "textHtml": "<p>最后是优草螽的其他5个近似种，它们因头型尖突，叫声刺耳似电流，也被称为\"尖顶六鬼\"。</p>\n                <h3 id=\"i129\">129.钩额螽（Ruspolia sp.）:本种和优草螽都耐寒且长寿，本组4张图来自于\"ZHOUYU\"</h3>",
     "images": [
       {
         "src": "images/image_058.jpg",
@@ -3622,7 +4134,15 @@ const insectData = [
         "src": "images/image_432.jpg",
         "caption": "钩额螽4"
       }
-    ]
+    ],
+    "audio": {
+      "id": "1095697",
+      "file": "https://xeno-canto.org/1095697/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/XLUOUFRZIU/1095697/colour.png",
+      "recordist": "Julien Barataud",
+      "quality": "A",
+      "length": "0:32"
+    }
   },
   {
     "category": "c9",
@@ -3650,7 +4170,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i131\">131.拟矛螽（红牙竹妖）:口器非常发达，本组3张图来自\"ZHOUYU\"</h3>",
+    "textHtml": "<h3 id=\"i131\">131.拟矛螽（Pseudorhynchus sp.，红牙竹妖）:口器非常发达，本组3张图来自\"ZHOUYU\"</h3>",
     "images": [
       {
         "src": "images/image_056.jpg",
@@ -3664,7 +4184,15 @@ const insectData = [
         "src": "images/image_202.jpg",
         "caption": "拟矛螽3"
       }
-    ]
+    ],
+    "audio": {
+      "id": "1084168",
+      "file": "https://xeno-canto.org/1084168/download",
+      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1084168/colour.png",
+      "recordist": "Marc Anderson",
+      "quality": "A",
+      "length": "0:14"
+    }
   },
   {
     "category": "c9",
@@ -3684,7 +4212,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i133\">133.弧螽（花面鬼）:本种的中文正式名可能已经更改，本组2张图片来自\"ZHOUYU\"</h3>",
+    "textHtml": "<h3 id=\"i133\">133.弧螽（Palaeoagraecia ascenda，花面鬼）:本种的中文正式名可能已经更改，本组2张图片来自\"ZHOUYU\"</h3>",
     "images": [
       {
         "src": "images/image_235.jpg",
@@ -3705,7 +4233,7 @@ const insectData = [
   {
     "category": "c9",
     "textId": null,
-    "textHtml": "<h3 id=\"i134\">134.小松蟋:所幸\"小松蟋\"的图还是找到了。\n                    这里把 小松蟋 和 刻点铁蟋图片发出来做个对比。\n                    两者区别:\n                    1、刻点铁蟋（磬蛉）的触角有白色部分 小松蟋（松蛉）触角颜色一致\n                    2、磬蛉的头全黑色，松蛉的头部有花纹。</h3>",
+    "textHtml": "<h3 id=\"i134\">134.小松蟋（Comidoblemmus nipponensis）:所幸\"小松蟋\"的图还是找到了。\n                    这里把 小松蟋 和 刻点铁蟋图片发出来做个对比。\n                    两者区别:\n                    1、刻点铁蟋（磬蛉）的触角有白色部分 小松蟋（松蛉）触角颜色一致\n                    2、磬蛉的头全黑色，松蛉的头部有花纹。</h3>",
     "images": [
       {
         "src": "images/image_012.jpg",
