@@ -203,9 +203,9 @@
                             // 停止前一个
                             stopDrawerAudios();
                             
-                            // 开启加速通道
+                            // 本地文件直接播放，远程文件走代理通道
                             let realSrc = src;
-                            if (!src.includes('proxy')) {
+                            if (src.startsWith('http') && !src.includes('proxy')) {
                                 realSrc = "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(src);
                             }
                             
@@ -598,7 +598,7 @@
             </div>
             <div class="spectrogram-container">
                 <div class="spectrogram-wrapper">
-                    <img class="spectrogram-img skeleton-box" src="https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(item.audio.spectrogram)}" alt="声谱图" loading="lazy" onload="this.classList.remove('skeleton-box')" />
+                    <img class="spectrogram-img skeleton-box" src="${item.audio.spectrogram.startsWith('http') ? 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(item.audio.spectrogram) : item.audio.spectrogram}" alt="声谱图" loading="lazy" onload="this.classList.remove('skeleton-box')" />
                     <div class="spectrogram-progress-line"></div>
                     <div class="spectrogram-overlay"></div>
                 </div>
@@ -825,8 +825,8 @@
                 
                 let currentSrc = audioSrc;
                 
-                // 默认使用 CodeTabs 代理，避开 Xeno-Canto 在内地的网络直接访问限制导致灰色/加载失败
-                if (!audioSrc.includes('proxy')) {
+                // 本地文件直接播放，远程文件走 CodeTabs 代理通道
+                if (audioSrc.startsWith('http') && !audioSrc.includes('proxy')) {
                     currentSrc = "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(audioSrc);
                 }
                 

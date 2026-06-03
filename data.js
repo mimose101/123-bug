@@ -84,8 +84,8 @@ const insectData = [
     },
     "audio": {
       "id": "1103545",
-      "file": "https://xeno-canto.org/1103545/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103545/colour.png",
+      "file": "sounds/xc_1103545_i3.mp3",
+      "spectrogram": "images/spectrograms/spec_1103545_i3.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "3:34"
@@ -130,8 +130,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1047493",
-      "file": "https://xeno-canto.org/1047493/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047493/colour.png",
+      "file": "sounds/xc_1047493_i5.mp3",
+      "spectrogram": "images/spectrograms/spec_1047493_i5.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:35"
@@ -169,8 +169,8 @@ const insectData = [
     },
     "audio": {
       "id": "1082459",
-      "file": "https://xeno-canto.org/1082459/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082459/colour.png",
+      "file": "sounds/xc_1082459_i6.mp3",
+      "spectrogram": "images/spectrograms/spec_1082459_i6.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "2:08"
@@ -283,8 +283,8 @@ const insectData = [
     ],
     "audio": {
       "id": "978053",
-      "file": "https://xeno-canto.org/978053/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978053/colour.png",
+      "file": "sounds/xc_978053_i10.mp3",
+      "spectrogram": "images/spectrograms/spec_978053_i10.png",
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:12"
@@ -406,8 +406,8 @@ const insectData = [
     },
     "audio": {
       "id": "1009912",
-      "file": "https://xeno-canto.org/1009912/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1009912/colour.png",
+      "file": "sounds/xc_1009912_i13.mp3",
+      "spectrogram": "images/spectrograms/spec_1009912_i13.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "2:31"
@@ -440,8 +440,8 @@ const insectData = [
     },
     "audio": {
       "id": "874262",
-      "file": "https://xeno-canto.org/874262/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874262/colour.png",
+      "file": "sounds/xc_874262_i14.mp3",
+      "spectrogram": "images/spectrograms/spec_874262_i14.png",
       "recordist": "S. Ingrisch",
       "quality": "B",
       "length": "0:15"
@@ -497,8 +497,8 @@ const insectData = [
     },
     "audio": {
       "id": "993269",
-      "file": "https://xeno-canto.org/993269/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/993269/colour.png",
+      "file": "sounds/xc_993269_i16.mp3",
+      "spectrogram": "images/spectrograms/spec_993269_i16.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "2:20"
@@ -547,8 +547,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047918",
-      "file": "https://xeno-canto.org/1047918/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047918/colour.png",
+      "file": "sounds/xc_1047918_i17.mp3",
+      "spectrogram": "images/spectrograms/spec_1047918_i17.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:27"
@@ -582,8 +582,8 @@ const insectData = [
     },
     "audio": {
       "id": "1033754",
-      "file": "https://xeno-canto.org/1033754/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1033754/colour.png",
+      "file": "sounds/xc_1033754_i18.mp3",
+      "spectrogram": "images/spectrograms/spec_1033754_i18.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "0:45"
@@ -628,8 +628,8 @@ const insectData = [
     },
     "audio": {
       "id": "931856",
-      "file": "https://xeno-canto.org/931856/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/931856/colour.png",
+      "file": "sounds/xc_931856_i19.mp3",
+      "spectrogram": "images/spectrograms/spec_931856_i19.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "0:58"
@@ -674,8 +674,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047588",
-      "file": "https://xeno-canto.org/1047588/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047588/colour.png",
+      "file": "sounds/xc_1047588_i20.mp3",
+      "spectrogram": "images/spectrograms/spec_1047588_i20.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:43"
@@ -815,8 +815,8 @@ const insectData = [
     },
     "audio": {
       "id": "958626",
-      "file": "https://xeno-canto.org/958626/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958626/colour.png",
+      "file": "sounds/xc_958626_i25.mp3",
+      "spectrogram": "images/spectrograms/spec_958626_i25.png",
       "recordist": "Ming Kai Tan",
       "quality": "A",
       "length": "7:58"
@@ -912,8 +912,8 @@ const insectData = [
     },
     "audio": {
       "id": "958405",
-      "file": "https://xeno-canto.org/958405/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/RIXTYARHVJ/958405/colour.png",
+      "file": "sounds/xc_958405_i30.mp3",
+      "spectrogram": "images/spectrograms/spec_958405_i30.png",
       "recordist": "Ming Kai Tan",
       "quality": "A",
       "length": "0:02"
@@ -1007,8 +1007,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047719",
-      "file": "https://xeno-canto.org/1047719/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047719/colour.png",
+      "file": "sounds/xc_1047719_i33.mp3",
+      "spectrogram": "images/spectrograms/spec_1047719_i33.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:32"
@@ -1065,8 +1065,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047486",
-      "file": "https://xeno-canto.org/1047486/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047486/colour.png",
+      "file": "sounds/xc_1047486_i35.mp3",
+      "spectrogram": "images/spectrograms/spec_1047486_i35.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:36"
@@ -1112,8 +1112,8 @@ const insectData = [
     },
     "audio": {
       "id": "1136497",
-      "file": "https://xeno-canto.org/1136497/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136497/colour.png",
+      "file": "sounds/xc_1136497_i36.mp3",
+      "spectrogram": "images/spectrograms/spec_1136497_i36.png",
       "recordist": "Albert Lastukhin",
       "quality": "A",
       "length": "0:13"
@@ -1151,8 +1151,8 @@ const insectData = [
     },
     "audio": {
       "id": "1034632",
-      "file": "https://xeno-canto.org/1034632/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034632/colour.png",
+      "file": "sounds/xc_1034632_i37.mp3",
+      "spectrogram": "images/spectrograms/spec_1034632_i37.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "1:04"
@@ -1186,8 +1186,8 @@ const insectData = [
     },
     "audio": {
       "id": "1105794",
-      "file": "https://xeno-canto.org/1105794/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/POVKNQVSGU/1105794/colour.png",
+      "file": "sounds/xc_1105794_i38.mp3",
+      "spectrogram": "images/spectrograms/spec_1105794_i38.png",
       "recordist": "João Ferreira Tomás",
       "quality": "A",
       "length": "1:01"
@@ -1211,8 +1211,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047487",
-      "file": "https://xeno-canto.org/1047487/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047487/colour.png",
+      "file": "sounds/xc_1047487_i39.mp3",
+      "spectrogram": "images/spectrograms/spec_1047487_i39.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:16"
@@ -1272,8 +1272,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047745",
-      "file": "https://xeno-canto.org/1047745/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047745/colour.png",
+      "file": "sounds/xc_1047745_i41.mp3",
+      "spectrogram": "images/spectrograms/spec_1047745_i41.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:46"
@@ -1319,8 +1319,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047591",
-      "file": "https://xeno-canto.org/1047591/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047591/colour.png",
+      "file": "sounds/xc_1047591_i42.mp3",
+      "spectrogram": "images/spectrograms/spec_1047591_i42.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:41"
@@ -1365,8 +1365,8 @@ const insectData = [
     },
     "audio": {
       "id": "874429",
-      "file": "https://xeno-canto.org/874429/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874429/colour.png",
+      "file": "sounds/xc_874429_i43.mp3",
+      "spectrogram": "images/spectrograms/spec_874429_i43.png",
       "recordist": "S. Ingrisch",
       "quality": "B",
       "length": "0:32"
@@ -1403,8 +1403,8 @@ const insectData = [
     },
     "audio": {
       "id": "1102471",
-      "file": "https://xeno-canto.org/1102471/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1102471/colour.png",
+      "file": "sounds/xc_1102471_i44.mp3",
+      "spectrogram": "images/spectrograms/spec_1102471_i44.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "3:18"
@@ -1438,8 +1438,8 @@ const insectData = [
     },
     "audio": {
       "id": "829915",
-      "file": "https://xeno-canto.org/829915/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/829915/colour.png",
+      "file": "sounds/xc_829915_i45.mp3",
+      "spectrogram": "images/spectrograms/spec_829915_i45.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "0:46"
@@ -1480,8 +1480,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047228",
-      "file": "https://xeno-canto.org/1047228/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047228/colour.png",
+      "file": "sounds/xc_1047228_i46.mp3",
+      "spectrogram": "images/spectrograms/spec_1047228_i46.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:15"
@@ -1532,8 +1532,8 @@ const insectData = [
     },
     "audio": {
       "id": "992894",
-      "file": "https://xeno-canto.org/992894/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/992894/colour.png",
+      "file": "sounds/xc_992894_i48.mp3",
+      "spectrogram": "images/spectrograms/spec_992894_i48.png",
       "recordist": "Daniel Parker",
       "quality": "A",
       "length": "0:21"
@@ -1575,8 +1575,8 @@ const insectData = [
     },
     "audio": {
       "id": "962876",
-      "file": "https://xeno-canto.org/962876/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/962876/colour.png",
+      "file": "sounds/xc_962876_i49.mp3",
+      "spectrogram": "images/spectrograms/spec_962876_i49.png",
       "recordist": "Dave GUO",
       "quality": "A",
       "length": "0:19"
@@ -1606,8 +1606,8 @@ const insectData = [
     },
     "audio": {
       "id": "1082455",
-      "file": "https://xeno-canto.org/1082455/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1082455/colour.png",
+      "file": "sounds/xc_1082455_i50.mp3",
+      "spectrogram": "images/spectrograms/spec_1082455_i50.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "3:00"
@@ -1633,8 +1633,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1047590",
-      "file": "https://xeno-canto.org/1047590/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047590/colour.png",
+      "file": "sounds/xc_1047590_i51.mp3",
+      "spectrogram": "images/spectrograms/spec_1047590_i51.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:27"
@@ -1704,8 +1704,8 @@ const insectData = [
     },
     "audio": {
       "id": "974272",
-      "file": "https://xeno-canto.org/974272/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/974272/colour.png",
+      "file": "sounds/xc_974272_i53.mp3",
+      "spectrogram": "images/spectrograms/spec_974272_i53.png",
       "recordist": "Dave GUO",
       "quality": "A",
       "length": "1:46"
@@ -1731,8 +1731,8 @@ const insectData = [
     ],
     "audio": {
       "id": "926637",
-      "file": "https://xeno-canto.org/926637/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/DMQOAFYYUO/926637/colour.png",
+      "file": "sounds/xc_926637_i54.mp3",
+      "spectrogram": "images/spectrograms/spec_926637_i54.png",
       "recordist": "Miyagi Kunitaro",
       "quality": "A",
       "length": "0:22"
@@ -1777,8 +1777,8 @@ const insectData = [
     },
     "audio": {
       "id": "1035385",
-      "file": "https://xeno-canto.org/1035385/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035385/colour.png",
+      "file": "sounds/xc_1035385_i55.mp3",
+      "spectrogram": "images/spectrograms/spec_1035385_i55.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "0:44"
@@ -1807,8 +1807,8 @@ const insectData = [
     },
     "audio": {
       "id": "1136471",
-      "file": "https://xeno-canto.org/1136471/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/1136471/colour.png",
+      "file": "sounds/xc_1136471_i56.mp3",
+      "spectrogram": "images/spectrograms/spec_1136471_i56.png",
       "recordist": "Albert Lastukhin",
       "quality": "A",
       "length": "0:14"
@@ -1837,8 +1837,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047740",
-      "file": "https://xeno-canto.org/1047740/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047740/colour.png",
+      "file": "sounds/xc_1047740_i57.mp3",
+      "spectrogram": "images/spectrograms/spec_1047740_i57.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "1:01"
@@ -1875,8 +1875,8 @@ const insectData = [
     },
     "audio": {
       "id": "1059321",
-      "file": "https://xeno-canto.org/1059321/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1059321/colour.png",
+      "file": "sounds/xc_1059321_i58.mp3",
+      "spectrogram": "images/spectrograms/spec_1059321_i58.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "1:07"
@@ -1922,8 +1922,8 @@ const insectData = [
     },
     "audio": {
       "id": "1034631",
-      "file": "https://xeno-canto.org/1034631/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1034631/colour.png",
+      "file": "sounds/xc_1034631_i59.mp3",
+      "spectrogram": "images/spectrograms/spec_1034631_i59.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "0:33"
@@ -2038,8 +2038,8 @@ const insectData = [
     },
     "audio": {
       "id": "1035458",
-      "file": "https://xeno-canto.org/1035458/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/GGMHGNFCWG/1035458/colour.png",
+      "file": "sounds/xc_1035458_i62.mp3",
+      "spectrogram": "images/spectrograms/spec_1035458_i62.png",
       "recordist": "Oriental Stork",
       "quality": "A",
       "length": "2:00"
@@ -2076,8 +2076,8 @@ const insectData = [
     },
     "audio": {
       "id": "826385",
-      "file": "https://xeno-canto.org/826385/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/AMMGWAIZWI/826385/colour.png",
+      "file": "sounds/xc_826385_i63.mp3",
+      "spectrogram": "images/spectrograms/spec_826385_i63.png",
       "recordist": "Daniel Parker",
       "quality": "A",
       "length": "0:15"
@@ -2118,8 +2118,8 @@ const insectData = [
     },
     "audio": {
       "id": "978054",
-      "file": "https://xeno-canto.org/978054/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/978054/colour.png",
+      "file": "sounds/xc_978054_i64.mp3",
+      "spectrogram": "images/spectrograms/spec_978054_i64.png",
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:27"
@@ -2152,8 +2152,8 @@ const insectData = [
     },
     "audio": {
       "id": "1056720",
-      "file": "https://xeno-canto.org/1056720/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/YQVNUDRMZN/1056720/colour.png",
+      "file": "sounds/xc_1056720_i65.mp3",
+      "spectrogram": "images/spectrograms/spec_1056720_i65.png",
       "recordist": "Keisuke Nakaoka",
       "quality": "B",
       "length": "0:31"
@@ -2186,8 +2186,8 @@ const insectData = [
     },
     "audio": {
       "id": "1043430",
-      "file": "https://xeno-canto.org/1043430/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1043430/colour.png",
+      "file": "sounds/xc_1043430_i66.mp3",
+      "spectrogram": "images/spectrograms/spec_1043430_i66.png",
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:20"
@@ -2233,8 +2233,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047437",
-      "file": "https://xeno-canto.org/1047437/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047437/colour.png",
+      "file": "sounds/xc_1047437_i67.mp3",
+      "spectrogram": "images/spectrograms/spec_1047437_i67.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "1:00"
@@ -2271,8 +2271,8 @@ const insectData = [
     },
     "audio": {
       "id": "1007150",
-      "file": "https://xeno-canto.org/1007150/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007150/colour.png",
+      "file": "sounds/xc_1007150_i68.mp3",
+      "spectrogram": "images/spectrograms/spec_1007150_i68.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "1:08"
@@ -2407,8 +2407,8 @@ const insectData = [
     },
     "audio": {
       "id": "874572",
-      "file": "https://xeno-canto.org/874572/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874572/colour.png",
+      "file": "sounds/xc_874572_i73.mp3",
+      "spectrogram": "images/spectrograms/spec_874572_i73.png",
       "recordist": "S. Ingrisch",
       "quality": "B",
       "length": "0:20"
@@ -2446,8 +2446,8 @@ const insectData = [
     },
     "audio": {
       "id": "1052495",
-      "file": "https://xeno-canto.org/1052495/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1052495/colour.png",
+      "file": "sounds/xc_1052495_i74.mp3",
+      "spectrogram": "images/spectrograms/spec_1052495_i74.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "0:45"
@@ -2484,8 +2484,8 @@ const insectData = [
     },
     "audio": {
       "id": "874515",
-      "file": "https://xeno-canto.org/874515/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/874515/colour.png",
+      "file": "sounds/xc_874515_i75.mp3",
+      "spectrogram": "images/spectrograms/spec_874515_i75.png",
       "recordist": "S. Ingrisch",
       "quality": "B",
       "length": "0:20"
@@ -2511,8 +2511,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1047438",
-      "file": "https://xeno-canto.org/1047438/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047438/colour.png",
+      "file": "sounds/xc_1047438_i76.mp3",
+      "spectrogram": "images/spectrograms/spec_1047438_i76.png",
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:33"
@@ -2577,8 +2577,8 @@ const insectData = [
     },
     "audio": {
       "id": "1007151",
-      "file": "https://xeno-canto.org/1007151/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1007151/colour.png",
+      "file": "sounds/xc_1007151_i78.mp3",
+      "spectrogram": "images/spectrograms/spec_1007151_i78.png",
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:42"
@@ -2787,8 +2787,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047143",
-      "file": "https://xeno-canto.org/1047143/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047143/colour.png",
+      "file": "sounds/xc_1047143_i85.mp3",
+      "spectrogram": "images/spectrograms/spec_1047143_i85.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "2:29"
@@ -2821,8 +2821,8 @@ const insectData = [
     },
     "audio": {
       "id": "1086746",
-      "file": "https://xeno-canto.org/1086746/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086746/colour.png",
+      "file": "sounds/xc_1086746_i86.mp3",
+      "spectrogram": "images/spectrograms/spec_1086746_i86.png",
       "recordist": "Howon Rhee",
       "quality": "A",
       "length": "1:09"
@@ -2949,8 +2949,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047434",
-      "file": "https://xeno-canto.org/1047434/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047434/colour.png",
+      "file": "sounds/xc_1047434_i90.mp3",
+      "spectrogram": "images/spectrograms/spec_1047434_i90.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:35"
@@ -2988,8 +2988,8 @@ const insectData = [
     },
     "audio": {
       "id": "875007",
-      "file": "https://xeno-canto.org/875007/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875007/colour.png",
+      "file": "sounds/xc_875007_i91.mp3",
+      "spectrogram": "images/spectrograms/spec_875007_i91.png",
       "recordist": "K.-G. Heller",
       "quality": "B",
       "length": "0:22"
@@ -3025,8 +3025,8 @@ const insectData = [
     },
     "audio": {
       "id": "1102475",
-      "file": "https://xeno-canto.org/1102475/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102475/colour.png",
+      "file": "sounds/xc_1102475_i92.mp3",
+      "spectrogram": "images/spectrograms/spec_1102475_i92.png",
       "recordist": "Marc Anderson",
       "quality": "A",
       "length": "0:10"
@@ -3080,8 +3080,8 @@ const insectData = [
     },
     "audio": {
       "id": "874895",
-      "file": "https://xeno-canto.org/874895/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/874895/colour.png",
+      "file": "sounds/xc_874895_i93.mp3",
+      "spectrogram": "images/spectrograms/spec_874895_i93.png",
       "recordist": "K.-G. Heller",
       "quality": "B",
       "length": "0:48"
@@ -3156,8 +3156,8 @@ const insectData = [
     },
     "audio": {
       "id": "832218",
-      "file": "https://xeno-canto.org/832218/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/832218/colour.png",
+      "file": "sounds/xc_832218_i95.mp3",
+      "spectrogram": "images/spectrograms/spec_832218_i95.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "3:25"
@@ -3220,8 +3220,8 @@ const insectData = [
     },
     "audio": {
       "id": "1053503",
-      "file": "https://xeno-canto.org/1053503/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1053503/colour.png",
+      "file": "sounds/xc_1053503_i97.mp3",
+      "spectrogram": "images/spectrograms/spec_1053503_i97.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "4:47"
@@ -3258,8 +3258,8 @@ const insectData = [
     },
     "audio": {
       "id": "927474",
-      "file": "https://xeno-canto.org/927474/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/927474/colour.png",
+      "file": "sounds/xc_927474_i98.mp3",
+      "spectrogram": "images/spectrograms/spec_927474_i98.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "1:41"
@@ -3292,8 +3292,8 @@ const insectData = [
     },
     "audio": {
       "id": "1086759",
-      "file": "https://xeno-canto.org/1086759/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/ZDNUHWSDAD/1086759/colour.png",
+      "file": "sounds/xc_1086759_i99.mp3",
+      "spectrogram": "images/spectrograms/spec_1086759_i99.png",
       "recordist": "Howon Rhee",
       "quality": "A",
       "length": "0:47"
@@ -3335,8 +3335,8 @@ const insectData = [
     },
     "audio": {
       "id": "1103550",
-      "file": "https://xeno-canto.org/1103550/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/FROVFAFTMA/1103550/colour.png",
+      "file": "sounds/xc_1103550_i100.mp3",
+      "spectrogram": "images/spectrograms/spec_1103550_i100.png",
       "recordist": "Ray Tsu 诸仁",
       "quality": "A",
       "length": "2:18"
@@ -3441,8 +3441,8 @@ const insectData = [
     },
     "audio": {
       "id": "873849",
-      "file": "https://xeno-canto.org/873849/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/UXEPEQNFFP/873849/colour.png",
+      "file": "sounds/xc_873849_i104.mp3",
+      "spectrogram": "images/spectrograms/spec_873849_i104.png",
       "recordist": "S. Ingrisch",
       "quality": "B",
       "length": "5:23"
@@ -3484,8 +3484,8 @@ const insectData = [
     },
     "audio": {
       "id": "1047246",
-      "file": "https://xeno-canto.org/1047246/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047246/colour.png",
+      "file": "sounds/xc_1047246_i105.mp3",
+      "spectrogram": "images/spectrograms/spec_1047246_i105.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:45"
@@ -3670,8 +3670,8 @@ const insectData = [
     },
     "audio": {
       "id": "1102477",
-      "file": "https://xeno-canto.org/1102477/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1102477/colour.png",
+      "file": "sounds/xc_1102477_i113.mp3",
+      "spectrogram": "images/spectrograms/spec_1102477_i113.png",
       "recordist": "Marc Anderson",
       "quality": "B",
       "length": "0:34"
@@ -3709,8 +3709,8 @@ const insectData = [
     ],
     "audio": {
       "id": "875057",
-      "file": "https://xeno-canto.org/875057/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KWCPMUXLJO/875057/colour.png",
+      "file": "sounds/xc_875057_i114.mp3",
+      "spectrogram": "images/spectrograms/spec_875057_i114.png",
       "recordist": "K.-G. Heller",
       "quality": "B",
       "length": "0:37"
@@ -4045,8 +4045,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1047716",
-      "file": "https://xeno-canto.org/1047716/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1047716/colour.png",
+      "file": "sounds/xc_1047716_i124.mp3",
+      "spectrogram": "images/spectrograms/spec_1047716_i124.png",
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "2:29"
@@ -4087,8 +4087,8 @@ const insectData = [
     ],
     "audio": {
       "id": "840500",
-      "file": "https://xeno-canto.org/840500/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/LELYWQKUZX/840500/colour.png",
+      "file": "sounds/xc_840500_i126.mp3",
+      "spectrogram": "images/spectrograms/spec_840500_i126.png",
       "recordist": "Albert Lastukhin",
       "quality": "B",
       "length": "0:10"
@@ -4148,8 +4148,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1095697",
-      "file": "https://xeno-canto.org/1095697/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/XLUOUFRZIU/1095697/colour.png",
+      "file": "sounds/xc_1095697_i129.mp3",
+      "spectrogram": "images/spectrograms/spec_1095697_i129.png",
       "recordist": "Julien Barataud",
       "quality": "A",
       "length": "0:32"
@@ -4198,8 +4198,8 @@ const insectData = [
     ],
     "audio": {
       "id": "1084168",
-      "file": "https://xeno-canto.org/1084168/download",
-      "spectrogram": "https://xeno-canto.org/sounds/spectrograms/EHGWCIGILC/1084168/colour.png",
+      "file": "sounds/xc_1084168_i131.mp3",
+      "spectrogram": "images/spectrograms/spec_1084168_i131.png",
       "recordist": "Marc Anderson",
       "quality": "A",
       "length": "0:14"
