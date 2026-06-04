@@ -408,7 +408,7 @@
                     ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
                     ${inat.photos && inat.photos.length > 0 ? `
                         <div class="inat-photo-gallery">
-                            ${inat.photos.slice(0, 2).map((p, i) => `
+                            ${inat.photos.slice(0, 5).map((p, i) => `
                                 <div class="inat-photo-item">
                                     <img src="${p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
                                     <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>

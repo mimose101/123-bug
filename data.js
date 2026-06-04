@@ -26,7 +26,8 @@ const insectData = [
       "taxonId": 1228186,
       "displayName": "安徽唧蛉蟋",
       "name": "Svistella anhuiensis",
-      "photos": []
+      "photos": [],
+      "checked_for_5": true
     }
   },
   {
@@ -55,8 +56,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i2_2.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i2_3.jpg",
+          "attribution": "(c) 曾云保, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i2_4.jpg",
+          "attribution": "(c) 曾云保, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i2_5.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -97,8 +111,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i3_2.jpg",
           "attribution": "(c) 肚纸有虫, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i3_3.jpg",
+          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i3_4.jpg",
+          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i3_5.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1103545",
@@ -126,7 +153,35 @@ const insectData = [
         "src": "images/image_262.jpg",
         "caption": "高山小黄蛉细节图3（原生态）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47124,
+      "displayName": "Dicots",
+      "name": "Magnoliopsida",
+      "photos": [
+        {
+          "url": "images/inat/inat_i4_1.jpg",
+          "attribution": "(c) mlemieux, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i4_2.jpg",
+          "attribution": "(c) CBPAS Lopez, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i4_3.jpg",
+          "attribution": "(c) mlemieux, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i4_4.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i4_5.jpg",
+          "attribution": "(c) cicero76, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c1",
@@ -154,7 +209,35 @@ const insectData = [
       "quality": "A",
       "length": "0:35"
     },
-    "description": "体型较小，褐色。头部近颈部非明显缩狭，复眼突出。前胸背板侧缘近乎平行，前缘直或微凸。前翅光滑，侧域和发音区黑色;雄性前翅较宽，镜膜长大于宽，镜膜内具伪脉;雌性前翅角质，较强地凸起，翅脉之间缺伪脉.前足胫节具膜质听器，后足股节外侧面具2条暗色纵纹。雄性下生殖板端部具凹口，生殖器如图4一160 ;雌性产卵瓣弯刀状，背缘端部具细齿。体长:♂7-8 mm , ♀6-7mm;前翅长:♂ 5-5 . 5 mm , ♀4mm;后足股节长:♂ 5.5-6mm, ♀6mm;产卵瓣长:3mm。"
+    "description": "体型较小，褐色。头部近颈部非明显缩狭，复眼突出。前胸背板侧缘近乎平行，前缘直或微凸。前翅光滑，侧域和发音区黑色;雄性前翅较宽，镜膜长大于宽，镜膜内具伪脉;雌性前翅角质，较强地凸起，翅脉之间缺伪脉.前足胫节具膜质听器，后足股节外侧面具2条暗色纵纹。雄性下生殖板端部具凹口，生殖器如图4一160 ;雌性产卵瓣弯刀状，背缘端部具细齿。体长:♂7-8 mm , ♀6-7mm;前翅长:♂ 5-5 . 5 mm , ♀4mm;后足股节长:♂ 5.5-6mm, ♀6mm;产卵瓣长:3mm。",
+    "inaturalist": {
+      "taxonId": 603589,
+      "displayName": "双带金蛉蟋",
+      "name": "Svistella bifasciata",
+      "photos": [
+        {
+          "url": "images/inat/inat_i5_1.jpg",
+          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i5_2.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i5_3.jpg",
+          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i5_4.jpg",
+          "attribution": "(c) 虫虫, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i5_5.jpg",
+          "attribution": "(c) よも, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c1",
@@ -180,10 +263,27 @@ const insectData = [
       "name": "Svistella argentata",
       "photos": [
         {
-          "url": "images/inat/inat_i6_1.jpg",
-          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC), uploaded by Yi-Shan Zhao"
+          "url": "images/inat/inat_i6_1.jpeg",
+          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i6_2.jpeg",
+          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i6_3.jpeg",
+          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i6_4.jpeg",
+          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i6_5.jpeg",
+          "attribution": "(c) CHIK SIU LUN, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1082459",
@@ -215,7 +315,35 @@ const insectData = [
         "src": "images/image_435.jpg",
         "caption": "翡翠蛉4（那首歌）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47792,
+      "displayName": "Dragonflies and Damselflies",
+      "name": "Odonata",
+      "photos": [
+        {
+          "url": "images/inat/inat_i7_1.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i7_2.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i7_3.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i7_4.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i7_5.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c1",
@@ -248,8 +376,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i8_2.jpg",
           "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i8_3.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i8_4.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i8_5.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -280,10 +421,27 @@ const insectData = [
       "name": "Svistella wuyong",
       "photos": [
         {
-          "url": "images/inat/inat_i9_1.jpeg",
-          "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
+          "url": "images/inat/inat_i9_1.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i9_2.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i9_3.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i9_4.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i9_5.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -346,9 +504,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i11_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) 古國順, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i11_2.jpg",
+          "attribution": "(c) Eric Ching, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i11_3.jpg",
+          "attribution": "(c) dee lee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i11_4.jpg",
+          "attribution": "(c) 斜绿天蛾, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i11_5.jpg",
+          "attribution": "(c) hollythefrog, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -381,9 +556,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i12_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) Felix Wu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i12_2.jpg",
+          "attribution": "(c) adachao, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i12_3.jpg",
+          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i12_4.jpg",
+          "attribution": "(c) Dawn_Land, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i12_5.jpg",
+          "attribution": "(c) 哈基人, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -427,9 +619,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i13_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i13_2.jpg",
+          "attribution": "(c) Cheryl Stinchcomb, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i13_3.jpg",
+          "attribution": "(c) Cheryl Stinchcomb, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i13_4.jpg",
+          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i13_5.jpg",
+          "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1009912",
@@ -460,10 +669,27 @@ const insectData = [
       "name": "Paratrigonidium venustulum",
       "photos": [
         {
-          "url": "images/inat/inat_i14_1.jpeg",
-          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
+          "url": "images/inat/inat_i14_1.jpg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i14_2.jpg",
+          "attribution": "(c) 周瑜, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i14_3.jpg",
+          "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i14_4.jpg",
+          "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i14_5.jpg",
+          "attribution": "(c) 觅虫记Liumingyu, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "874262",
@@ -500,9 +726,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i15_1.jpg",
-          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
+          "attribution": "(c) Suki, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i15_2.jpg",
+          "attribution": "(c) waterdeer, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i15_3.jpg",
+          "attribution": "(c) waterdeer, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i15_4.jpg",
+          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i15_5.jpg",
+          "attribution": "(c) kyaw zia Yan Min, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -528,8 +771,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i16_2.jpg",
           "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i16_3.jpg",
+          "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i16_4.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i16_5.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "993269",
@@ -577,9 +833,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i17_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i17_2.jpg",
+          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i17_3.jpg",
+          "attribution": "(c) yichangl, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i17_4.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i17_5.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047918",
@@ -612,9 +885,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i18_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i18_2.jpg",
+          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i18_3.jpg",
+          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i18_4.jpg",
+          "attribution": "(c) Do-yoon Kim, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i18_5.jpg",
+          "attribution": "(c) zgy, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1033754",
@@ -658,9 +948,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i19_1.jpg",
-          "attribution": "(c) 虫虫, some rights reserved (CC BY-NC), uploaded by 虫虫"
+          "attribution": "(c) 林錦宏, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i19_2.jpg",
+          "attribution": "(c) 洪海瑞, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i19_3.jpg",
+          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i19_4.jpg",
+          "attribution": "(c) waichong Cheong, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i19_5.jpg",
+          "attribution": "(c) 米嬸, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "931856",
@@ -704,9 +1011,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i20_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) adachao, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i20_2.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i20_3.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i20_4.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i20_5.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047588",
@@ -741,10 +1065,27 @@ const insectData = [
       "name": "Ornebius formosanus",
       "photos": [
         {
-          "url": "images/inat/inat_i21_1.jpeg",
-          "attribution": "(c) 羅忠良, some rights reserved (CC BY-NC), uploaded by 羅忠良"
+          "url": "images/inat/inat_i21_1.jpg",
+          "attribution": "(c) sacula, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i21_2.jpg",
+          "attribution": "(c) sacula, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i21_3.jpg",
+          "attribution": "(c) 大肚魚, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i21_4.jpg",
+          "attribution": "(c) @Benson, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i21_5.jpg",
+          "attribution": "(c) 郭伯川, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -763,10 +1104,27 @@ const insectData = [
       "name": "Ornebius apterus",
       "photos": [
         {
-          "url": "images/inat/inat_i22_1.jpeg",
-          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
+          "url": "images/inat/inat_i22_1.jpg",
+          "attribution": "(c) youyi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i22_2.jpg",
+          "attribution": "(c) youyi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i22_3.jpeg",
+          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i22_4.jpeg",
+          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i22_5.jpeg",
+          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -786,9 +1144,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i23_1.jpg",
-          "attribution": "(c) 張智偉(Chang, Jack, Chih-Wei), some rights reserved (CC BY-NC), uploaded by 張智偉(Chang, Jack, Chih-Wei)"
+          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i23_2.jpg",
+          "attribution": "(c) Licheng Shih, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i23_3.jpeg",
+          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i23_4.jpeg",
+          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i23_5.jpeg",
+          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -820,9 +1195,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i24_1.jpg",
-          "attribution": "(c) 張智偉(Chang, Jack, Chih-Wei), some rights reserved (CC BY-NC), uploaded by 張智偉(Chang, Jack, Chih-Wei)"
+          "attribution": "(c) 大俠, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i24_2.jpg",
+          "attribution": "(c) 大俠, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i24_3.jpg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i24_4.jpg",
+          "attribution": "(c) pajama_, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i24_5.jpg",
+          "attribution": "(c) lice_on_rice, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -855,8 +1247,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i25_2.jpg",
           "attribution": "(c) jon, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i25_3.jpg",
+          "attribution": "(c) jon, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i25_4.jpg",
+          "attribution": "(c) caleidoskopable, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i25_5.jpg",
+          "attribution": "(c) caleidoskopable, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "958626",
@@ -876,7 +1281,35 @@ const insectData = [
         "src": "images/image_264.jpg",
         "caption": "水墨孔雀1（josson）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 358855,
+      "displayName": "Crickets",
+      "name": "Gryllidea",
+      "photos": [
+        {
+          "url": "images/inat/inat_i26_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i26_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i26_3.jpg",
+          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i26_4.jpg",
+          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i26_5.jpg",
+          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c2",
@@ -895,7 +1328,35 @@ const insectData = [
         "src": "images/image_019.jpg",
         "caption": "琥珀仙子3（josson）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 630955,
+      "displayName": "Bees",
+      "name": "Anthophila",
+      "photos": [
+        {
+          "url": "images/inat/inat_i27_1.jpg",
+          "attribution": "(c) nathanlcarlson, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i27_2.jpg",
+          "attribution": "(c) naturenan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i27_3.jpg",
+          "attribution": "(c) Miranda Monterrosa, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i27_4.jpg",
+          "attribution": "(c) Ken Mateik, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i27_5.jpg",
+          "attribution": "(c) Ken Mateik, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c2",
@@ -910,7 +1371,35 @@ const insectData = [
         "src": "images/image_230.jpg",
         "caption": "迷你黑孔雀2，注意和红色食缸比较，个头很迷你（josson）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 358855,
+      "displayName": "Crickets",
+      "name": "Gryllidea",
+      "photos": [
+        {
+          "url": "images/inat/inat_i28_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i28_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i28_3.jpg",
+          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i28_4.jpg",
+          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i28_5.jpg",
+          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c2",
@@ -933,7 +1422,35 @@ const insectData = [
         "src": "images/image_201.jpg",
         "caption": "三音奥蟋3（ZHOUYU）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 184884,
+      "displayName": "Winged and Once-winged Insects",
+      "name": "Pterygota",
+      "photos": [
+        {
+          "url": "images/inat/inat_i29_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i29_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i29_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i29_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i29_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c2",
@@ -953,7 +1470,8 @@ const insectData = [
       "taxonId": 1204466,
       "displayName": "Ornebius insculptus",
       "name": "Ornebius insculptus",
-      "photos": []
+      "photos": [],
+      "checked_for_5": true
     },
     "audio": {
       "id": "958405",
@@ -984,10 +1502,27 @@ const insectData = [
       "name": "Ornebius polycomus",
       "photos": [
         {
-          "url": "images/inat/inat_i31_1.jpeg",
-          "attribution": "(c) Yan Cai, some rights reserved (CC BY-NC), uploaded by Yan Cai"
+          "url": "images/inat/inat_i31_1.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i31_2.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i31_3.jpg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i31_4.jpg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i31_5.jpeg",
+          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -1015,9 +1550,10 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i32_1.jpeg",
-          "attribution": "(c) 吕天朗, some rights reserved (CC BY-NC), uploaded by 吕天朗"
+          "attribution": "(c) 吕天朗, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -1046,9 +1582,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i33_1.jpg",
-          "attribution": "(c) Observações Naturalistas | Bruno Uehara, some rights reserved (CC BY-NC), uploaded by Observações Naturalistas | Bruno Uehara"
+          "attribution": "(c) 张镇东 Zhang Zhendong, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i33_2.jpg",
+          "attribution": "(c) 张镇东 Zhang Zhendong, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i33_3.jpg",
+          "attribution": "(c) Yuxuan Liu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i33_4.jpg",
+          "attribution": "(c) Yuxuan Liu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i33_5.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047719",
@@ -1076,7 +1629,35 @@ const insectData = [
         "src": "images/image_263.jpg",
         "caption": "电报蛉鸣叫3（乐事）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47120,
+      "displayName": "Arthropods",
+      "name": "Arthropoda",
+      "photos": [
+        {
+          "url": "images/inat/inat_i34_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i34_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i34_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i34_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i34_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c3",
@@ -1104,9 +1685,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i35_1.jpg",
-          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
+          "attribution": "(c) shoron, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i35_2.jpg",
+          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i35_3.jpg",
+          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i35_4.jpg",
+          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i35_5.jpg",
+          "attribution": "(c) jcsvscyj, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047486",
@@ -1151,9 +1749,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i36_1.jpg",
-          "attribution": "(c) John Himmelman, some rights reserved (CC BY-NC-ND), uploaded by John Himmelman"
+          "attribution": "(c) p_concolor, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i36_2.jpg",
+          "attribution": "(c) Kyongman Heo, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i36_3.jpg",
+          "attribution": "(c) Kyongman Heo, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i36_4.jpg",
+          "attribution": "(c) Kyongman Heo, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i36_5.jpg",
+          "attribution": "(c) tuirnee, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1136497",
@@ -1190,9 +1805,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i37_1.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i37_2.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i37_3.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i37_4.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i37_5.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1034632",
@@ -1225,9 +1857,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i38_1.jpg",
-          "attribution": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei"
+          "attribution": "(c) Christian Langner, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i38_2.jpg",
+          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i38_3.jpg",
+          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i38_4.jpg",
+          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i38_5.jpg",
+          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1105794",
@@ -1260,8 +1909,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i39_2.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i39_3.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i39_4.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i39_5.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047487",
@@ -1285,7 +1947,35 @@ const insectData = [
         "src": "images/image_104.jpg",
         "caption": "黑蟋2（鸡蛋饼）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 7086,
+      "displayName": "Black Geese",
+      "name": "Branta",
+      "photos": [
+        {
+          "url": "images/inat/inat_i40_1.jpg",
+          "attribution": "(c) Jim Phillips, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i40_2.jpg",
+          "attribution": "(c) Jim Phillips, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i40_3.jpg",
+          "attribution": "(c) Jim Phillips, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i40_4.jpg",
+          "attribution": "(c) Jim Phillips, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i40_5.jpg",
+          "attribution": "(c) Jim Phillips, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c3",
@@ -1320,9 +2010,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i41_1.jpg",
-          "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC), uploaded by Masatoshi Sone"
+          "attribution": "(c) biolin36, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i41_2.jpg",
+          "attribution": "(c) biolin36, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i41_3.jpg",
+          "attribution": "(c) biolin36, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i41_4.jpg",
+          "attribution": "(c) biolin36, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i41_5.jpg",
+          "attribution": "(c) ipin19, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047745",
@@ -1367,9 +2074,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i42_1.jpg",
-          "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
+          "attribution": "(c) 李宜臻, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i42_2.jpg",
+          "attribution": "(c) 醉翁, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i42_3.jpg",
+          "attribution": "(c) 醉翁, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i42_4.jpg",
+          "attribution": "(c) 鐦鍆錒/锎钔锕（Man Hoimoon）, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i42_5.jpg",
+          "attribution": "(c) Ella Chiang, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047591",
@@ -1412,10 +2136,15 @@ const insectData = [
       "name": "Turanogryllus rufoniger",
       "photos": [
         {
-          "url": "images/inat/inat_i43_1.jpeg",
-          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC), uploaded by 刘光裕 Liu Guangyu"
+          "url": "images/inat/inat_i43_1.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i43_2.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "874429",
@@ -1450,10 +2179,27 @@ const insectData = [
       "name": "Svercacheta siamensis",
       "photos": [
         {
-          "url": "images/inat/inat_i44_1.jpeg",
-          "attribution": "(c) Yoshihiro Tokue, some rights reserved (CC BY), uploaded by Yoshihiro Tokue"
+          "url": "images/inat/inat_i44_1.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i44_2.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i44_3.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i44_4.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i44_5.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1102471",
@@ -1483,12 +2229,8 @@ const insectData = [
       "taxonId": 625416,
       "displayName": "小素蟋",
       "name": "Mitius minor",
-      "photos": [
-        {
-          "url": "images/inat/inat_i45_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
-        }
-      ]
+      "photos": [],
+      "checked_for_5": true
     },
     "audio": {
       "id": "829915",
@@ -1528,9 +2270,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i46_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) キース搵肥, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i46_2.jpg",
+          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i46_3.jpg",
+          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i46_4.jpg",
+          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i46_5.jpg",
+          "attribution": "(c) Yriassic Yan, some rights reserved (CC BY-NC-ND)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047228",
@@ -1558,9 +2317,22 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i47_1.jpg",
-          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC), uploaded by Yi-Shan Zhao"
+          "attribution": "(c) jiangyou, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i47_2.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i47_3.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i47_4.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -1580,9 +2352,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i48_1.jpg",
-          "attribution": "(c) Mr. T in DC, some rights reserved (CC BY-ND)"
+          "attribution": "(c) Cole Abel, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i48_2.jpg",
+          "attribution": "(c) Sharon Watson, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i48_3.jpg",
+          "attribution": "(c) Sharon Watson, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i48_4.jpg",
+          "attribution": "(c) Sharon Watson, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i48_5.jpg",
+          "attribution": "(c) rrathburn, some rights reserved (CC BY-NC-ND)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "992894",
@@ -1623,9 +2412,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i49_1.jpg",
-          "attribution": "(c) V.S. Volkotrub, some rights reserved (CC BY-NC), uploaded by V.S. Volkotrub"
+          "attribution": "(c) Runz Lv, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i49_2.jpg",
+          "attribution": "(c) Jar Jar Abrams 77, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i49_3.jpg",
+          "attribution": "(c) yx_Kuri, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i49_4.jpg",
+          "attribution": "(c) 小 白 桦, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i49_5.jpg",
+          "attribution": "(c) 小 白 桦, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "962876",
@@ -1654,9 +2460,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i50_1.jpg",
-          "attribution": "(c) Michel Serjeant, some rights reserved (CC BY-NC), uploaded by Michel Serjeant"
+          "attribution": "(c) Andrew Williams, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i50_2.jpg",
+          "attribution": "(c) The Great Walter, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i50_3.jpg",
+          "attribution": "(c) The Great Walter, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i50_4.jpg",
+          "attribution": "(c) The Great Walter, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i50_5.jpg",
+          "attribution": "(c) The Great Walter, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1082455",
@@ -1692,6 +2515,34 @@ const insectData = [
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "0:27"
+    },
+    "inaturalist": {
+      "taxonId": 473439,
+      "displayName": "黑脸油葫芦",
+      "name": "Teleogryllus occipitalis",
+      "photos": [
+        {
+          "url": "images/inat/inat_i51_1.jpg",
+          "attribution": "(c) smilu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i51_2.jpg",
+          "attribution": "(c) Fabrice B, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i51_3.jpg",
+          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i51_4.jpg",
+          "attribution": "(c) fbritney, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i51_5.jpg",
+          "attribution": "(c) AkiyamaMizuki, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -1720,7 +2571,35 @@ const insectData = [
         "caption": "云南钟蟋鸣叫5（雅鸣）"
       }
     ],
-    "description": "雄体形宽大。头小；下口式；后头隆起；额突狭窄；复眼发达，向外侧凸出，下颚须细长，第3与第4节约等长，第5节明显长于第4节。前胸背板前部较狭窄，近马鞍形。前翅甚宽，长于腹端；Sc脉具17条分支;斜脉7条，前4条基部弯曲，后3条较短；具1条索脉，索脉与镜膜间具1条倾斜的横脉；镜膜很大，长宽近乎相等，后缘较圆，内具2条分脉；端域较短，翅脉排列不规则(图1)。后翅较长，超过后足股节末端。二对足皆具细毛。前足胫节近基部内、外两侧各具1个椭圆形的膜质听器。后足较细长，股节基部稍膨大，与胫节约等长，胫节背面具细刺，刺间具3对背距；外侧上、中端距较短，下端距甚小，内侧中端距甚长，约为上端距的2倍，下端距与外侧中端距约等比后足第1跗节侧扁，长于第2, 3跗节之和。下生殖板兜状，中央稍具隆脊。尾须端部超出后翅。阳茎基背片如图2。 雌前翅超过腹端，Sc脉具6-8条分支，翅脉排列不规则，横脉较多，后翅较长，超出前翅端部。产卵瓣光滑，矛状，其端部不达后翅端部。 体黑色。唇基与上唇呈黄褐色。触角第1, 2节黑色，第3, 6, 9以及第11- 13, 19, 29节呈黄褐色，其后具1较长的白色段，其余皆呈黑色。前胸背板的纵沟呈黄褐色，后部具2个较大的黄圆斑。前翅翅脉呈黄褐色。前、中足股节基部呈黄褐色，三对足的胫节除基部和端部外均呈黄褐色。尾须黄褐色。产卵瓣呈褐色。 体长（mm)：♂15, 13-14；全长(包括后翅) ：♂24, ♀24- 26；前翅长：♂13.5；后足股节长：♂13, ♀13一14；产卵瓣长：♀11-12。"
+    "description": "雄体形宽大。头小；下口式；后头隆起；额突狭窄；复眼发达，向外侧凸出，下颚须细长，第3与第4节约等长，第5节明显长于第4节。前胸背板前部较狭窄，近马鞍形。前翅甚宽，长于腹端；Sc脉具17条分支;斜脉7条，前4条基部弯曲，后3条较短；具1条索脉，索脉与镜膜间具1条倾斜的横脉；镜膜很大，长宽近乎相等，后缘较圆，内具2条分脉；端域较短，翅脉排列不规则(图1)。后翅较长，超过后足股节末端。二对足皆具细毛。前足胫节近基部内、外两侧各具1个椭圆形的膜质听器。后足较细长，股节基部稍膨大，与胫节约等长，胫节背面具细刺，刺间具3对背距；外侧上、中端距较短，下端距甚小，内侧中端距甚长，约为上端距的2倍，下端距与外侧中端距约等比后足第1跗节侧扁，长于第2, 3跗节之和。下生殖板兜状，中央稍具隆脊。尾须端部超出后翅。阳茎基背片如图2。 雌前翅超过腹端，Sc脉具6-8条分支，翅脉排列不规则，横脉较多，后翅较长，超出前翅端部。产卵瓣光滑，矛状，其端部不达后翅端部。 体黑色。唇基与上唇呈黄褐色。触角第1, 2节黑色，第3, 6, 9以及第11- 13, 19, 29节呈黄褐色，其后具1较长的白色段，其余皆呈黑色。前胸背板的纵沟呈黄褐色，后部具2个较大的黄圆斑。前翅翅脉呈黄褐色。前、中足股节基部呈黄褐色，三对足的胫节除基部和端部外均呈黄褐色。尾须黄褐色。产卵瓣呈褐色。 体长（mm)：♂15, 13-14；全长(包括后翅) ：♂24, ♀24- 26；前翅长：♂13.5；后足股节长：♂13, ♀13一14；产卵瓣长：♀11-12。",
+    "inaturalist": {
+      "taxonId": 1306083,
+      "displayName": "云南钟蟋",
+      "name": "Meloimorpha japonica yunnanensis",
+      "photos": [
+        {
+          "url": "images/inat/inat_i52_1.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_2.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_3.jpeg",
+          "attribution": "(c) 嘘界涯, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i52_4.jpg",
+          "attribution": "(c) eec, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_5.jpg",
+          "attribution": "(c) eec, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c3",
@@ -1751,10 +2630,27 @@ const insectData = [
       "name": "Phonarellus minor",
       "photos": [
         {
-          "url": "images/inat/inat_i53_1.jpeg",
-          "attribution": "(c) K S Gopi Sundar, some rights reserved (CC BY), uploaded by K S Gopi Sundar"
+          "url": "images/inat/inat_i53_1.jpg",
+          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i53_2.jpg",
+          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i53_3.jpg",
+          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i53_4.jpg",
+          "attribution": "(c) 残梦碎屑, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i53_5.jpg",
+          "attribution": "(c) 残梦碎屑, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "974272",
@@ -1790,6 +2686,34 @@ const insectData = [
       "recordist": "Miyagi Kunitaro",
       "quality": "A",
       "length": "0:22"
+    },
+    "inaturalist": {
+      "taxonId": 768574,
+      "displayName": "利特音蟋",
+      "name": "Phonarellus ritsemae",
+      "photos": [
+        {
+          "url": "images/inat/inat_i54_1.jpg",
+          "attribution": "(c) rock_wildlife, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i54_2.jpg",
+          "attribution": "(c) Kit Chang, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i54_3.jpg",
+          "attribution": "(c) 김재원, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i54_4.jpg",
+          "attribution": "(c) 설성검, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i54_5.jpg",
+          "attribution": "(c) 刘昭宇, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -1824,10 +2748,27 @@ const insectData = [
       "name": "Loxoblemmus doenitzi",
       "photos": [
         {
-          "url": "images/inat/inat_i55_1.jpeg",
-          "attribution": "(c) 蒋迪（涂璟）, some rights reserved (CC BY-NC), uploaded by 蒋迪（涂璟）"
+          "url": "images/inat/inat_i55_1.jpg",
+          "attribution": "(c) 麋鹿迷了路𐂂, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i55_2.jpg",
+          "attribution": "(c) 红膝, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i55_3.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i55_4.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i55_5.jpg",
+          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1035385",
@@ -1855,9 +2796,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i56_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) 古國順, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i56_2.jpg",
+          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i56_3.jpg",
+          "attribution": "(c) 余楊, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i56_4.jpg",
+          "attribution": "(c) Vladislav Isaev, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i56_5.jpg",
+          "attribution": "(c) Vladislav Isaev, some rights reserved (CC BY)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1136471",
@@ -1885,9 +2843,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i57_1.jpg",
-          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC), uploaded by Sakern | 永隔一江水"
+          "attribution": "(c) ericeric0811, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i57_2.jpg",
+          "attribution": "(c) kwokwokwo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i57_3.jpg",
+          "attribution": "(c) 游魂, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i57_4.jpg",
+          "attribution": "(c) johnallcock, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i57_5.jpg",
+          "attribution": "(c) johnallcock, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047740",
@@ -1923,9 +2898,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i58_1.jpg",
-          "attribution": "(c) Liu JimFood, some rights reserved (CC BY-NC), uploaded by Liu JimFood"
+          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i58_2.jpg",
+          "attribution": "(c) liushengyu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i58_3.jpg",
+          "attribution": "(c) 小戴菊, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i58_4.jpg",
+          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i58_5.jpg",
+          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1059321",
@@ -1970,9 +2962,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i59_1.jpg",
-          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B."
+          "attribution": "(c) Valery Kambalin, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i59_2.jpg",
+          "attribution": "(c) sergejseleznev, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i59_3.jpg",
+          "attribution": "(c) sergejseleznev, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i59_4.jpg",
+          "attribution": "(c) 王以悉, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i59_5.jpg",
+          "attribution": "(c) 郭继旭, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1034631",
@@ -2012,9 +3021,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i60_1.jpg",
-          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i60_2.jpg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i60_3.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i60_4.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i60_5.jpg",
+          "attribution": "(c) 林继伟, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2043,9 +3069,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i61_1.jpeg",
-          "attribution": "(c) Cédric DEL RIO, some rights reserved (CC BY-NC), uploaded by Cédric DEL RIO"
+          "attribution": "(c) longa, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i61_2.jpeg",
+          "attribution": "(c) longa, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i61_3.jpg",
+          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i61_4.jpg",
+          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i61_5.jpg",
+          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2085,10 +3128,27 @@ const insectData = [
       "name": "Oecanthus antennalis",
       "photos": [
         {
-          "url": "images/inat/inat_i62_1.jpeg",
-          "attribution": "(c) 博甫, some rights reserved (CC BY-NC), uploaded by 博甫"
+          "url": "images/inat/inat_i62_1.jpg",
+          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i62_2.jpg",
+          "attribution": "(c) 狗鱼, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i62_3.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i62_4.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i62_5.jpg",
+          "attribution": "(c) 徐成宇, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1035458",
@@ -2124,9 +3184,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i63_1.jpg",
-          "attribution": "(c) Russell Pfau, some rights reserved (CC BY-NC), uploaded by Russell Pfau"
+          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i63_2.jpg",
+          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i63_3.jpg",
+          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i63_4.jpg",
+          "attribution": "(c) Luis Y. Santiago-Rosario, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i63_5.jpg",
+          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "826385",
@@ -2165,10 +3242,27 @@ const insectData = [
       "name": "Xabea levissima",
       "photos": [
         {
-          "url": "images/inat/inat_i64_1.jpeg",
-          "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC), uploaded by Pam Piombino"
+          "url": "images/inat/inat_i64_1.jpg",
+          "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i64_2.jpg",
+          "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i64_3.jpg",
+          "attribution": "(c) imagineed, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i64_4.jpg",
+          "attribution": "(c) 银河自然博物工作室, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i64_5.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "978054",
@@ -2200,9 +3294,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i65_1.jpg",
-          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae"
+          "attribution": "(c) t_natsume, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i65_2.jpg",
+          "attribution": "(c) naturalist148683, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i65_3.jpg",
+          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i65_4.jpg",
+          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i65_5.jpg",
+          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1056720",
@@ -2234,9 +3345,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i66_1.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i66_2.jpg",
+          "attribution": "(c) GD, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i66_3.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i66_4.jpg",
+          "attribution": "(c) Yan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i66_5.jpeg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1043430",
@@ -2280,10 +3408,27 @@ const insectData = [
       "name": "Truljalia tylacantha",
       "photos": [
         {
-          "url": "images/inat/inat_i67_1.jpg",
-          "attribution": "(c) Irina Bobyleva, some rights reserved (CC BY-NC), uploaded by Irina Bobyleva"
+          "url": "images/inat/inat_i67_1.jpeg",
+          "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i67_2.jpeg",
+          "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i67_3.jpeg",
+          "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i67_4.jpeg",
+          "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i67_5.jpeg",
+          "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047437",
@@ -2319,9 +3464,18 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i68_1.jpg",
-          "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC), uploaded by 一颗行走的白菜"
+          "attribution": "(c) jiangyou, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i68_2.jpg",
+          "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i68_3.jpg",
+          "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1007150",
@@ -2357,7 +3511,35 @@ const insectData = [
         "src": "images/image_255.jpg",
         "caption": "被啃食的菠萝蜜叶子，叶片较厚，不建议除新虫阶段外喂食这种叶片"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47120,
+      "displayName": "Arthropods",
+      "name": "Arthropoda",
+      "photos": [
+        {
+          "url": "images/inat/inat_i69_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i69_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i69_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i69_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i69_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2388,7 +3570,35 @@ const insectData = [
         "src": "images/image_320.jpg",
         "caption": "五彩维蟋2（鸣虫子）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 211194,
+      "displayName": "Vascular Plants",
+      "name": "Tracheophyta",
+      "photos": [
+        {
+          "url": "images/inat/inat_i70_1.jpg",
+          "attribution": "(c) rpaglione, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i70_2.jpg",
+          "attribution": "(c) rpaglione, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i70_3.jpg",
+          "attribution": "(c) rpaglione, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i70_4.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i70_5.jpg",
+          "attribution": "(c) jdsandvigen, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2407,9 +3617,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i71_1.jpg",
-          "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC), uploaded by Masatoshi Sone"
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i71_2.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i71_3.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i71_4.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i71_5.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2429,7 +3656,35 @@ const insectData = [
         "src": "images/image_043.jpg",
         "caption": "褐啼蟋3（漫画青蛙）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 358855,
+      "displayName": "Crickets",
+      "name": "Gryllidea",
+      "photos": [
+        {
+          "url": "images/inat/inat_i72_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i72_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i72_3.jpg",
+          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i72_4.jpg",
+          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i72_5.jpg",
+          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2465,8 +3720,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i73_2.jpg",
           "attribution": "(c) chentian, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i73_3.jpg",
+          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i73_4.jpg",
+          "attribution": "(c) LannaMountainsCharlie, some rights reserved (CC BY-NC-SA)"
+        },
+        {
+          "url": "images/inat/inat_i73_5.jpg",
+          "attribution": "(c) LannaMountainsCharlie, some rights reserved (CC BY-NC-SA)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "874572",
@@ -2503,9 +3771,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i74_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) kusa-to-uo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i74_2.jpg",
+          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i74_3.jpg",
+          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i74_4.jpg",
+          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i74_5.jpg",
+          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1052495",
@@ -2541,9 +3826,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i75_1.jpg",
-          "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
+          "attribution": "(c) imagineed, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i75_2.jpg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i75_3.jpeg",
+          "attribution": "(c) caofazexiang, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i75_4.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i75_5.jpeg",
+          "attribution": "(c) Spark, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "874515",
@@ -2579,6 +3881,34 @@ const insectData = [
       "recordist": "Dave Guo",
       "quality": "B",
       "length": "0:33"
+    },
+    "inaturalist": {
+      "taxonId": 901869,
+      "displayName": "小额蟋",
+      "name": "Itara minor",
+      "photos": [
+        {
+          "url": "images/inat/inat_i76_1.jpg",
+          "attribution": "(c) nokbeetles, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i76_2.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i76_3.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i76_4.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i76_5.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2602,7 +3932,35 @@ const insectData = [
         "src": "images/image_112.jpg",
         "caption": "高山翅额蟋4，对湿度的要求近似大黄蛉（鸣虫子）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 184884,
+      "displayName": "Winged and Once-winged Insects",
+      "name": "Pterygota",
+      "photos": [
+        {
+          "url": "images/inat/inat_i77_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i77_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i77_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i77_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i77_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2634,9 +3992,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i78_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i78_2.jpg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i78_3.jpg",
+          "attribution": "(c) GD, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i78_4.jpg",
+          "attribution": "(c) GD, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i78_5.jpg",
+          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1007151",
@@ -2688,7 +4063,35 @@ const insectData = [
         "src": "images/image_040.jpg",
         "caption": "兰屿亮蟋3（机器猪）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47120,
+      "displayName": "Arthropods",
+      "name": "Arthropoda",
+      "photos": [
+        {
+          "url": "images/inat/inat_i79_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i79_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i79_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i79_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i79_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2711,7 +4114,35 @@ const insectData = [
         "src": "images/image_355.jpg",
         "caption": "天马亮蟋4（野采狂）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47218,
+      "displayName": "Agaves, Orchids, Irises, and Allies",
+      "name": "Asparagales",
+      "photos": [
+        {
+          "url": "images/inat/inat_i80_1.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i80_2.jpg",
+          "attribution": "(c) Chris, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i80_3.jpg",
+          "attribution": "(c) melli241, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i80_4.jpg",
+          "attribution": "(c) melli241, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i80_5.jpg",
+          "attribution": "(c) melli241, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2722,7 +4153,35 @@ const insectData = [
         "src": "images/image_002.jpg",
         "caption": "镰亮蟋1（八埭头汰浴）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47193,
+      "displayName": "dogwoods",
+      "name": "Cornus",
+      "photos": [
+        {
+          "url": "images/inat/inat_i81_1.jpg",
+          "attribution": "(c) Ludo Leclerc, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i81_2.jpg",
+          "attribution": "(c) assylka, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i81_3.jpg",
+          "attribution": "(c) Dominic, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i81_4.jpg",
+          "attribution": "(c) dhoekman, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i81_5.jpg",
+          "attribution": "(c) Deanna Meyer, all rights reserved"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2741,7 +4200,35 @@ const insectData = [
         "src": "images/image_174.jpg",
         "caption": "麒蛉鸣叫3（小黑牛）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47792,
+      "displayName": "Dragonflies and Damselflies",
+      "name": "Odonata",
+      "photos": [
+        {
+          "url": "images/inat/inat_i82_1.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i82_2.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i82_3.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i82_4.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i82_5.jpg",
+          "attribution": "(c) Mike Farley, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c5",
@@ -2787,10 +4274,27 @@ const insectData = [
       "name": "Nisitrus vittatus",
       "photos": [
         {
-          "url": "images/inat/inat_i83_1.jpeg",
-          "attribution": "(c) dawnclare409, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i83_1.jpg",
+          "attribution": "(c) sunny_dee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i83_2.jpg",
+          "attribution": "(c) sunny_dee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i83_3.jpg",
+          "attribution": "(c) Nusantara Wilderness, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i83_4.jpg",
+          "attribution": "(c) Nusantara Wilderness, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i83_5.jpg",
+          "attribution": "(c) Jean-Marie Frenoux, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2827,8 +4331,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i84_2.jpg",
           "attribution": "(c) angryphyco, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i84_3.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i84_4.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i84_5.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2853,9 +4370,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i85_1.jpg",
-          "attribution": "(c) 茶棚, some rights reserved (CC BY-NC), uploaded by 茶棚"
+          "attribution": "(c) 樂行, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i85_2.jpg",
+          "attribution": "(c) sorensoren, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i85_3.jpg",
+          "attribution": "no rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i85_4.jpg",
+          "attribution": "(c) monocycler, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i85_5.jpg",
+          "attribution": "(c) monocycler, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047143",
@@ -2886,10 +4420,27 @@ const insectData = [
       "name": "Gampsocleis sedakovii",
       "photos": [
         {
-          "url": "images/inat/inat_i86_1.jpeg",
-          "attribution": "(c) Daba, some rights reserved (CC BY-NC), uploaded by Daba"
+          "url": "images/inat/inat_i86_1.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i86_2.jpg",
+          "attribution": "(c) 설성검, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i86_3.jpg",
+          "attribution": "(c) 김태호, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i86_4.jpg",
+          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i86_5.jpg",
+          "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1086746",
@@ -2921,7 +4472,35 @@ const insectData = [
         "src": "images/image_327.jpg",
         "caption": "较为少见的黄扎嘴4（机器猪）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 184884,
+      "displayName": "Winged and Once-winged Insects",
+      "name": "Pterygota",
+      "photos": [
+        {
+          "url": "images/inat/inat_i87_1.jpg",
+          "attribution": "(c) Lillita, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i87_2.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i87_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i87_4.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i87_5.jpg",
+          "attribution": "(c) kelvin_01, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c6",
@@ -2941,9 +4520,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i88_1.jpg",
-          "attribution": "(c) 夏仲归, some rights reserved (CC BY), uploaded by 夏仲归"
+          "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i88_2.jpg",
+          "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i88_3.jpg",
+          "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i88_4.jpg",
+          "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i88_5.jpg",
+          "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -2975,10 +4571,11 @@ const insectData = [
       "name": "Atlanticus magnificus",
       "photos": [
         {
-          "url": "images/inat/inat_i89_1.jpeg",
-          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND), uploaded by Li Jianbo"
+          "url": "images/inat/inat_i89_1.jpg",
+          "attribution": "(c) bobbybao, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3015,9 +4612,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i90_1.jpg",
-          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
+          "attribution": "(c) 夜行, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i90_2.jpg",
+          "attribution": "(c) 夜行, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i90_3.jpg",
+          "attribution": "(c) 夜行, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i90_4.jpg",
+          "attribution": "(c) 夜行, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i90_5.jpg",
+          "attribution": "(c) 夜行, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047434",
@@ -3053,10 +4667,27 @@ const insectData = [
       "name": "Mecopoda elongata",
       "photos": [
         {
-          "url": "images/inat/inat_i91_1.jpeg",
-          "attribution": "(c) Chief RedEarth, some rights reserved (CC BY-NC-ND), uploaded by Chief RedEarth"
+          "url": "images/inat/inat_i91_1.jpg",
+          "attribution": "(c) Chakra Pani, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i91_2.jpg",
+          "attribution": "(c) Aditi Chanchala Yadav, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i91_3.jpg",
+          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i91_4.jpg",
+          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i91_5.jpg",
+          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "875007",
@@ -3101,8 +4732,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i92_2.jpg",
           "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i92_3.jpg",
+          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i92_4.jpg",
+          "attribution": "(c) Timmy, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i92_5.jpg",
+          "attribution": "(c) PLee, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1102475",
@@ -3155,9 +4799,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i93_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "attribution": "(c) 李明龍, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i93_2.jpg",
+          "attribution": "(c) Debashis Chowdhury, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i93_3.jpg",
+          "attribution": "(c) Aditi Chanchala Yadav, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i93_4.jpg",
+          "attribution": "no rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i93_5.jpg",
+          "attribution": "no rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "874895",
@@ -3194,12 +4855,8 @@ const insectData = [
       "taxonId": 1203661,
       "displayName": "宽翅似织螽",
       "name": "Hexacentrus expansus",
-      "photos": [
-        {
-          "url": "images/inat/inat_i94_1.jpg",
-          "attribution": "(c) mantis_, some rights reserved (CC BY-NC)"
-        }
-      ]
+      "photos": [],
+      "checked_for_5": true
     }
   },
   {
@@ -3231,9 +4888,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i95_1.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC), uploaded by 甲殻蟲翻身"
+          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i95_2.jpg",
+          "attribution": "(c) kenhe, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i95_3.jpg",
+          "attribution": "(c) miaochunyu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i95_4.jpg",
+          "attribution": "(c) 管牧山, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i95_5.jpg",
+          "attribution": "(c) 何新梅, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "832218",
@@ -3270,12 +4944,8 @@ const insectData = [
       "taxonId": 1203661,
       "displayName": "宽翅似织螽",
       "name": "Hexacentrus expansus",
-      "photos": [
-        {
-          "url": "images/inat/inat_i96_1.jpg",
-          "attribution": "(c) mantis_, some rights reserved (CC BY-NC)"
-        }
-      ]
+      "photos": [],
+      "checked_for_5": true
     }
   },
   {
@@ -3295,9 +4965,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i97_1.jpg",
-          "attribution": "(c) marcelfinlay, some rights reserved (CC BY-NC), uploaded by marcelfinlay"
+          "attribution": "(c) Timothe Benazet-Fays, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i97_2.jpg",
+          "attribution": "(c) 도리, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i97_3.jpg",
+          "attribution": "(c) 도리, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i97_4.jpg",
+          "attribution": "(c) Alec Hopping, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i97_5.jpg",
+          "attribution": "(c) Theophile Thomas, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1053503",
@@ -3333,9 +5020,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i98_1.jpg",
-          "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak"
+          "attribution": "(c) Meera Nair, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i98_2.jpg",
+          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i98_3.jpg",
+          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i98_4.jpg",
+          "attribution": "(c) david_guo618, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i98_5.jpg",
+          "attribution": "(c) luuuun, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "927474",
@@ -3367,9 +5071,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i99_1.jpg",
-          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY-NC), uploaded by Kim, Hyun-tae"
+          "attribution": "(c) chigakiri, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i99_2.jpg",
+          "attribution": "(c) chigakiri, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i99_3.jpg",
+          "attribution": "(c) chigakiri, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i99_4.jpg",
+          "attribution": "(c) chigakiri, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i99_5.jpg",
+          "attribution": "(c) conchuningen, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1086759",
@@ -3410,9 +5131,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i100_1.jpg",
-          "attribution": "(c) Donald Hobern, some rights reserved (CC BY)"
+          "attribution": "(c) Staci S., all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i100_2.jpg",
+          "attribution": "(c) Staci S., all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i100_3.jpg",
+          "attribution": "(c) Staci S., all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i100_4.jpg",
+          "attribution": "(c) Damien Wallace, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i100_5.jpg",
+          "attribution": "(c) Damien Wallace, some rights reserved (CC BY)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1103550",
@@ -3440,13 +5178,69 @@ const insectData = [
         "src": "images/image_364.jpg",
         "caption": "正版糖果短翅型3（野采狂）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 1473853,
+      "displayName": "糖果草螽",
+      "name": "Brassicoideae",
+      "photos": [
+        {
+          "url": "images/inat/inat_i101_1.jpg",
+          "attribution": "(c) CBPAS Lopez, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i101_2.jpg",
+          "attribution": "(c) tko6, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i101_3.jpg",
+          "attribution": "(c) tko6, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i101_4.jpg",
+          "attribution": "(c) Jason Layman, some rights reserved (CC BY-SA)"
+        },
+        {
+          "url": "images/inat/inat_i101_5.jpg",
+          "attribution": "(c) Jason Layman, some rights reserved (CC BY-SA)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
     "textId": null,
     "textHtml": "<h3 id=\"i102\">102.英俊草螽：体色绚丽，艳若霓虹，被誉为北美三大美丽草螽之首，具有很高的观赏价值，本种主要分布于美国东部沿海及东南亚地区。\n\n                    英俊草螽1（网图）\n\n                    英俊草螽2（网图）\n\n                    英俊草螽3（网图）\n\n                    英俊草螽4（网图）\n            </h3>",
-    "images": []
+    "images": [],
+    "inaturalist": {
+      "taxonId": 71289,
+      "displayName": "saxifrages, stonecrops, and allies",
+      "name": "Saxifragales",
+      "photos": [
+        {
+          "url": "images/inat/inat_i102_1.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i102_2.jpg",
+          "attribution": "(c) jdsandvigen, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i102_3.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i102_4.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i102_5.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3476,10 +5270,15 @@ const insectData = [
       "name": "Conocephalus dorsalidentatus",
       "photos": [
         {
-          "url": "images/inat/inat_i103_1.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC), uploaded by orthoptera-jp"
+          "url": "images/inat/inat_i103_1.jpeg",
+          "attribution": "(c) Yan Xuyang, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i103_2.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3516,9 +5315,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i104_1.jpg",
-          "attribution": "(c) Simba, some rights reserved (CC BY-NC), uploaded by Simba"
+          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i104_2.jpg",
+          "attribution": "(c) Joshua Wong, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i104_3.jpg",
+          "attribution": "(c) john lenagan, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i104_4.jpg",
+          "attribution": "(c) Doreen, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i104_5.jpg",
+          "attribution": "(c) Doreen, some rights reserved (CC BY)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "873849",
@@ -3559,9 +5375,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i105_1.jpg",
-          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC), uploaded by Ryosuke Kuwahara"
+          "attribution": "(c) 陳冠蓓, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i105_2.jpg",
+          "attribution": "(c) Chakra Pani, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i105_3.jpg",
+          "attribution": "(c) Samuel Liao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i105_4.jpg",
+          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i105_5.jpg",
+          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1047246",
@@ -3585,7 +5418,35 @@ const insectData = [
         "src": "images/image_265.jpg",
         "caption": "桑螽2（千年小何）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i106_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i106_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i106_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i106_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i106_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3596,7 +5457,35 @@ const insectData = [
         "src": "images/image_170.jpg",
         "caption": "端尖斜缘螽1（网图）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i107_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i107_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i107_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i107_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i107_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3611,7 +5500,35 @@ const insectData = [
         "src": "images/image_191.jpg",
         "caption": "掩耳螽细节图2（原生态）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 71289,
+      "displayName": "saxifrages, stonecrops, and allies",
+      "name": "Saxifragales",
+      "photos": [
+        {
+          "url": "images/inat/inat_i108_1.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i108_2.jpg",
+          "attribution": "(c) jdsandvigen, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i108_3.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i108_4.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i108_5.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3635,9 +5552,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i109_1.jpg",
-          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND), uploaded by Paul B."
+          "attribution": "(c) Elias Barlow, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i109_2.jpg",
+          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i109_3.jpg",
+          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i109_4.jpg",
+          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i109_5.jpg",
+          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3674,8 +5608,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i110_2.jpg",
           "attribution": "(c) 政策, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i110_3.jpg",
+          "attribution": "(c) ph_hsu, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i110_4.jpg",
+          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i110_5.jpg",
+          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3699,7 +5646,35 @@ const insectData = [
         "src": "images/image_128.jpg",
         "caption": "华绿螽4（原生态）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i111_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i111_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i111_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i111_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i111_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3722,7 +5697,35 @@ const insectData = [
         "src": "images/image_036.jpg",
         "caption": "乐翡螽栖止状4（小黑牛）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i112_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i112_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i112_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i112_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i112_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c7",
@@ -3754,9 +5757,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i113_1.jpg",
-          "attribution": "(c) Thomas Calame, some rights reserved (CC BY-NC), uploaded by Thomas Calame"
+          "attribution": "(c) 𝗖𝗵𝗲𝗲𝘄𝗮𝘀𝗮𝘁 𝗣𝗵𝗮𝘁𝘁𝗵𝗮𝗿𝗮𝗸𝘂𝗹𝗻𝗶𝗷 (𝗕𝗲𝗮𝗺), all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i113_2.jpg",
+          "attribution": "(c) tangxing, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i113_3.jpg",
+          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i113_4.jpg",
+          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i113_5.jpg",
+          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     },
     "audio": {
       "id": "1102477",
@@ -3804,6 +5824,34 @@ const insectData = [
       "recordist": "K.-G. Heller",
       "quality": "B",
       "length": "0:37"
+    },
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i114_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i114_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i114_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i114_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i114_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3824,7 +5872,8 @@ const insectData = [
       "taxonId": 1401022,
       "displayName": "Hemigyrus amplus",
       "name": "Hemigyrus amplus",
-      "photos": []
+      "photos": [],
+      "checked_for_5": true
     }
   },
   {
@@ -3851,10 +5900,27 @@ const insectData = [
       "name": "Rhomboptera ligata",
       "photos": [
         {
-          "url": "images/inat/inat_i116_1.jpeg",
-          "attribution": "(c) manassas, some rights reserved (CC BY-NC), uploaded by manassas"
+          "url": "images/inat/inat_i116_1.jpg",
+          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i116_2.jpg",
+          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i116_3.jpg",
+          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i116_4.jpg",
+          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i116_5.jpg",
+          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3891,8 +5957,21 @@ const insectData = [
         {
           "url": "images/inat/inat_i117_2.jpg",
           "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i117_3.jpg",
+          "attribution": "(c) Qi Ao Wei, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i117_4.jpg",
+          "attribution": "(c) flyingfishliu, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i117_5.jpg",
+          "attribution": "(c) 周瑜, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3927,10 +6006,27 @@ const insectData = [
       "name": "Sanaa intermedia",
       "photos": [
         {
-          "url": "images/inat/inat_i118_1.jpeg",
-          "attribution": "(c) Wat Wongpan, some rights reserved (CC BY-NC), uploaded by Wat Wongpan"
+          "url": "images/inat/inat_i118_1.jpg",
+          "attribution": "(c) Thành Phan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i118_2.jpg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i118_3.jpg",
+          "attribution": "(c) Jeremy Phan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i118_4.jpg",
+          "attribution": "(c) Dr. Guido Bohne, some rights reserved (CC BY-SA)"
+        },
+        {
+          "url": "images/inat/inat_i118_5.jpg",
+          "attribution": "(c) Dr. Guido Bohne, some rights reserved (CC BY-SA)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3966,9 +6062,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i119_1.jpg",
-          "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan"
+          "attribution": "(c) Wing Carrie, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i119_2.jpg",
+          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i119_3.jpg",
+          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i119_4.jpg",
+          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i119_5.jpg",
+          "attribution": "(c) Leonard Worthington, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -3988,7 +6101,35 @@ const insectData = [
         "src": "images/image_362.jpg",
         "caption": "腐叶螽3（鸡蛋饼）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47124,
+      "displayName": "Dicots",
+      "name": "Magnoliopsida",
+      "photos": [
+        {
+          "url": "images/inat/inat_i120_1.jpg",
+          "attribution": "(c) mlemieux, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i120_2.jpg",
+          "attribution": "(c) CBPAS Lopez, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i120_3.jpg",
+          "attribution": "(c) mlemieux, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i120_4.jpg",
+          "attribution": "(c) Salomé Márquez T., some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i120_5.jpg",
+          "attribution": "(c) cicero76, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c8",
@@ -4035,9 +6176,26 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i121_1.jpg",
-          "attribution": "(c) eec, some rights reserved (CC BY-NC), uploaded by eec"
+          "attribution": "(c) smilu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i121_2.jpg",
+          "attribution": "(c) ccccccarpenter, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i121_3.jpg",
+          "attribution": "(c) Coffee, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i121_4.jpg",
+          "attribution": "(c) waneyeQT, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i121_5.jpg",
+          "attribution": "(c) Sasa Chozah, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4072,10 +6230,27 @@ const insectData = [
       "name": "Lipotactes dorsaspina",
       "photos": [
         {
-          "url": "images/inat/inat_i122_1.jpg",
-          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC), uploaded by Michael Zelun Lee"
+          "url": "images/inat/inat_i122_1.jpeg",
+          "attribution": "(c) agelena, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i122_2.jpg",
+          "attribution": "(c) zhangyujuan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i122_3.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i122_4.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i122_5.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4106,10 +6281,27 @@ const insectData = [
       "name": "Kansua diebua",
       "photos": [
         {
-          "url": "images/inat/inat_i123_1.jpeg",
-          "attribution": "(c) filianore, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i123_1.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i123_2.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i123_3.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i123_4.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i123_5.jpg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4149,6 +6341,34 @@ const insectData = [
       "recordist": "Dave Guo",
       "quality": "A",
       "length": "2:29"
+    },
+    "inaturalist": {
+      "taxonId": 468535,
+      "displayName": "花生大蟋",
+      "name": "Tarbinskiellus portentosus",
+      "photos": [
+        {
+          "url": "images/inat/inat_i124_1.jpg",
+          "attribution": "(c) Rubi Gogoi, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i124_2.jpg",
+          "attribution": "(c) Leon Xu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i124_3.jpg",
+          "attribution": "(c) tiaraki, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i124_4.jpg",
+          "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i124_5.jpg",
+          "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4168,7 +6388,27 @@ const insectData = [
         "src": "images/image_016.jpg",
         "caption": "铜蛉3"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 1091385,
+      "displayName": "铜蛉",
+      "name": "Tarbinskiellus orientalis",
+      "photos": [
+        {
+          "url": "images/inat/inat_i125_1.jpeg",
+          "attribution": "(c) Vanjoy J. Sanchez, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i125_2.jpeg",
+          "attribution": "(c) Viral joshi, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i125_3.jpeg",
+          "attribution": "(c) Viral joshi, some rights reserved (CC BY)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4203,9 +6443,22 @@ const insectData = [
         },
         {
           "url": "images/inat/inat_i126_2.jpg",
-          "attribution": "(c) LICHIEH_PAN, some rights reserved (CC BY-NC)"
+          "attribution": "(c) conchuningen, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i126_3.jpg",
+          "attribution": "(c) Tōtōmi.cameraaa.JPN, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i126_4.jpg",
+          "attribution": "(c) Tōtōmi.cameraaa.JPN, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i126_5.jpg",
+          "attribution": "(c) 零翅, some rights reserved (CC BY-NC-ND)"
         }
-      ]
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4217,7 +6470,35 @@ const insectData = [
         "src": "images/image_271.jpg",
         "caption": "北美乌金1"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47170,
+      "displayName": "Fungi Including Lichens",
+      "name": "Fungi",
+      "photos": [
+        {
+          "url": "images/inat/inat_i127_1.jpg",
+          "attribution": "(c) i_j_moran, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i127_2.jpg",
+          "attribution": "(c) i_j_moran, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i127_3.jpg",
+          "attribution": "(c) t, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i127_4.jpg",
+          "attribution": "(c) t, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i127_5.jpg",
+          "attribution": "(c) Collette Caggiano, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4236,7 +6517,35 @@ const insectData = [
         "src": "images/image_049.jpg",
         "caption": "凤凰卒螽3"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 47224,
+      "displayName": "Butterflies",
+      "name": "Papilionoidea",
+      "photos": [
+        {
+          "url": "images/inat/inat_i128_1.jpg",
+          "attribution": "(c) pandaf00t, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i128_2.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i128_3.jpg",
+          "attribution": "(c) John Hibbard, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i128_4.jpg",
+          "attribution": "(c) David Mason, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i128_5.jpg",
+          "attribution": "(c) David Mason, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4267,6 +6576,13 @@ const insectData = [
       "recordist": "Julien Barataud",
       "quality": "A",
       "length": "0:32"
+    },
+    "inaturalist": {
+      "taxonId": 1586381,
+      "displayName": "钩额螽",
+      "name": "Sporobolus ruspolianus",
+      "photos": [],
+      "checked_for_5": true
     }
   },
   {
@@ -4290,7 +6606,35 @@ const insectData = [
         "src": "images/image_204.jpg",
         "caption": "光额螽4"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 132694,
+      "displayName": "Katydids, Crickets, and Allies",
+      "name": "Ensifera",
+      "photos": [
+        {
+          "url": "images/inat/inat_i130_1.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i130_2.jpg",
+          "attribution": "(c) Graem Hargrove, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i130_3.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i130_4.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i130_5.jpg",
+          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4317,6 +6661,34 @@ const insectData = [
       "recordist": "Marc Anderson",
       "quality": "A",
       "length": "0:14"
+    },
+    "inaturalist": {
+      "taxonId": 319384,
+      "displayName": "Orbweavers and Allies",
+      "name": "Araneoidea",
+      "photos": [
+        {
+          "url": "images/inat/inat_i131_1.jpg",
+          "attribution": "(c) Michael, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i131_2.jpg",
+          "attribution": "(c) tko6, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i131_3.jpg",
+          "attribution": "(c) tko6, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i131_4.jpg",
+          "attribution": "(c) Claudia V.Toro, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i131_5.jpg",
+          "attribution": "(c) Claudia V.Toro, all rights reserved"
+        }
+      ],
+      "checked_for_5": true
     }
   },
   {
@@ -4332,7 +6704,35 @@ const insectData = [
         "src": "images/image_446.jpg",
         "caption": "锥头螽2"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 125816,
+      "displayName": "True Hoppers",
+      "name": "Auchenorrhyncha",
+      "photos": [
+        {
+          "url": "images/inat/inat_i132_1.jpg",
+          "attribution": "(c) Wes Hatch, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i132_2.jpg",
+          "attribution": "(c) Sammi Asplan, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i132_3.jpg",
+          "attribution": "(c) Arturo Crespo Moctezuma, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i132_4.jpg",
+          "attribution": "(c) Arturo Crespo Moctezuma, some rights reserved (CC BY)"
+        },
+        {
+          "url": "images/inat/inat_i132_5.jpg",
+          "attribution": "(c) Arturo Crespo Moctezuma, some rights reserved (CC BY)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4347,7 +6747,35 @@ const insectData = [
         "src": "images/image_360.jpg",
         "caption": "弧螽2"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 933343,
+      "displayName": "弧螽",
+      "name": "Palaeoagraecia ascenda",
+      "photos": [
+        {
+          "url": "images/inat/inat_i133_1.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i133_2.jpg",
+          "attribution": "(c) kenhe, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i133_3.jpg",
+          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i133_4.jpg",
+          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i133_5.jpg",
+          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
@@ -4368,7 +6796,35 @@ const insectData = [
         "src": "images/image_033.jpg",
         "caption": "刻点铁蟋（磬蛉）"
       }
-    ]
+    ],
+    "inaturalist": {
+      "taxonId": 768575,
+      "displayName": "小松蟋",
+      "name": "Comidoblemmus nipponensis",
+      "photos": [
+        {
+          "url": "images/inat/inat_i134_1.jpg",
+          "attribution": "(c) GD, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i134_2.jpg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i134_3.jpg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i134_4.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i134_5.jpeg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
+        }
+      ],
+      "checked_for_5": true
+    }
   },
   {
     "category": "c9",
