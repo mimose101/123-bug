@@ -1327,23 +1327,26 @@ body.light-theme .info-card-item-modern:hover {
 }
 
 .inat-link-btn {
-    background: #74ac00;
-    color: #fff !important;
+    background: rgba(116, 172, 0, 0.06);
+    color: #649600 !important;
+    border: 1px solid rgba(116, 172, 0, 0.25);
     text-decoration: none !important;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.72rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
     font-weight: 600;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    box-shadow: 0 2px 6px rgba(116, 172, 0, 0.25);
-    transition: all 0.2s;
+    transition: all 0.25s var(--ease-out);
 }
 
 .inat-link-btn:hover {
-    background: #8cc41f;
-    transform: scale(1.03);
+    background: #74ac00;
+    color: #fff !important;
+    border-color: #74ac00;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(116, 172, 0, 0.2);
 }
 
 .inat-link-btn svg {
@@ -1353,67 +1356,134 @@ body.light-theme .info-card-item-modern:hover {
 
 .inat-photo-gallery {
     display: flex;
-    gap: 10px;
-    margin-top: 14px;
     overflow-x: auto;
+    gap: 12px;
+    margin-top: 8px;
+    padding: 6px 4px 8px 4px;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    padding-bottom: 6px;
     -webkit-overflow-scrolling: touch;
-    /* 隐藏滚动条但保持功能 */
-    scrollbar-width: none;
-    -ms-overflow-style: none;
 }
 
+/* 极简精致的横向滚动条 */
 .inat-photo-gallery::-webkit-scrollbar {
-    display: none;
+    height: 4px;
+}
+.inat-photo-gallery::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+}
+.inat-photo-gallery::-webkit-scrollbar-thumb {
+    background: rgba(0, 150, 136, 0.12);
+    border-radius: 2px;
+    transition: background 0.2s;
+}
+.inat-photo-gallery::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 150, 136, 0.3);
 }
 
 .inat-photo-item {
+    position: relative;
+    flex: 0 0 170px;
+    scroll-snap-align: start;
     border-radius: var(--radius-sm);
     overflow: hidden;
     border: 1px solid rgba(0, 150, 136, 0.15);
-    background: rgba(0,0,0,0.1);
-    flex: 0 0 auto;
-    width: 160px;
-    scroll-snap-align: start;
-    position: relative;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
 }
 
 .inat-photo-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 150, 136, 0.2);
+    transform: translateY(-3px);
+    border-color: rgba(0, 150, 136, 0.35);
+    box-shadow: 0 6px 14px rgba(0, 150, 136, 0.12);
 }
 
 .inat-photo-item img {
     width: 100%;
-    height: 130px;
+    height: 110px;
     object-fit: cover;
     cursor: zoom-in;
-    display: block;
+    transition: transform 0.4s var(--ease-out);
+}
+
+.inat-photo-item:hover img {
+    transform: scale(1.04);
+}
+
+/* 精致的放大提示遮罩层 */
+.inat-photo-item .zoom-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(2.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s var(--ease-out);
+    z-index: 1;
+}
+
+.inat-photo-item:hover .zoom-overlay {
+    opacity: 1;
+}
+
+.inat-photo-item .zoom-overlay svg {
+    width: 22px;
+    height: 22px;
+    fill: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    transform: scale(0.8);
+    transition: transform 0.3s var(--ease-out);
+}
+
+.inat-photo-item:hover .zoom-overlay svg {
+    transform: scale(1);
 }
 
 .inat-photo-attribution {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 0.6rem;
-    color: #fff;
-    padding: 16px 6px 4px;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    padding: 5px 8px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    background: linear-gradient(transparent, rgba(0,0,0,0.65));
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    pointer-events: none;
+    background: rgba(0, 0, 0, 0.02);
+    border-top: 1px solid rgba(0, 150, 136, 0.06);
+    z-index: 2;
 }
 
-.inat-photo-item:hover .inat-photo-attribution {
-    opacity: 1;
+.inat-badge-modern {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    background: rgba(0, 150, 136, 0.04);
+    border: 1px solid rgba(0, 150, 136, 0.12);
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+.inat-badge-modern .badge-label {
+    font-weight: 600;
+    color: #009688;
+}
+
+.inat-badge-modern .badge-value {
+    font-weight: 500;
+    font-style: italic;
+    color: var(--text-main);
 }
 
 /* ==========================================================

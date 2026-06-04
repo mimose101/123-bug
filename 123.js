@@ -396,8 +396,15 @@
 
         if (item.inaturalist) {
             const inat = item.inaturalist;
-            // 总是显示学术对照名，以保证排版一致性
-            const showAcademicName = !!inat.displayName;
+            // 比较学术对照名与物种中名，如果完全重合或只差首尾空格，则不再冗余显示
+            let showAcademicName = false;
+            if (inat.displayName) {
+                const cleanDisplay = inat.displayName.trim().toLowerCase();
+                const cleanChinese = rawChineseName.trim().toLowerCase();
+                if (cleanDisplay !== cleanChinese) {
+                    showAcademicName = true;
+                }
+            }
             
             cardHtml += `
                 <div class="info-card-item-modern inat-info-modern">
@@ -405,12 +412,22 @@
                         <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
                         <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
                     </div>
-                    ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
+                    ${showAcademicName ? `
+                        <div class="inat-badge-modern">
+                            <span class="badge-label">学术对照名:</span>
+                            <span class="badge-value">${highlight(inat.displayName)}</span>
+                        </div>
+                    ` : ''}
                     ${inat.photos && inat.photos.length > 0 ? `
                         <div class="inat-photo-gallery">
                             ${inat.photos.slice(0, 5).map((p, i) => `
                                 <div class="inat-photo-item">
                                     <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
+                                    <div class="zoom-overlay">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                                        </svg>
+                                    </div>
                                     <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
                                 </div>
                             `).join('')}
@@ -429,7 +446,10 @@
                     <div class="info-card-title-modern">
                         <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
                     </div>
-                    <div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:var(--text-muted); margin-right:6px;">学术对照名:</span><span style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span></div>
+                    <div class="inat-badge-modern">
+                        <span class="badge-label" style="color:var(--text-muted);">学术对照名:</span>
+                        <span class="badge-value" style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span>
+                    </div>
                     <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。</div>
                 </div>
             `;
