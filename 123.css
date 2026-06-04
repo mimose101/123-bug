@@ -1962,3 +1962,308 @@ body.light-theme mark.search-highlight {
 body.light-theme .toc-inat-icon {
     opacity: 0.9;
 }
+
+/* ==========================================================
+   🚀 12. 产品经理改进建议样式集 (无障碍、随机探索、TOC过滤、多维度徽章等)
+   ========================================================== */
+
+/* 1. 无障碍：将 category-card 从 div 改为 button 的兼容样式 */
+button.category-card {
+    width: 100%;
+    text-align: left;
+    font-family: inherit;
+    color: inherit;
+    padding: 0;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.35s var(--ease-out);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-card-header,
+.category-card-body {
+    display: block;
+}
+
+.category-card-title {
+    display: block;
+}
+
+.category-card-desc {
+    display: block;
+}
+
+/* 2. 随机探索按钮样式 */
+.random-explore-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.random-explore-btn {
+    background: var(--primary-gradient);
+    color: #ffffff;
+    border: 1px solid var(--primary);
+    padding: 10px 24px;
+    border-radius: var(--radius-xl);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s var(--ease-out);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.random-explore-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: var(--shadow-lg);
+    filter: brightness(1.1);
+}
+
+.random-explore-btn:active {
+    transform: translateY(0) scale(0.98);
+}
+
+/* 3. TOC 目录搜索框样式 */
+.toc-filter-container {
+    padding: 0 16px 12px 16px;
+}
+
+#tocFilterInput {
+    width: 100%;
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    outline: none;
+    transition: all 0.25s var(--ease-out);
+}
+
+#tocFilterInput:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 8px var(--primary-pale);
+}
+
+/* 4. 看板微型统计文本 */
+.stats-micro-bar {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 14px;
+    padding: 8px 16px;
+    background: rgba(120, 120, 120, 0.05);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stats-micro-bar strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* 5. 自动生成的标签样式 */
+.auto-tag-pill {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+/* 稀有度 */
+.auto-tag-rarity-common {
+    background: rgba(76, 175, 80, 0.15);
+    color: #81C784;
+    border-color: rgba(76, 175, 80, 0.25);
+}
+.auto-tag-rarity-uncommon {
+    background: rgba(255, 152, 0, 0.15);
+    color: #FFB74D;
+    border-color: rgba(255, 152, 0, 0.25);
+}
+.auto-tag-rarity-rare {
+    background: rgba(244, 67, 54, 0.15);
+    color: #E57373;
+    border-color: rgba(244, 67, 54, 0.25);
+}
+/* 难度 */
+.auto-tag-difficulty-easy {
+    background: rgba(33, 150, 243, 0.15);
+    color: #64B5F6;
+    border-color: rgba(33, 150, 243, 0.25);
+}
+.auto-tag-difficulty-hard {
+    background: rgba(156, 39, 176, 0.15);
+    color: #BA68C8;
+    border-color: rgba(156, 39, 176, 0.25);
+}
+/* 鸣声 */
+.auto-tag-sound-nice {
+    background: rgba(0, 150, 136, 0.15);
+    color: #4DB6AC;
+    border-color: rgba(0, 150, 136, 0.25);
+}
+.auto-tag-sound-loud {
+    background: rgba(233, 30, 99, 0.15);
+    color: #F06292;
+    border-color: rgba(233, 30, 99, 0.25);
+}
+.auto-tag-sound-high {
+    background: rgba(103, 58, 183, 0.15);
+    color: #9575CD;
+    border-color: rgba(103, 58, 183, 0.25);
+}
+.auto-tag-sound-rough {
+    background: rgba(121, 85, 72, 0.15);
+    color: #A1887F;
+    border-color: rgba(121, 85, 72, 0.25);
+}
+.auto-tag-sound-ultra {
+    background: rgba(0, 188, 212, 0.15);
+    color: #4DD0E1;
+    border-color: rgba(0, 188, 212, 0.25);
+}
+.auto-tag-sound-slow {
+    background: rgba(96, 125, 139, 0.15);
+    color: #90A4AE;
+    border-color: rgba(96, 125, 139, 0.25);
+}
+.auto-tag-sound-fast {
+    background: rgba(255, 87, 34, 0.15);
+    color: #FF8A65;
+    border-color: rgba(255, 87, 34, 0.25);
+}
+
+/* 浅色主题下的标签背景与颜色 */
+body.light-theme .auto-tag-rarity-common { background: rgba(76, 175, 80, 0.1); color: #2E7D32; border-color: rgba(76, 175, 80, 0.2); }
+body.light-theme .auto-tag-rarity-uncommon { background: rgba(255, 152, 0, 0.1); color: #EF6C00; border-color: rgba(255, 152, 0, 0.2); }
+body.light-theme .auto-tag-rarity-rare { background: rgba(244, 67, 54, 0.1); color: #C62828; border-color: rgba(244, 67, 54, 0.2); }
+body.light-theme .auto-tag-difficulty-easy { background: rgba(33, 150, 243, 0.1); color: #1565C0; border-color: rgba(33, 150, 243, 0.2); }
+body.light-theme .auto-tag-difficulty-hard { background: rgba(156, 39, 176, 0.1); color: #6A1B9A; border-color: rgba(156, 39, 176, 0.2); }
+body.light-theme .auto-tag-sound-nice { background: rgba(0, 150, 136, 0.1); color: #00695C; border-color: rgba(0, 150, 136, 0.2); }
+body.light-theme .auto-tag-sound-loud { background: rgba(233, 30, 99, 0.1); color: #AD1457; border-color: rgba(233, 30, 99, 0.2); }
+body.light-theme .auto-tag-sound-high { background: rgba(103, 58, 183, 0.1); color: #4527A0; border-color: rgba(103, 58, 183, 0.2); }
+body.light-theme .auto-tag-sound-rough { background: rgba(121, 85, 72, 0.1); color: #4E342E; border-color: rgba(121, 85, 72, 0.2); }
+body.light-theme .auto-tag-sound-ultra { background: rgba(0, 188, 212, 0.1); color: #00838F; border-color: rgba(0, 188, 212, 0.2); }
+body.light-theme .auto-tag-sound-slow { background: rgba(96, 125, 139, 0.1); color: #37474F; border-color: rgba(96, 125, 139, 0.2); }
+body.light-theme .auto-tag-sound-fast { background: rgba(255, 87, 34, 0.1); color: #D84315; border-color: rgba(255, 87, 34, 0.2); }
+
+/* 6. 物种快速跳转条带 */
+.species-jump-strip {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 12px 4px;
+    margin-bottom: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-pale) transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.species-jump-strip::-webkit-scrollbar {
+    height: 6px;
+}
+.species-jump-strip::-webkit-scrollbar-thumb {
+    background: var(--primary-pale);
+    border-radius: var(--radius-sm);
+}
+
+.jump-strip-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border-radius: var(--radius-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.25s var(--ease-out);
+    min-width: 85px;
+    font-family: var(--font-sans);
+}
+
+.jump-strip-item:hover {
+    border-color: var(--primary-light);
+    background: var(--bg-card-hover);
+}
+
+.jump-strip-item.active {
+    background: var(--primary-gradient);
+    border-color: var(--primary);
+    box-shadow: 0 0 10px var(--primary-pale);
+}
+
+.jump-strip-item .jump-item-num {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 700;
+}
+
+.jump-strip-item.active .jump-item-num {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.jump-strip-item .jump-item-name {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.jump-strip-item.active .jump-item-name {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* 7. 搜索结果匹配维度徽章 */
+.search-match-badge {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+.match-badge-name {
+    background: rgba(76, 175, 80, 0.15);
+    color: #81C784;
+    border-color: rgba(76, 175, 80, 0.25);
+}
+.match-badge-latin {
+    background: rgba(33, 150, 243, 0.15);
+    color: #64B5F6;
+    border-color: rgba(33, 150, 243, 0.25);
+}
+.match-badge-alias {
+    background: rgba(255, 152, 0, 0.15);
+    color: #FFB74D;
+    border-color: rgba(255, 152, 0, 0.25);
+}
+.match-badge-desc {
+    background: rgba(156, 39, 176, 0.15);
+    color: #BA68C8;
+    border-color: rgba(156, 39, 176, 0.25);
+}
+
+body.light-theme .match-badge-name { background: rgba(76, 175, 80, 0.1); color: #2E7D32; border-color: rgba(76, 175, 80, 0.2); }
+body.light-theme .match-badge-latin { background: rgba(33, 150, 243, 0.1); color: #1565C0; border-color: rgba(33, 150, 243, 0.2); }
+body.light-theme .match-badge-alias { background: rgba(255, 152, 0, 0.1); color: #EF6C00; border-color: rgba(255, 152, 0, 0.2); }
+body.light-theme .match-badge-desc { background: rgba(156, 39, 176, 0.1); color: #6A1B9A; border-color: rgba(156, 39, 176, 0.2); }

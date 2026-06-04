@@ -20,18 +20,18 @@
 
     <!-- 全局悬浮控制盘 -->
     <div class="floating-controls">
-        <button class="control-btn theme-toggle-btn" id="themeToggleBtn" title="切换日夜主题">🌙</button>
-        <button class="control-btn specimen-drawer-btn" id="specimenDrawerBtn" title="打开收藏标本盒">
-            <span class="btn-star">★</span>
-            <span class="btn-badge" id="floatingBadge">0</span>
+        <button class="control-btn theme-toggle-btn" id="themeToggleBtn" title="切换日夜主题" aria-label="切换日夜主题">🌙</button>
+        <button class="control-btn specimen-drawer-btn" id="specimenDrawerBtn" title="打开收藏标本盒" aria-label="打开收藏标本盒">
+            <span class="btn-star" aria-hidden="true">★</span>
+            <span class="btn-badge" id="floatingBadge" aria-label="已收藏标本数">0</span>
         </button>
     </div>
 
     <!-- 侧滑收藏标本盒抽屉 -->
-    <div class="specimen-drawer" id="specimenDrawer">
+    <div class="specimen-drawer" id="specimenDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
         <div class="drawer-header">
-            <h3>★ 鸣虫收藏标本盒</h3>
-            <button class="drawer-close-btn" id="drawerCloseBtn">✕</button>
+            <h3 id="drawerTitle">★ 鸣虫收藏标本盒</h3>
+            <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="关闭收藏标本盒">✕</button>
         </div>
         <div class="drawer-summary">
             在这里您可以对比已收藏的鸣虫叫声，支持交替或同时播放。
@@ -42,14 +42,17 @@
     </div>
     <div class="drawer-overlay" id="drawerOverlay"></div>
 
-    <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">☰</button>
+    <button class="menu-toggle" id="menuToggle" aria-label="切换目录菜单">☰</button>
     <div class="overlay" id="overlay"></div>
     
-    <div class="toc">
+    <div class="toc" role="navigation" aria-label="鸣虫分类目录">
         <div class="toc-header">
             <h2>目录</h2>
         </div>
-        <button class="toc-home-btn" onclick="navigateTo('home')">🏠 返回首页</button>
+        <div class="toc-filter-container">
+            <input type="text" id="tocFilterInput" placeholder="🔍 过滤目录物种..." aria-label="过滤目录物种">
+        </div>
+        <button class="toc-home-btn" onclick="navigateTo('home')" aria-label="返回首页">🏠 返回首页</button>
         <div class="toc-content">
             <ul>
                 <li><a href="#pf">前言</a></li>
@@ -253,10 +256,13 @@
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="搜索鸣虫名字、学名或饲养特征..." autocomplete="off">
             </div>
+            <div class="random-explore-container">
+                <button class="random-explore-btn" id="randomExploreBtn" aria-label="随机探索一只鸣虫">🎲 随机探索一只鸣虫</button>
+            </div>
         </div>
 
         <div id="hubView" class="hub-view">
-            <!-- 纯 CSS Conic-Gradient 原生实现的可视化仪表盘 (在 JS 里进一步初始化或在 CSS 中静态高品质布局) -->
+            <!-- 纯 CSS Conic-Gradient 原生实现的可视化仪表盘 -->
             <div class="stats-visual-panel">
                 <div class="chart-box">
                     <div class="chart-circle" id="audioRatioChart"></div>
@@ -272,109 +278,117 @@
                         <span class="legend-val" id="inatRatioVal">0%</span>
                     </div>
                 </div>
+                <div class="chart-box">
+                    <div class="chart-circle" id="totalSpeciesChart"></div>
+                    <div class="chart-legend">
+                        <span class="legend-title">🦗 已收录物种</span>
+                        <span class="legend-val" id="totalSpeciesVal">0</span>
+                    </div>
+                </div>
             </div>
+            <div class="stats-micro-bar" id="statsMicroBar"></div>
 
             <!-- 分类卡片网格 -->
             <div class="category-cards">
-                <div class="category-card" onclick="navigateTo('c1')" data-card="c1">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)">
+                <button class="category-card" onclick="navigateTo('c1')" data-card="c1" aria-label="查看小型蛉虫类鸣虫图鉴，共十八种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)">
                         <span class="category-card-num">一</span>
-                        <div class="category-card-title">小型蛉虫类</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 18 种鸣虫</div>
-                        <div class="category-card-desc">金蛉蟋、墨蛉蟋、针蟋等小型蛉虫</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c2')" data-card="c2">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #00897B 0%, #00695C 100%)">
+                        <span class="category-card-title">小型蛉虫类</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 18 种鸣虫</span>
+                        <span class="category-card-desc">金蛉蟋、墨蛉蟋、针蟋等小型蛉虫</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c2')" data-card="c2" aria-label="查看奥蟋类鸣虫图鉴，共十四种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #00897B 0%, #00695C 100%)">
                         <span class="category-card-num">二</span>
-                        <div class="category-card-title">奥蟋类</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 14 种鸣虫</div>
-                        <div class="category-card-desc">凯纳奥蟋、金奥蟋、三音奥蟋等</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c3')" data-card="c3">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #558B2F 0%, #33691E 100%)">
+                        <span class="category-card-title">奥蟋类</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 14 种鸣虫</span>
+                        <span class="category-card-desc">凯纳奥蟋、金奥蟋、三音奥蟋等</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c3')" data-card="c3" aria-label="查看地栖蟋蟀类鸣虫图鉴，共二十五种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #558B2F 0%, #33691E 100%)">
                         <span class="category-card-num">三</span>
-                        <div class="category-card-title">地栖蟋蟀类</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 25 种鸣虫</div>
-                        <div class="category-card-desc">油葫芦、斗蟋、马蛉、灶蟋等常见蟋蟀</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c4')" data-card="c4">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #EF6C00 0%, #E65100 100%)">
+                        <span class="category-card-title">地栖蟋蟀类</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 25 种鸣虫</span>
+                        <span class="category-card-desc">油葫芦、斗蟋、马蛉、灶蟋等常见蟋蟀</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c4')" data-card="c4" aria-label="查看树蟋类鸣虫图鉴，共七种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #EF6C00 0%, #E65100 100%)">
                         <span class="category-card-num">四</span>
-                        <div class="category-card-title">树蟋类</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 7 种鸣虫</div>
-                        <div class="category-card-desc">青树蟋、长瓣树蟋、雪白树蟋等</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c5')" data-card="c5">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #6D4C41 0%, #4E342E 100%)">
+                        <span class="category-card-title">树蟋类</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 7 种鸣虫</span>
+                        <span class="category-card-desc">青树蟋、长瓣树蟋、雪白树蟋等</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c5')" data-card="c5" aria-label="查看片蟋类及其它外观相似种鸣虫图鉴，共二十种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #6D4C41 0%, #4E342E 100%)">
                         <span class="category-card-num">五</span>
-                        <div class="category-card-title">片蟋类及其它外观相似种</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 20 种鸣虫</div>
-                        <div class="category-card-desc">片蟋、亮蟋、额蟋、金蟋等多种外观相似种</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c6')" data-card="c6">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #1976D2 0%, #1565C0 100%)">
+                        <span class="category-card-title">片蟋类及其它外观相似种</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 20 种鸣虫</span>
+                        <span class="category-card-desc">片蟋、亮蟋、额蟋、金蟋等多种外观相似种</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c6')" data-card="c6" aria-label="查看蝈螽、纺织娘和似织螽鸣虫图鉴，共十二种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #1976D2 0%, #1565C0 100%)">
                         <span class="category-card-num">六</span>
-                        <div class="category-card-title">蝈螽、纺织娘和似织螽</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 12 种鸣虫</div>
-                        <div class="category-card-desc">蝈螽、纺织娘、似织螽三大类</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c7')" data-card="c7">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #7B1FA2 0%, #6A1B9A 100%)">
+                        <span class="category-card-title">蝈螽、纺织娘和似织螽</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 12 种鸣虫</span>
+                        <span class="category-card-desc">蝈螽、纺织娘、似织螽三大类</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c7')" data-card="c7" aria-label="查看草螽、露螽 and 拟叶螽鸣虫图鉴，共二十种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #7B1FA2 0%, #6A1B9A 100%)">
                         <span class="category-card-num">七</span>
-                        <div class="category-card-title">草螽、露螽和拟叶螽</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 20 种鸣虫</div>
-                        <div class="category-card-desc">草螽、露螽、斜缘螽、绿螽等</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c8')" data-card="c8">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #C62828 0%, #AD1457 100%)">
+                        <span class="category-card-title">草螽、露螽和拟叶螽</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 20 种鸣虫</span>
+                        <span class="category-card-desc">草螽、露螽、斜缘螽、绿螽等</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c8')" data-card="c8" aria-label="查看拟叶螽类鸣虫图鉴，共五种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #C62828 0%, #AD1457 100%)">
                         <span class="category-card-num">八</span>
-                        <div class="category-card-title">拟叶螽类</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 5 种鸣虫</div>
-                        <div class="category-card-desc">鼓叶螽、珊螽、覆翅螽、翠螽等</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
-                <div class="category-card" onclick="navigateTo('c9')" data-card="c9">
-                    <div class="category-card-header" style="background: linear-gradient(135deg, #D84315 0%, #BF360C 100%)">
+                        <span class="category-card-title">拟叶螽类</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 5 种鸣虫</span>
+                        <span class="category-card-desc">鼓叶螽、珊螽、覆翅螽、翠螽等</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
+                <button class="category-card" onclick="navigateTo('c9')" data-card="c9" aria-label="查看其他种类及补充鸣虫图鉴，共十三种">
+                    <span class="category-card-header" style="background: linear-gradient(135deg, #D84315 0%, #BF360C 100%)">
                         <span class="category-card-num">九</span>
-                        <div class="category-card-title">其他种类及补充</div>
-                    </div>
-                    <div class="category-card-body">
-                        <div class="category-card-count">📋 13 种鸣虫</div>
-                        <div class="category-card-desc">迟螽、甘螽、大蟋、铜蛉及补充品种</div>
-                        <div class="category-card-arrow">→</div>
-                    </div>
-                </div>
+                        <span class="category-card-title">其他种类及补充</span>
+                    </span>
+                    <span class="category-card-body">
+                        <span class="category-card-count">📋 13 种鸣虫</span>
+                        <span class="category-card-desc">迟螽、甘螽、大蟋、铜蛉及补充品种</span>
+                        <span class="category-card-arrow">→</span>
+                    </span>
+                </button>
             </div>
         </div>
 
@@ -385,8 +399,8 @@
         <div id="searchResultsView"></div>
     </div>
 
-    <script src="data.js"></script>
-    <script src="123.js"></script>
+    <script src="data.js" defer></script>
+    <script src="123.js" defer></script>
 </body>
 
 </html>

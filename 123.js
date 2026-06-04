@@ -112,6 +112,10 @@
         if (badge) {
             badge.textContent = getFavorites().length;
         }
+        const microFav = document.getElementById('statsMicroFavCount');
+        if (microFav) {
+            microFav.textContent = getFavorites().length;
+        }
     }
 
     // 抽屉内专用的音频播放状态记录
@@ -275,6 +279,11 @@
         const inatChart = document.getElementById('inatRatioChart');
         const inatVal = document.getElementById('inatRatioVal');
         
+        const totalChart = document.getElementById('totalSpeciesChart');
+        const totalVal = document.getElementById('totalSpeciesVal');
+        
+        const statsMicroBar = document.getElementById('statsMicroBar');
+        
         if (audioChart && audioVal) {
             audioChart.style.background = `conic-gradient(var(--primary) ${audioPct}%, rgba(120,120,120,0.1) ${audioPct}%)`;
             audioVal.textContent = `${audioPct}%`;
@@ -284,6 +293,68 @@
             inatChart.style.background = `conic-gradient(var(--primary) ${inatPct}%, rgba(120,120,120,0.1) ${inatPct}%)`;
             inatVal.textContent = `${inatPct}%`;
         }
+        
+        if (totalChart && totalVal) {
+            totalChart.style.background = `conic-gradient(var(--primary) 100%, rgba(120,120,120,0.1) 0%)`;
+            totalVal.textContent = `${total}种`;
+        }
+        
+        if (statsMicroBar) {
+            const favCount = getFavorites().length;
+            statsMicroBar.innerHTML = `📊 共收录 9 大类 <strong>${total}</strong> 种鸣虫 · 🔊 <strong>${hasAudio}</strong> 种含音频 · 🌿 <strong>${hasInat}</strong> 种含生态照 · ⭐ 已收藏 <strong id="statsMicroFavCount">${favCount}</strong> 种`;
+        }
+    }
+        
+    function generateAutoTagsHtml(item) {
+        const text = item.textHtml;
+        const tags = [];
+
+        // 稀有度
+        if (text.includes('常见') || text.includes('多见')) {
+            tags.push({ text: '常见', type: 'rarity-common' });
+        } else if (text.includes('少见') || text.includes('稀少') || text.includes('罕有')) {
+            tags.push({ text: '少见', type: 'rarity-uncommon' });
+        } else if (text.includes('稀有') || text.includes('极稀') || text.includes('极罕') || text.includes('罕见')) {
+            tags.push({ text: '稀有', type: 'rarity-rare' });
+        }
+
+        // 饲养难度
+        if (text.includes('皮实') || text.includes('好养') || text.includes('易饲养') || text.includes('容易饲养') || text.includes('易养')) {
+            tags.push({ text: '易养', type: 'difficulty-easy' });
+        } else if (text.includes('难养') || text.includes('不易饲养') || text.includes('极难饲养') || text.includes('娇气')) {
+            tags.push({ text: '难养', type: 'difficulty-hard' });
+        }
+
+        // 鸣声特征
+        if (text.includes('音色优美') || text.includes('极好听') || text.includes('清脆') || text.includes('悦耳') || text.includes('甜美')) {
+            tags.push({ text: '音色优美', type: 'sound-nice' });
+        }
+        if (text.includes('音量大') || text.includes('宏亮') || text.includes('响亮') || text.includes('震耳')) {
+            tags.push({ text: '音量大', type: 'sound-loud' });
+        }
+        if (text.includes('频率高') || text.includes('高频') || text.includes('尖锐')) {
+            tags.push({ text: '频率高', type: 'sound-high' });
+        }
+        if (text.includes('音色粗糙') || text.includes('沙哑') || text.includes('粗哑')) {
+            tags.push({ text: '鸣声沙哑', type: 'sound-rough' });
+        }
+        if (text.includes('超声')) {
+            tags.push({ text: '超声波', type: 'sound-ultra' });
+        }
+        if (text.includes('节奏缓慢') || text.includes('慢板')) {
+            tags.push({ text: '节奏缓慢', type: 'sound-slow' });
+        }
+        if (text.includes('节奏快速') || text.includes('急促')) {
+            tags.push({ text: '鸣声急促', type: 'sound-fast' });
+        }
+
+        if (tags.length === 0) return '';
+
+        return `
+            <div class="species-auto-tags" style="margin-bottom:12px; display:flex; flex-wrap:wrap; gap:6px;">
+                ${tags.map(tag => `<span class="auto-tag-pill auto-tag-${tag.type}">${tag.text}</span>`).join('')}
+            </div>
+        `;
     }
 
     /* ==========================================================
@@ -370,6 +441,8 @@
                 </div>
             `;
         }
+
+        cardHtml += generateAutoTagsHtml(item);
 
         cardHtml += `<div class="species-desc-modern">${highlight(desc)}</div>`;
         cardHtml += `<div class="species-info-grid-modern" style="margin-top:16px;">`;
@@ -520,6 +593,23 @@
             // 幻灯大图
             const galleryImgs = activeItem.images && activeItem.images.length > 0 ? activeItem.images : [{src: 'images/fallback.jpg', caption: '暂无生态照'}];
             
+            // 生成快速跳转条带 HTML
+            const jumpStripHtml = `
+                <div class="species-jump-strip">
+                    ${catItems.map((item, idx) => {
+                        const num = item.textHtml.match(/id="i(\d+)"/)[1];
+                        const name = item.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)/i)[1];
+                        const isActive = idx === activeIdx;
+                        return `
+                            <button class="jump-strip-item ${isActive ? 'active' : ''}" data-index="${idx}" aria-label="跳转到${name}">
+                                <span class="jump-item-num">#${num.padStart(3, '0')}</span>
+                                <span class="jump-item-name">${name}</span>
+                            </button>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+
             bodyHtml = `
                 <div class="combined-view-container">
                     <!-- 物种详情展板 -->
@@ -579,6 +669,8 @@
                                 ${renderHorizontalInatSection(activeItem)}
                             </div>
                         </div>
+                        
+                        ${jumpStripHtml}
                         
                         <!-- 翻页小导航 -->
                         <div class="specimen-nav-bar">
@@ -835,6 +927,25 @@
                     rebuildCategoryView(catId);
                 }, 200);
             }
+            
+            // 绑定快速跳转条带点击事件
+            const jumpItems = container.querySelectorAll('.jump-strip-item');
+            jumpItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const newIdx = parseInt(item.dataset.index);
+                    if (newIdx !== activeIdx) {
+                        slideTo(newIdx);
+                    }
+                });
+            });
+
+            // 自动让 active 按钮居中
+            setTimeout(() => {
+                const activeJumpItem = container.querySelector('.jump-strip-item.active');
+                if (activeJumpItem) {
+                    activeJumpItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                }
+            }, 100);
             
             // 下方上一只/下一只翻页
             if (prevBtn) {
@@ -1678,14 +1789,65 @@
                 // 在所有的 category-view 中进行隐藏
                 document.querySelectorAll('.category-view').forEach(v => v.classList.remove('active'));
 
-                const results = typeof insectData !== 'undefined' ? insectData.filter(item => {
-                    // 过滤掉非物种的讨论段落（没有 id="i..."）
-                    if (!item.textHtml.includes('id="i')) return false;
-                    const temp = document.createElement('div');
-                    temp.innerHTML = item.textHtml;
-                    const text = temp.innerText.toLowerCase();
-                    return text.includes(query) || (item.description && item.description.toLowerCase().includes(query));
-                }) : [];
+                const results = [];
+                if (typeof insectData !== 'undefined') {
+                    insectData.forEach(item => {
+                        if (!item.textHtml.includes('id="i')) return;
+                        
+                        const temp = document.createElement('div');
+                        temp.innerHTML = item.textHtml;
+                        const text = temp.innerText.toLowerCase();
+                        const descMatch = item.description && item.description.toLowerCase().includes(query);
+                        
+                        if (text.includes(query) || descMatch) {
+                            // 计算匹配维度
+                            let cname = '';
+                            let lname = '';
+                            const h3 = temp.querySelector('h3');
+                            if (h3) {
+                                const h3Text = h3.innerText;
+                                const titleMatch = h3Text.match(/^\s*\d+\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?/);
+                                if (titleMatch) {
+                                    cname = titleMatch[1];
+                                    lname = titleMatch[2] || '';
+                                }
+                            }
+                            
+                            const nicknames = [];
+                            const nickRegex = /(?:俗称|又称)[“"']([^“”"'\s，。；、]+)[”"']/g;
+                            let nickMatch;
+                            const descText = temp.innerText;
+                            while ((nickMatch = nickRegex.exec(descText)) !== null) {
+                                if (!nicknames.includes(nickMatch[1])) nicknames.push(nickMatch[1]);
+                            }
+                            const quotesRegex = /[“"']([^“”"'\s，。；、~]{2,6})[”"']/g;
+                            let quoteMatch;
+                            while ((quoteMatch = quotesRegex.exec(descText)) !== null) {
+                                const name = quoteMatch[1];
+                                if (!nicknames.includes(name) && !name.includes('~') && !name.includes('叮') && nicknames.length < 5) {
+                                    nicknames.push(name);
+                                }
+                            }
+
+                            const dims = [];
+                            if (cname.toLowerCase().includes(query)) dims.push('名称');
+                            if (lname.toLowerCase().includes(query)) dims.push('学名');
+                            nicknames.forEach(nick => {
+                                if (nick.toLowerCase().includes(query) && !dims.includes('别名')) {
+                                    dims.push('别名');
+                                }
+                            });
+                            if (dims.length === 0) {
+                                dims.push('特性描述');
+                            }
+                            
+                            results.push({
+                                ...item,
+                                matchedDimensions: dims
+                            });
+                        }
+                    });
+                }
 
                 searchResultsView.innerHTML = `
                     <button class="back-btn" onclick="document.getElementById('searchInput').value=''; document.getElementById('searchResultsView').classList.remove('active'); document.getElementById('hubView').style.display='block';">← 返回首页</button>
@@ -1709,9 +1871,19 @@
                     section.setAttribute('id', `search-i${specNum}`);
                     
                     const catLabel = getCatLabel(item.category);
+                    const badgesHtml = item.matchedDimensions.map(dim => {
+                        let typeClass = 'desc';
+                        if (dim === '名称') typeClass = 'name';
+                        if (dim === '学名') typeClass = 'latin';
+                        if (dim === '别名') typeClass = 'alias';
+                        return `<span class="search-match-badge match-badge-${typeClass}">匹配: ${dim}</span>`;
+                    }).join('');
                     
                     section.innerHTML = `
-                        <div style="margin-bottom:10px;"><span class="search-result-tag">${catLabel}</span></div>
+                        <div style="margin-bottom:10px; display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+                            <span class="search-result-tag">${catLabel}</span>
+                            ${badgesHtml}
+                        </div>
                         ${renderSpeciesHtml(item, query, true, true)}
                         ${item.images && item.images.length > 0 ? `
                             <div class="image-container">
@@ -1839,6 +2011,39 @@
         }
     }
 
+    function jumpToSpecies(speciesNum) {
+        speciesNum = parseInt(speciesNum);
+        const targetCat = getSpeciesCategory(speciesNum);
+
+        // 1. 切换到对应的分类
+        navigateTo(targetCat);
+
+        // 2. 标本馆模式下定位当前索引并展示
+        const catItems = typeof insectData !== 'undefined' 
+            ? insectData.filter(d => d.category === targetCat && d.textHtml.includes('id="i')) 
+            : [];
+        const index = catItems.findIndex(item => {
+            const match = item.textHtml.match(/id="i(\d+)"/);
+            return match && parseInt(match[1]) === speciesNum;
+        });
+        
+        if (index > -1) {
+            specimenActiveIndices[targetCat] = index;
+        }
+        
+        // 重绘视图并平滑滚动到页面主展示区
+        rebuildCategoryView(targetCat);
+        
+        setTimeout(() => {
+            const view = document.getElementById('view-' + targetCat);
+            if (view) {
+                view.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 180);
+        
+        closeMobileToc();
+    }
+
     // 监听目录点击拦截，跳转 SPA
     function initTocSPALinks() {
         const links = document.querySelectorAll('.toc a');
@@ -1868,35 +2073,7 @@
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     const speciesNum = parseInt(speciesMatch[2]);
-                    const targetCat = getSpeciesCategory(speciesNum);
-
-                    // 1. 切换到对应的分类
-                    navigateTo(targetCat);
-
-                    // 2. 标本馆模式下定位当前索引并展示
-                    const catItems = typeof insectData !== 'undefined' 
-                        ? insectData.filter(d => d.category === targetCat && d.textHtml.includes('id="i')) 
-                        : [];
-                    const index = catItems.findIndex(item => {
-                        const match = item.textHtml.match(/id="i(\d+)"/);
-                        return match && parseInt(match[1]) === speciesNum;
-                    });
-                    
-                    if (index > -1) {
-                        specimenActiveIndices[targetCat] = index;
-                    }
-                    
-                    // 重绘视图并平滑滚动到页面主展示区
-                    rebuildCategoryView(targetCat);
-                    
-                    setTimeout(() => {
-                        const view = document.getElementById('view-' + targetCat);
-                        if (view) {
-                            view.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        }
-                    }, 180);
-                    
-                    closeMobileToc();
+                    jumpToSpecies(speciesNum);
                 });
             }
         });
@@ -2107,6 +2284,95 @@
     }
 
 
+    // 随机探索
+    function initRandomExplore() {
+        const btn = document.getElementById('randomExploreBtn');
+        if (!btn) return;
+        
+        btn.addEventListener('click', () => {
+            if (typeof insectData === 'undefined' || insectData.length === 0) return;
+            const validSpecies = [];
+            insectData.forEach(item => {
+                const match = item.textHtml.match(/id="i(\d+)"/);
+                if (match) {
+                    validSpecies.push(parseInt(match[1]));
+                }
+            });
+            
+            if (validSpecies.length === 0) return;
+            const randomNum = validSpecies[Math.floor(Math.random() * validSpecies.length)];
+            
+            jumpToSpecies(randomNum);
+        });
+    }
+
+    // TOC 目录过滤
+    function initTocFilter() {
+        const filterInput = document.getElementById('tocFilterInput');
+        if (!filterInput) return;
+
+        filterInput.addEventListener('input', (e) => {
+            const val = e.target.value.trim().toLowerCase();
+            const catItems = document.querySelectorAll('.toc > .toc-content > ul > li');
+
+            catItems.forEach(catLi => {
+                const catLink = catLi.querySelector('a');
+                const catName = catLink ? catLink.textContent.toLowerCase() : '';
+                const subUl = catLi.querySelector('ul');
+                
+                if (!subUl) {
+                    if (val === '') {
+                        catLi.style.display = '';
+                    } else {
+                        const isMatch = catName.includes(val);
+                        catLi.style.display = isMatch ? '' : 'none';
+                    }
+                    return;
+                }
+
+                const subLis = subUl.querySelectorAll('li');
+                let matchCount = 0;
+
+                subLis.forEach(subLi => {
+                    const subLink = subLi.querySelector('a');
+                    const subName = subLink ? subLink.textContent.toLowerCase() : '';
+                    const isMatch = subName.includes(val);
+
+                    if (val === '') {
+                        subLi.style.display = '';
+                    } else {
+                        if (isMatch) {
+                            subLi.style.display = '';
+                            matchCount++;
+                        } else {
+                            subLi.style.display = 'none';
+                        }
+                    }
+                });
+
+                if (val === '') {
+                    catLi.style.display = '';
+                    catLi.classList.add('collapsed');
+                } else {
+                    const catMatch = catName.includes(val);
+                    if (catMatch) {
+                        catLi.style.display = '';
+                        catLi.classList.remove('collapsed');
+                        subLis.forEach(subLi => {
+                            subLi.style.display = '';
+                        });
+                    } else if (matchCount > 0) {
+                        catLi.style.display = '';
+                        catLi.classList.remove('collapsed');
+                    } else {
+                        catLi.style.display = 'none';
+                    }
+                }
+            });
+        });
+    }
+
+
     /* ==========================================================
        🚀 13. DOM 就绪入口
        ========================================================== */
@@ -2131,6 +2397,10 @@
         initSpectrogramFolding();
         initTocAudioIcons();
         initTocInatIcons();
+        
+        // 改进功能初始化
+        initRandomExplore();
+        initTocFilter();
 
         // 窗口变化自适应重置
         window.addEventListener('resize', () => {
@@ -2144,5 +2414,6 @@
 
     // 挂载到全局，供 inline html 点击调用
     window.navigateTo = navigateTo;
+    window.jumpToSpecies = jumpToSpecies;
 
 })();
