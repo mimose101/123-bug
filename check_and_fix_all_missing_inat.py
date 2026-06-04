@@ -66,8 +66,8 @@ def fetch_inat_photos(taxon_id):
                         img_url = p.get("url")
                         attribution = p.get("attribution")
                         if img_url and attribution:
-                            medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg")
-                            large_url = img_url.replace("square.jpg", "large.jpg").replace("square.jpeg", "large.jpeg")
+                            medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg").replace("square.png", "medium.png")
+                            large_url = img_url.replace("square.jpg", "large.jpg").replace("square.jpeg", "large.jpeg").replace("square.png", "large.png")
                             # 防止照片 URL 重复
                             if not any(x['url'] == medium_url for x in photos_list):
                                 photos_list.append({
