@@ -45,7 +45,8 @@ def search_inat_taxon(query_str):
     return None
 
 def fetch_inat_photos(taxon_id):
-    url = f"https://api.inaturalist.org/v1/observations?taxon_id={taxon_id}&photos=true&per_page=10&quality_grade=research,casual"
+    # 使用 order_by=votes 降序拉取最多 30 个观察记录，以挑选最受欢迎（faved）的生态照片
+    url = f"https://api.inaturalist.org/v1/observations?taxon_id={taxon_id}&photos=true&per_page=30&quality_grade=research,casual&order_by=votes&order=desc"
     headers = {"User-Agent": "Mozilla/5.0"}
     max_retries = 5
     for retry in range(max_retries):
@@ -56,6 +57,9 @@ def fetch_inat_photos(taxon_id):
                 res_data = json.loads(resp.read().decode('utf-8'))
                 results = res_data.get("results", [])
                 
+                # 双重保险：在内存中显式按 faves 列表长度或 faves_count 字段降序二次排序
+                results.sort(key=lambda x: max(len(x.get("faves", [])), x.get("faves_count", 0)), reverse=True)
+                
                 photos_list = []
                 for obs in results:
                     for p in obs.get("photos", []):
@@ -63,9 +67,12 @@ def fetch_inat_photos(taxon_id):
                         attribution = p.get("attribution")
                         if img_url and attribution:
                             medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg")
+                            large_url = img_url.replace("square.jpg", "large.jpg").replace("square.jpeg", "large.jpeg")
+                            # 防止照片 URL 重复
                             if not any(x['url'] == medium_url for x in photos_list):
                                 photos_list.append({
                                     "url": medium_url,
+                                    "largeUrl": large_url,
                                     "attribution": attribution
                                 })
                         if len(photos_list) >= 5:
@@ -155,6 +162,7 @@ def process_item(item, headers):
     local_photos = []
     for p_idx, photo_info in enumerate(api_photos, 1):
         remote_url = photo_info["url"]
+        large_url = photo_info.get("largeUrl", remote_url)
         attribution = photo_info["attribution"]
 
         ext = ".jpg" if "jpg" in remote_url.lower() else ".jpeg"
@@ -174,6 +182,7 @@ def process_item(item, headers):
             
             local_photos.append({
                 "url": f"images/inat/{filename}",
+                "largeUrl": large_url,
                 "attribution": attribution
             })
         except Exception as e:
@@ -226,7 +235,7 @@ def main():
 
     print(f"共发现 {len(items_to_process)} 个物种需要抓取/补全 iNaturalist 数据，启动限速线程池...")
 
-    # 并发度降为 3，温和抓取防封
+    # 并发度设为 3，温和抓取防封
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(process_item, item, headers): item for item in items_to_process}
         
@@ -236,14 +245,15 @@ def main():
                 updated = future.result()
                 if updated:
                     updated_count += 1
+                    # 实时写入 data.js，支持断点续传和进度查看
+                    output = prefix + json.dumps(data, ensure_ascii=False, indent=2) + ";"
+                    with open("data.js", "w", encoding="utf-8") as f:
+                        f.write(output)
             except Exception as e:
                 print(f"处理物种时发生未捕获异常: {e}")
 
     if updated_count > 0:
-        output = prefix + json.dumps(data, ensure_ascii=False, indent=2) + ";"
-        with open("data.js", "w", encoding="utf-8") as f:
-            f.write(output)
-        print(f"\n[DONE] 自适应修补完成，共更新了 {updated_count} 个物种 of iNaturalist 数据，已保存至 data.js")
+        print(f"\n[DONE] 自适应修补完成，共更新了 {updated_count} 个物种 of iNaturalist 数据")
     else:
         print("\n未发现需要更新的数据。")
 

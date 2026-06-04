@@ -51,23 +51,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i2_1.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/340286179/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i2_2.jpg",
-          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/284905272/large.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i2_3.jpg",
-          "attribution": "(c) 曾云保, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/284905454/large.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i2_4.jpg",
-          "attribution": "(c) 曾云保, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453712587/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i2_5.jpg",
-          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i2_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/171377718/large.jpeg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -106,23 +111,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i3_1.jpg",
-          "attribution": "(c) 肚纸有虫, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/163594708/large.jpg",
+          "attribution": "(c) Observações Naturalistas | Bruno Uehara, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i3_2.jpg",
-          "attribution": "(c) 肚纸有虫, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/219429007/large.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         },
         {
           "url": "images/inat/inat_i3_3.jpg",
-          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/106208522/large.jpg",
+          "attribution": "(c) Lijin Huang (紫楝), all rights reserved"
         },
         {
           "url": "images/inat/inat_i3_4.jpg",
-          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/106208525/large.jpg",
+          "attribution": "(c) Lijin Huang (紫楝), all rights reserved"
         },
         {
           "url": "images/inat/inat_i3_5.jpg",
-          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111257130/large.jpg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -160,24 +170,29 @@ const insectData = [
       "name": "Natula",
       "photos": [
         {
-          "url": "images/inat/inat_i4_1.jpg",
-          "attribution": "(c) Ana D.C, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i4_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318111837/large.jpeg",
+          "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i4_2.jpg",
-          "attribution": "(c) 肚纸有虫, all rights reserved"
+          "url": "images/inat/inat_i4_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318111826/large.jpeg",
+          "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i4_3.jpg",
-          "attribution": "(c) 肚纸有虫, all rights reserved"
+          "url": "images/inat/inat_i4_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318111849/large.jpeg",
+          "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i4_4.jpg",
-          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i4_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318111843/large.jpeg",
+          "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i4_5.jpg",
-          "attribution": "(c) Haruka Riku, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/265630166/large.jpg",
+          "attribution": "(c) plemos, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -217,23 +232,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i5_1.jpg",
-          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/562718779/large.jpg",
+          "attribution": "(c) axgv5, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i5_2.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "url": "images/inat/inat_i5_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341244572/large.jpeg",
+          "attribution": "(c) 潘泽楷, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i5_3.jpg",
-          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i5_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/230796310/large.jpeg",
+          "attribution": "(c) erickkao, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i5_4.jpg",
-          "attribution": "(c) 虫虫, all rights reserved"
+          "url": "images/inat/inat_i5_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/161676415/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i5_5.jpg",
-          "attribution": "(c) よも, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i5_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/161676436/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -263,23 +283,28 @@ const insectData = [
       "name": "Svistella argentata",
       "photos": [
         {
-          "url": "images/inat/inat_i6_1.jpeg",
-          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+          "url": "images/inat/inat_i6_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/394090171/large.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i6_2.jpeg",
-          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+          "url": "images/inat/inat_i6_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/394090210/large.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i6_3.jpeg",
-          "attribution": "(c) CHIK SIU LUN, all rights reserved"
+          "url": "images/inat/inat_i6_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/394090581/large.jpg",
+          "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i6_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/432239850/large.jpeg",
           "attribution": "(c) CHIK SIU LUN, all rights reserved"
         },
         {
           "url": "images/inat/inat_i6_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/432239859/large.jpeg",
           "attribution": "(c) CHIK SIU LUN, all rights reserved"
         }
       ],
@@ -323,23 +348,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i7_1.jpg",
-          "attribution": "(c) Spark, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/455034962/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i7_2.jpg",
-          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72566453/large.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i7_3.jpg",
-          "attribution": "(c) 周瑜, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72566460/large.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i7_4.jpg",
-          "attribution": "(c) Wei-Ting Chen, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72566505/large.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i7_5.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72566492/large.jpg",
+          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -371,23 +401,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i8_1.jpg",
-          "attribution": "(c) Spark, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/279355198/large.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i8_2.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/285572534/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i8_3.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/285572498/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i8_4.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/419556520/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i8_5.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/380902781/large.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -422,22 +457,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i9_1.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347089576/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i9_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347089736/large.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i9_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347089786/large.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i9_4.jpg",
-          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/576798539/large.jpg",
+          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i9_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347089733/large.jpg",
           "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         }
       ],
@@ -504,23 +544,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i11_1.jpg",
-          "attribution": "(c) 古國順, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/518112752/large.jpg",
+          "attribution": "(c) 桃子, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i11_2.jpg",
-          "attribution": "(c) Eric Ching, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/518112780/large.jpg",
+          "attribution": "(c) 桃子, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i11_3.jpg",
-          "attribution": "(c) dee lee, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i11_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/316417058/large.jpeg",
+          "attribution": "(c) conchuningen, all rights reserved"
         },
         {
           "url": "images/inat/inat_i11_4.jpg",
-          "attribution": "(c) 斜绿天蛾, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/569245248/large.jpg",
+          "attribution": "(c) 熊盛志, all rights reserved"
         },
         {
           "url": "images/inat/inat_i11_5.jpg",
-          "attribution": "(c) hollythefrog, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/569245264/large.jpg",
+          "attribution": "(c) 熊盛志, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -555,24 +600,29 @@ const insectData = [
       "name": "Homoeoxipha nigripes",
       "photos": [
         {
-          "url": "images/inat/inat_i12_1.jpg",
-          "attribution": "(c) Felix Wu, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i12_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/440347903/large.jpeg",
+          "attribution": "(c) Kai-Wei Chan, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i12_2.jpg",
-          "attribution": "(c) adachao, some rights reserved (CC BY-NC-ND)"
+          "url": "images/inat/inat_i12_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/440348173/large.jpeg",
+          "attribution": "(c) Kai-Wei Chan, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i12_3.jpg",
-          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i12_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/440348118/large.jpeg",
+          "attribution": "(c) Kai-Wei Chan, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i12_4.jpg",
-          "attribution": "(c) Dawn_Land, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i12_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/440348178/large.jpeg",
+          "attribution": "(c) Kai-Wei Chan, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i12_5.jpg",
-          "attribution": "(c) 哈基人, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i12_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/445922516/large.jpeg",
+          "attribution": "(c) Cheng-Te Hsu, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -619,23 +669,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i13_1.jpg",
-          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/578743468/large.jpg",
+          "attribution": "(c) Winsten Slowswakey, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i13_2.jpg",
-          "attribution": "(c) Cheryl Stinchcomb, some rights reserved (CC BY)"
+          "url": "images/inat/inat_i13_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/141876198/large.jpeg",
+          "attribution": "(c) Vihansith Kulatunga, some rights reserved (CC BY-SA)"
         },
         {
-          "url": "images/inat/inat_i13_3.jpg",
-          "attribution": "(c) Cheryl Stinchcomb, some rights reserved (CC BY)"
+          "url": "images/inat/inat_i13_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/141876261/large.jpeg",
+          "attribution": "(c) Vihansith Kulatunga, some rights reserved (CC BY-SA)"
         },
         {
-          "url": "images/inat/inat_i13_4.jpg",
-          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i13_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/141876300/large.jpeg",
+          "attribution": "(c) Vihansith Kulatunga, some rights reserved (CC BY-SA)"
         },
         {
           "url": "images/inat/inat_i13_5.jpg",
-          "attribution": "(c) Vijay Anand Ismavel, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/278980445/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -670,22 +725,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i14_1.jpg",
-          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/455034962/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i14_2.jpg",
-          "attribution": "(c) 周瑜, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/233669587/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i14_3.jpg",
-          "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/280564735/large.jpg",
+          "attribution": "(c) yipsee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i14_4.jpg",
-          "attribution": "(c) Ian Dugdale, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/506142121/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i14_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/547748590/large.jpg",
           "attribution": "(c) 觅虫记Liumingyu, some rights reserved (CC BY-NC)"
         }
       ],
@@ -725,24 +785,29 @@ const insectData = [
       "name": "Polionemobius taprobanensis",
       "photos": [
         {
-          "url": "images/inat/inat_i15_1.jpg",
-          "attribution": "(c) Suki, all rights reserved"
+          "url": "images/inat/inat_i15_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/224613235/square.png",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i15_2.jpg",
-          "attribution": "(c) waterdeer, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/354925217/large.jpg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i15_3.jpg",
-          "attribution": "(c) waterdeer, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i15_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/346655711/large.jpeg",
+          "attribution": "(c) SunGW, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i15_4.jpg",
-          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i15_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/55396948/large.jpeg",
+          "attribution": "(c) 戴勝, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i15_5.jpg",
-          "attribution": "(c) kyaw zia Yan Min, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i15_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/55396659/large.jpeg",
+          "attribution": "(c) 戴勝, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -766,23 +831,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i16_1.jpg",
-          "attribution": "(c) biolin36, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/253356344/large.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i16_2.jpg",
-          "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i16_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/191840978/large.jpeg",
+          "attribution": "(c) Kit Chang, all rights reserved"
         },
         {
           "url": "images/inat/inat_i16_3.jpg",
-          "attribution": "(c) 张艺言, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/331223177/large.jpg",
+          "attribution": "(c) 桃子, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i16_4.jpg",
-          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i16_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/259923678/large.jpeg",
+          "attribution": "(c) KrabX, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i16_5.jpg",
-          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/450481370/large.jpg",
+          "attribution": "(c) 罗心宇, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -833,23 +903,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i17_1.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/337251452/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i17_2.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/337251545/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i17_3.jpg",
-          "attribution": "(c) yichangl, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57952700/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i17_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557957758/large.jpg",
           "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         },
         {
-          "url": "images/inat/inat_i17_5.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "url": "images/inat/inat_i17_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341284495/large.jpeg",
+          "attribution": "(c) jiuheng92, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -885,23 +960,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i18_1.jpg",
-          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/214491174/large.jpg",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i18_2.jpg",
-          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i18_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/423366945/large.jpeg",
+          "attribution": "(c) lee_meow, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i18_3.jpg",
-          "attribution": "(c) Zarek, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i18_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/328870923/large.jpeg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i18_4.jpg",
-          "attribution": "(c) Do-yoon Kim, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/236498237/large.jpg",
+          "attribution": "(c) 登坂久雄, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i18_5.jpg",
-          "attribution": "(c) zgy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/570051139/large.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -948,23 +1028,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i19_1.jpg",
-          "attribution": "(c) 林錦宏, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435791665/large.jpg",
+          "attribution": "(c) Hee Han, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i19_2.jpg",
-          "attribution": "(c) 洪海瑞, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548897712/large.jpg",
+          "attribution": "(c) Baixun Xun, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i19_3.jpg",
-          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/333071683/large.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i19_4.jpg",
-          "attribution": "(c) waichong Cheong, all rights reserved"
+          "url": "images/inat/inat_i19_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/450760726/large.jpeg",
+          "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i19_5.jpg",
-          "attribution": "(c) 米嬸, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/90750940/large.jpg",
+          "attribution": "(c) Shohei Shimotori, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -1011,23 +1096,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i20_1.jpg",
-          "attribution": "(c) adachao, some rights reserved (CC BY-NC-ND)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/293523188/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i20_2.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/416141356/large.jpg",
+          "attribution": "(c) 决明, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i20_3.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i20_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/414851658/large.jpeg",
+          "attribution": "(c) Luan Mai Sy, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i20_4.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i20_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/312549763/large.jpeg",
+          "attribution": "(c) hlchan, all rights reserved"
         },
         {
           "url": "images/inat/inat_i20_5.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342493077/large.jpg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
         }
       ],
       "checked_for_5": true
@@ -1065,24 +1155,29 @@ const insectData = [
       "name": "Ornebius formosanus",
       "photos": [
         {
-          "url": "images/inat/inat_i21_1.jpg",
-          "attribution": "(c) sacula, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i21_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/375359995/large.jpeg",
+          "attribution": "(c) 李成華, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i21_2.jpg",
-          "attribution": "(c) sacula, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i21_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/375359804/large.jpeg",
+          "attribution": "(c) 李成華, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i21_3.jpg",
-          "attribution": "(c) 大肚魚, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i21_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/375359803/large.jpeg",
+          "attribution": "(c) 李成華, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i21_4.jpg",
-          "attribution": "(c) @Benson, all rights reserved"
+          "url": "images/inat/inat_i21_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/375359810/large.jpeg",
+          "attribution": "(c) 李成華, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i21_5.jpg",
-          "attribution": "(c) 郭伯川, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i21_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/173839845/large.jpeg",
+          "attribution": "(c) 古國順, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -1105,22 +1200,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i22_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/586219908/large.jpg",
           "attribution": "(c) youyi, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i22_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/586219920/large.jpg",
           "attribution": "(c) youyi, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i22_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149990133/large.jpeg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i22_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149990159/large.jpeg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i22_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149990182/large.jpeg",
           "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-ND)"
         }
       ],
@@ -1143,24 +1243,29 @@ const insectData = [
       "name": "Ornebius infuscatus",
       "photos": [
         {
-          "url": "images/inat/inat_i23_1.jpg",
-          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i23_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/217585151/large.jpeg",
+          "attribution": "(c) Wu Mago, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i23_2.jpg",
-          "attribution": "(c) Licheng Shih, some rights reserved (CC BY)"
+          "url": "images/inat/inat_i23_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/79598641/large.jpeg",
+          "attribution": "(c) 眼前有景, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i23_3.jpeg",
-          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246926896/large.jpeg",
+          "attribution": "(c) h_y_, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i23_4.jpeg",
-          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246926906/large.jpeg",
+          "attribution": "(c) h_y_, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i23_5.jpeg",
-          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i23_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30117965/large.jpg",
+          "attribution": "(c) matthewkwan, some rights reserved (CC BY-ND)"
         }
       ],
       "checked_for_5": true
@@ -1195,23 +1300,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i24_1.jpg",
-          "attribution": "(c) 大俠, some rights reserved (CC BY-NC-SA)"
-        },
-        {
-          "url": "images/inat/inat_i24_2.jpg",
-          "attribution": "(c) 大俠, some rights reserved (CC BY-NC-SA)"
-        },
-        {
-          "url": "images/inat/inat_i24_3.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
-        },
-        {
-          "url": "images/inat/inat_i24_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/599761983/large.jpg",
           "attribution": "(c) pajama_, some rights reserved (CC BY-NC)"
         },
         {
+          "url": "images/inat/inat_i24_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473130569/large.jpeg",
+          "attribution": "(c) Lijin Huang (紫楝), some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i24_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473130563/large.jpeg",
+          "attribution": "(c) Lijin Huang (紫楝), some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i24_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318316662/large.jpeg",
+          "attribution": "(c) Takaaki Hattori, some rights reserved (CC BY)"
+        },
+        {
           "url": "images/inat/inat_i24_5.jpg",
-          "attribution": "(c) lice_on_rice, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/586239413/large.jpg",
+          "attribution": "(c) ajustinfocus.com, some rights reserved (CC BY-NC-ND)"
         }
       ],
       "checked_for_5": true
@@ -1242,23 +1352,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i25_1.jpg",
-          "attribution": "(c) Lumin Ong, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/553089482/large.jpg",
+          "attribution": "(c) Ella Peoples, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i25_2.jpg",
-          "attribution": "(c) jon, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i25_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/144074457/large.jpeg",
+          "attribution": "(c) Lena Chow, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i25_3.jpg",
-          "attribution": "(c) jon, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i25_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314820741/large.jpeg",
+          "attribution": "(c) liai, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i25_4.jpg",
-          "attribution": "(c) caleidoskopable, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i25_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314820816/large.jpeg",
+          "attribution": "(c) liai, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i25_5.jpg",
-          "attribution": "(c) caleidoskopable, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i25_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314820861/large.jpeg",
+          "attribution": "(c) liai, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1288,24 +1403,29 @@ const insectData = [
       "name": "Gryllidea",
       "photos": [
         {
-          "url": "images/inat/inat_i26_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i26_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792421/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i26_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i26_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792446/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i26_3.jpg",
-          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5290646/large.jpg",
+          "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i26_4.jpg",
-          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410921/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i26_5.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410923/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -1336,23 +1456,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i27_1.jpg",
-          "attribution": "(c) Ella Rose VD, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/599761983/large.jpg",
+          "attribution": "(c) pajama_, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i27_2.jpg",
-          "attribution": "(c) Brendan Doogan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435791665/large.jpg",
+          "attribution": "(c) Hee Han, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i27_3.jpg",
-          "attribution": "(c) Simon Franicevic, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580623/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i27_4.jpg",
-          "attribution": "(c) Simon Franicevic, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580646/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i27_5.jpg",
-          "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580651/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -1378,24 +1503,29 @@ const insectData = [
       "name": "Gryllidea",
       "photos": [
         {
-          "url": "images/inat/inat_i28_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i28_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792421/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i28_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i28_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792446/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i28_3.jpg",
-          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5290646/large.jpg",
+          "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i28_4.jpg",
-          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410921/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i28_5.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410923/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -1430,23 +1560,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i29_1.jpg",
-          "attribution": "(c) Ella Rose VD, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/599761983/large.jpg",
+          "attribution": "(c) pajama_, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i29_2.jpg",
-          "attribution": "(c) Brendan Doogan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435791665/large.jpg",
+          "attribution": "(c) Hee Han, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i29_3.jpg",
-          "attribution": "(c) Simon Franicevic, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580623/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i29_4.jpg",
-          "attribution": "(c) Simon Franicevic, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580646/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i29_5.jpg",
-          "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35580651/large.jpg",
+          "attribution": "(c) RAP, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -1503,23 +1638,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i31_1.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
-        },
-        {
-          "url": "images/inat/inat_i31_2.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/394069655/large.jpg",
           "attribution": "(c) Shi Qi, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i31_3.jpg",
+          "url": "images/inat/inat_i31_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342493301/large.jpg",
           "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+        },
+        {
+          "url": "images/inat/inat_i31_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/226524689/large.jpg",
+          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i31_4.jpg",
-          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+          "largeUrl": "https://static.inaturalist.org/photos/256865366/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i31_5.jpeg",
-          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/101441246/large.jpeg",
+          "attribution": "(c) Yan Cai, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1550,6 +1690,7 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i32_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149139081/large.jpeg",
           "attribution": "(c) 吕天朗, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1582,23 +1723,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i33_1.jpg",
-          "attribution": "(c) 张镇东 Zhang Zhendong, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/146517918/large.jpg",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i33_2.jpg",
-          "attribution": "(c) 张镇东 Zhang Zhendong, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/146517926/large.jpg",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i33_3.jpg",
-          "attribution": "(c) Yuxuan Liu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/146517936/large.jpg",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i33_4.jpg",
-          "attribution": "(c) Yuxuan Liu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/45483350/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i33_5.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58055765/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1637,23 +1783,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i34_1.jpg",
-          "attribution": "(c) Zara, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/325724222/large.jpg",
+          "attribution": "(c) RattyExplores, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i34_2.jpg",
-          "attribution": "(c) Zara, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/325724228/large.jpg",
+          "attribution": "(c) RattyExplores, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i34_3.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487515/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i34_4.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487518/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i34_5.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487520/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1685,23 +1836,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i35_1.jpg",
-          "attribution": "(c) shoron, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92655169/large.jpg",
+          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i35_2.jpg",
-          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92655163/large.jpg",
+          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i35_3.jpg",
-          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i35_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/424826763/large.jpeg",
+          "attribution": "(c) echo_sos, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i35_4.jpg",
-          "attribution": "(c) bowuzhizhi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/95681677/large.jpg",
+          "attribution": "(c) River, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i35_5.jpg",
-          "attribution": "(c) jcsvscyj, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i35_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/225500394/large.jpeg",
+          "attribution": "(c) nonext(공인인증서), some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1748,24 +1904,29 @@ const insectData = [
       "name": "Velarifictorus micado",
       "photos": [
         {
-          "url": "images/inat/inat_i36_1.jpg",
-          "attribution": "(c) p_concolor, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i36_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/361452010/large.jpeg",
+          "attribution": "(c) kaymac127, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i36_2.jpg",
-          "attribution": "(c) Kyongman Heo, all rights reserved"
+          "url": "images/inat/inat_i36_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/231026778/square.png",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i36_3.jpg",
-          "attribution": "(c) Kyongman Heo, all rights reserved"
+          "url": "images/inat/inat_i36_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229585518/square.png",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i36_4.jpg",
-          "attribution": "(c) Kyongman Heo, all rights reserved"
+          "url": "images/inat/inat_i36_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/231031843/square.png",
+          "attribution": "(c) onidiras-iNaturalist, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i36_5.jpg",
-          "attribution": "(c) tuirnee, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i36_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/421681220/large.jpeg",
+          "attribution": "(c) Benny Albro, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -1804,24 +1965,29 @@ const insectData = [
       "name": "Turanogryllus eous",
       "photos": [
         {
-          "url": "images/inat/inat_i37_1.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i37_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/19617654/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i37_2.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i37_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/229686169/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i37_3.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i37_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/229685845/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i37_4.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i37_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/229685672/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i37_5.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i37_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/229686004/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -1856,24 +2022,29 @@ const insectData = [
       "name": "Gryllus bimaculatus",
       "photos": [
         {
-          "url": "images/inat/inat_i38_1.jpg",
-          "attribution": "(c) Christian Langner, all rights reserved"
+          "url": "images/inat/inat_i38_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/24776985/large.jpeg",
+          "attribution": "(c) Konstantinos Kalaentzis, all rights reserved"
         },
         {
           "url": "images/inat/inat_i38_2.jpg",
-          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15561001/large.jpg",
+          "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i38_3.jpg",
-          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15561005/large.jpg",
+          "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i38_4.jpg",
-          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15561008/large.jpg",
+          "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i38_5.jpg",
-          "attribution": "(c) Kane Sandoval, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15561010/large.jpg",
+          "attribution": "(c) Colin Ralston, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1904,23 +2075,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i39_1.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/125813571/large.jpg",
+          "attribution": "(c) Nullkooland, all rights reserved"
         },
         {
           "url": "images/inat/inat_i39_2.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/125841115/large.jpg",
+          "attribution": "(c) Nullkooland, all rights reserved"
         },
         {
           "url": "images/inat/inat_i39_3.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/125806744/large.jpg",
+          "attribution": "(c) Nullkooland, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i39_4.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i39_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133298220/large.jpeg",
+          "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i39_5.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i39_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/493853102/large.jpeg",
+          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -1955,23 +2131,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i40_1.jpg",
-          "attribution": "(c) tetianamamchur, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180480678/large.jpg",
+          "attribution": "(c) blagotrav, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i40_2.jpg",
-          "attribution": "(c) Mathieu Pélissié, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/586412240/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i40_3.jpg",
-          "attribution": "(c) Mathieu Pélissié, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/80285539/large.jpg",
+          "attribution": "(c) Анна Артюшкина, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i40_4.jpg",
-          "attribution": "(c) bogoz_5a_csaba, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i40_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28550601/large.jpeg",
+          "attribution": "(c) davide castagna, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i40_5.jpg",
-          "attribution": "(c) bogoz_5a_csaba, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i40_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28550604/large.jpeg",
+          "attribution": "(c) davide castagna, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2010,23 +2191,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i41_1.jpg",
-          "attribution": "(c) biolin36, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/115269901/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i41_2.jpg",
-          "attribution": "(c) biolin36, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/142681203/large.jpg",
+          "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i41_3.jpg",
-          "attribution": "(c) biolin36, all rights reserved"
+          "url": "images/inat/inat_i41_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/378105569/large.jpeg",
+          "attribution": "(c) Samuel Driyanto, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i41_4.jpg",
-          "attribution": "(c) biolin36, all rights reserved"
+          "url": "images/inat/inat_i41_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/307374792/large.jpeg",
+          "attribution": "(c) Akmal Idham, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i41_5.jpg",
-          "attribution": "(c) ipin19, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i41_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/307374837/large.jpeg",
+          "attribution": "(c) Akmal Idham, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2073,24 +2259,29 @@ const insectData = [
       "name": "Teleogryllus mitratus",
       "photos": [
         {
-          "url": "images/inat/inat_i42_1.jpg",
-          "attribution": "(c) 李宜臻, all rights reserved"
+          "url": "images/inat/inat_i42_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/416101007/large.jpeg",
+          "attribution": "(c) gahtori vijay, all rights reserved"
         },
         {
           "url": "images/inat/inat_i42_2.jpg",
-          "attribution": "(c) 醉翁, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89286500/large.jpg",
+          "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i42_3.jpg",
-          "attribution": "(c) 醉翁, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89288306/large.jpg",
+          "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i42_4.jpg",
-          "attribution": "(c) 鐦鍆錒/锎钔锕（Man Hoimoon）, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89288335/large.jpg",
+          "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i42_5.jpg",
-          "attribution": "(c) Ella Chiang, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89288371/large.jpg",
+          "attribution": "(c) Pasindu Dilshan Abegunawaradhana, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2137,10 +2328,12 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i43_1.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/408820514/large.jpg",
           "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i43_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/148742048/large.jpeg",
           "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2180,23 +2373,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i44_1.jpg",
-          "attribution": "(c) Shi Qi, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/579327293/large.jpg",
+          "attribution": "(c) us3r, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i44_2.jpg",
-          "attribution": "(c) Shi Qi, all rights reserved"
+          "url": "images/inat/inat_i44_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/174463638/large.jpeg",
+          "attribution": "(c) Tsai-Wen Hsu, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i44_3.jpg",
-          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i44_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/174548328/large.jpeg",
+          "attribution": "(c) Tsai-Wen Hsu, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i44_4.jpg",
-          "attribution": "(c) tk_cambaz, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/638990608/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i44_5.jpg",
-          "attribution": "(c) Shi Qi, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/398955628/large.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2270,23 +2468,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i46_1.jpg",
-          "attribution": "(c) キース搵肥, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/160303110/large.jpg",
+          "attribution": "(c) Observações Naturalistas | Bruno Uehara, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i46_2.jpg",
-          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i46_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/334053182/large.jpeg",
+          "attribution": "(c) GD, all rights reserved"
         },
         {
           "url": "images/inat/inat_i46_3.jpg",
-          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/615215172/large.jpg",
+          "attribution": "(c) masakazu-hayashi, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i46_4.jpg",
-          "attribution": "(c) Jimmy Wong, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i46_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/12637432/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i46_5.jpg",
-          "attribution": "(c) Yriassic Yan, some rights reserved (CC BY-NC-ND)"
+          "url": "images/inat/inat_i46_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/161674624/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -2317,18 +2520,22 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i47_1.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/397406222/large.jpg",
           "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i47_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/291171342/large.jpg",
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i47_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/291171336/large.jpg",
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i47_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391100893/large.jpg",
           "attribution": "(c) Yi-Shan Zhao, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2352,23 +2559,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i48_1.jpg",
-          "attribution": "(c) Cole Abel, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50663447/large.jpg",
+          "attribution": "(c) Wolf Dietrich, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i48_2.jpg",
-          "attribution": "(c) Sharon Watson, all rights reserved"
+          "url": "images/inat/inat_i48_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/434073367/large.jpeg",
+          "attribution": "(c) Misha Zitser, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i48_3.jpg",
-          "attribution": "(c) Sharon Watson, all rights reserved"
+          "url": "images/inat/inat_i48_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/434073438/large.jpeg",
+          "attribution": "(c) Misha Zitser, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i48_4.jpg",
-          "attribution": "(c) Sharon Watson, all rights reserved"
+          "url": "images/inat/inat_i48_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/434073496/large.jpeg",
+          "attribution": "(c) Misha Zitser, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i48_5.jpg",
-          "attribution": "(c) rrathburn, some rights reserved (CC BY-NC-ND)"
+          "url": "images/inat/inat_i48_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/434073547/large.jpeg",
+          "attribution": "(c) Misha Zitser, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -2412,23 +2624,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i49_1.jpg",
-          "attribution": "(c) Runz Lv, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/228337090/large.jpg",
+          "attribution": "(c) 桃子, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i49_2.jpg",
-          "attribution": "(c) Jar Jar Abrams 77, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/228337101/large.jpg",
+          "attribution": "(c) 桃子, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i49_3.jpg",
-          "attribution": "(c) yx_Kuri, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25576513/large.jpg",
+          "attribution": "(c) sunwenhao90, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i49_4.jpg",
-          "attribution": "(c) 小 白 桦, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25576508/large.jpg",
+          "attribution": "(c) sunwenhao90, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i49_5.jpg",
-          "attribution": "(c) 小 白 桦, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i49_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229670523/large.jpeg",
+          "attribution": "(c) Pavel Smirnov, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -2460,23 +2677,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i50_1.jpg",
-          "attribution": "(c) Andrew Williams, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/184980860/large.jpg",
+          "attribution": "(c) Danilo Hegg, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i50_2.jpg",
-          "attribution": "(c) The Great Walter, all rights reserved"
+          "url": "images/inat/inat_i50_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/183961653/large.jpeg",
+          "attribution": "(c) Neville Hudson, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i50_3.jpg",
-          "attribution": "(c) The Great Walter, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/333054351/large.jpg",
+          "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i50_4.jpg",
-          "attribution": "(c) The Great Walter, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/333054361/large.jpg",
+          "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i50_5.jpg",
-          "attribution": "(c) The Great Walter, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/333054357/large.jpg",
+          "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2523,23 +2745,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i51_1.jpg",
-          "attribution": "(c) smilu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/596417878/large.jpg",
+          "attribution": "(c) 詹明澍, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i51_2.jpg",
-          "attribution": "(c) Fabrice B, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i51_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/162266064/large.jpeg",
+          "attribution": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i51_3.jpg",
-          "attribution": "(c) 張睿引, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/216224861/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i51_4.jpg",
-          "attribution": "(c) fbritney, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/599007124/large.jpg",
+          "attribution": "(c) catiriscat, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i51_5.jpg",
-          "attribution": "(c) AkiyamaMizuki, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i51_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/485787383/large.jpeg",
+          "attribution": "(c) 李袁瑞瑶, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2578,24 +2805,29 @@ const insectData = [
       "name": "Meloimorpha japonica yunnanensis",
       "photos": [
         {
-          "url": "images/inat/inat_i52_1.jpeg",
-          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i52_2.jpeg",
-          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i52_3.jpeg",
-          "attribution": "(c) 嘘界涯, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i52_4.jpg",
+          "url": "images/inat/inat_i52_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/288106827/large.jpg",
           "attribution": "(c) eec, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i52_5.jpg",
+          "url": "images/inat/inat_i52_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/288106875/large.jpg",
           "attribution": "(c) eec, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/288106929/large.jpg",
+          "attribution": "(c) eec, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/427501900/large.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i52_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/427501930/large.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2630,24 +2862,29 @@ const insectData = [
       "name": "Phonarellus minor",
       "photos": [
         {
-          "url": "images/inat/inat_i53_1.jpg",
-          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i53_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56201616/large.jpeg",
+          "attribution": "(c) Amila P Sumanapala, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i53_2.jpg",
-          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i53_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54697925/large.jpeg",
+          "attribution": "(c) Bug's eyes photography, some rights reserved (CC BY-NC-ND)"
         },
         {
-          "url": "images/inat/inat_i53_3.jpg",
-          "attribution": "(c) Chitra Shanker, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i53_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54697930/large.jpeg",
+          "attribution": "(c) Bug's eyes photography, some rights reserved (CC BY-NC-ND)"
         },
         {
-          "url": "images/inat/inat_i53_4.jpg",
-          "attribution": "(c) 残梦碎屑, all rights reserved"
+          "url": "images/inat/inat_i53_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/438143745/large.jpeg",
+          "attribution": "(c) Suraj Bhagat, all rights reserved"
         },
         {
           "url": "images/inat/inat_i53_5.jpg",
-          "attribution": "(c) 残梦碎屑, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/559621125/large.jpg",
+          "attribution": "(c) Prajwal J Ullal, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2693,24 +2930,29 @@ const insectData = [
       "name": "Phonarellus ritsemae",
       "photos": [
         {
-          "url": "images/inat/inat_i54_1.jpg",
-          "attribution": "(c) rock_wildlife, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i54_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/23334670/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
           "url": "images/inat/inat_i54_2.jpg",
-          "attribution": "(c) Kit Chang, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i54_3.jpg",
-          "attribution": "(c) 김재원, some rights reserved (CC BY)"
-        },
-        {
-          "url": "images/inat/inat_i54_4.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/632162819/large.jpg",
           "attribution": "(c) 설성검, all rights reserved"
         },
         {
+          "url": "images/inat/inat_i54_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/199194159/large.jpeg",
+          "attribution": "(c) Raluca Paraschivescu, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i54_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/271788383/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
+        },
+        {
           "url": "images/inat/inat_i54_5.jpg",
-          "attribution": "(c) 刘昭宇, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/184200091/large.jpg",
+          "attribution": "(c) キース搵肥, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -2748,24 +2990,29 @@ const insectData = [
       "name": "Loxoblemmus doenitzi",
       "photos": [
         {
-          "url": "images/inat/inat_i55_1.jpg",
-          "attribution": "(c) 麋鹿迷了路𐂂, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i55_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/437167666/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i55_2.jpg",
-          "attribution": "(c) 红膝, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i55_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/437167671/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i55_3.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i55_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/420764945/large.jpeg",
+          "attribution": "(c) Do-yoon Kim, all rights reserved"
         },
         {
           "url": "images/inat/inat_i55_4.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/580825532/large.jpg",
+          "attribution": "(c) Wang Tianshan, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i55_5.jpg",
-          "attribution": "(c) leekelai, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/580825545/large.jpg",
+          "attribution": "(c) Wang Tianshan, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -2796,23 +3043,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i56_1.jpg",
-          "attribution": "(c) 古國順, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/349833814/large.jpg",
+          "attribution": "(c) Yushi Wang, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i56_2.jpg",
-          "attribution": "(c) 陈昊, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/349833822/large.jpg",
+          "attribution": "(c) Yushi Wang, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i56_3.jpg",
-          "attribution": "(c) 余楊, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/560327590/large.jpg",
+          "attribution": "(c) 조현서 / Dosi Cho, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i56_4.jpg",
-          "attribution": "(c) Vladislav Isaev, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/560327840/large.jpg",
+          "attribution": "(c) 조현서 / Dosi Cho, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i56_5.jpg",
-          "attribution": "(c) Vladislav Isaev, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/560327887/large.jpg",
+          "attribution": "(c) 조현서 / Dosi Cho, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2843,23 +3095,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i57_1.jpg",
-          "attribution": "(c) ericeric0811, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29152743/large.jpg",
+          "attribution": "(c) 張智偉(Chang, Jack, Chih-Wei), some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i57_2.jpg",
-          "attribution": "(c) kwokwokwo, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/378908943/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i57_3.jpg",
-          "attribution": "(c) 游魂, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/401131098/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i57_4.jpg",
-          "attribution": "(c) johnallcock, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347091148/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i57_5.jpg",
-          "attribution": "(c) johnallcock, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/467063837/large.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -2898,23 +3155,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i58_1.jpg",
-          "attribution": "(c) ivanlee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322813320/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i58_2.jpg",
-          "attribution": "(c) liushengyu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322812992/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i58_3.jpg",
-          "attribution": "(c) 小戴菊, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322813245/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i58_4.jpg",
-          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322813179/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i58_5.jpg",
-          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322813349/large.jpg",
+          "attribution": "(c) MP Zhou, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -2962,23 +3224,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i59_1.jpg",
-          "attribution": "(c) Valery Kambalin, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24496815/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i59_2.jpg",
-          "attribution": "(c) sergejseleznev, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24496810/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i59_3.jpg",
-          "attribution": "(c) sergejseleznev, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/24496817/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i59_4.jpg",
-          "attribution": "(c) 王以悉, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5223447/large.jpg",
+          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i59_5.jpg",
-          "attribution": "(c) 郭继旭, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25577286/large.jpg",
+          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3021,22 +3288,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i60_1.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/220360335/large.jpg",
+          "attribution": "(c) Monan Q, all rights reserved"
         },
         {
           "url": "images/inat/inat_i60_2.jpg",
-          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/418116278/large.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i60_3.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144027872/large.jpg",
+          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i60_4.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/292631544/large.jpg",
+          "attribution": "(c) 林继伟, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i60_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/292631577/large.jpg",
           "attribution": "(c) 林继伟, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3068,24 +3340,29 @@ const insectData = [
       "name": "Oecanthus zhengi",
       "photos": [
         {
-          "url": "images/inat/inat_i61_1.jpeg",
-          "attribution": "(c) longa, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i61_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/472944292/large.jpg",
+          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i61_2.jpeg",
-          "attribution": "(c) longa, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i61_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/472944317/large.jpg",
+          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i61_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/472944333/large.jpg",
           "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i61_4.jpg",
-          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i61_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111339116/large.jpeg",
+          "attribution": "(c) Cédric DEL RIO, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i61_5.jpg",
-          "attribution": "(c) yossarianc, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i61_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111339118/large.jpeg",
+          "attribution": "(c) Cédric DEL RIO, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3129,23 +3406,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i62_1.jpg",
-          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/98349467/large.jpg",
+          "attribution": "(c) Chan,pei-chi, all rights reserved"
         },
         {
           "url": "images/inat/inat_i62_2.jpg",
-          "attribution": "(c) 狗鱼, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/98349471/large.jpg",
+          "attribution": "(c) Chan,pei-chi, all rights reserved"
         },
         {
           "url": "images/inat/inat_i62_3.jpg",
-          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/98349480/large.jpg",
+          "attribution": "(c) Chan,pei-chi, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i62_4.jpg",
-          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i62_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/88000704/large.jpeg",
+          "attribution": "(c) 博甫, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i62_5.jpg",
-          "attribution": "(c) 徐成宇, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i62_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/311842505/large.jpeg",
+          "attribution": "(c) r88621108, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3184,23 +3466,23 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i63_1.jpg",
-          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i63_2.jpg",
-          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/573585943/large.jpg",
+          "attribution": "(c) MARGAUX MILLER, all rights reserved"
         },
         {
           "url": "images/inat/inat_i63_3.jpg",
-          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548626649/large.jpg",
+          "attribution": "(c) William K, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i63_4.jpg",
-          "attribution": "(c) Luis Y. Santiago-Rosario, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548626648/large.jpg",
+          "attribution": "(c) William K, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i63_5.jpg",
-          "attribution": "(c) areyes81, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i63_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/268905600/large.jpeg",
+          "attribution": "(c) Penguin Iceberg, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3242,23 +3524,28 @@ const insectData = [
       "name": "Xabea levissima",
       "photos": [
         {
-          "url": "images/inat/inat_i64_1.jpg",
+          "url": "images/inat/inat_i64_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30406949/large.jpeg",
           "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i64_2.jpg",
+          "url": "images/inat/inat_i64_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30406980/large.jpeg",
           "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i64_3.jpg",
-          "attribution": "(c) imagineed, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i64_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/95664509/large.jpeg",
+          "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i64_4.jpg",
-          "attribution": "(c) 银河自然博物工作室, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/350015622/large.jpg",
+          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i64_5.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/456100187/large.jpg",
           "attribution": "(c) Fan Gao, all rights reserved"
         }
       ],
@@ -3293,24 +3580,29 @@ const insectData = [
       "name": "Truljalia hibinonis",
       "photos": [
         {
-          "url": "images/inat/inat_i65_1.jpg",
-          "attribution": "(c) t_natsume, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i65_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/331613634/large.jpeg",
+          "attribution": "no rights reserved"
         },
         {
-          "url": "images/inat/inat_i65_2.jpg",
-          "attribution": "(c) naturalist148683, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i65_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/111601484/large.jpeg",
+          "attribution": "(c) hin jo, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i65_3.jpg",
-          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i65_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/111601493/large.jpeg",
+          "attribution": "(c) hin jo, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i65_4.jpg",
-          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i65_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153252844/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i65_5.jpg",
-          "attribution": "(c) jasperbasil, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i65_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153252853/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -3345,23 +3637,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i66_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237164828/large.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i66_2.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/556816487/large.jpg",
           "attribution": "(c) GD, all rights reserved"
         },
         {
           "url": "images/inat/inat_i66_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237157376/large.jpg",
           "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i66_4.jpg",
-          "attribution": "(c) Yan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/591036863/large.jpg",
+          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i66_5.jpeg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i66_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439621654/large.jpg",
+          "attribution": "(c) Yan, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3409,22 +3706,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i67_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221108985/large.jpeg",
           "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i67_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221108998/large.jpeg",
           "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i67_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221109014/large.jpeg",
           "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i67_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221109035/large.jpeg",
           "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i67_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221109056/large.jpeg",
           "attribution": "(c) 何祝清 He Zhu-Qing, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3464,14 +3766,17 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i68_1.jpg",
-          "attribution": "(c) jiangyou, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i68_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/511732098/large.jpg",
           "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC)"
         },
         {
+          "url": "images/inat/inat_i68_2.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/589622227/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
+        },
+        {
           "url": "images/inat/inat_i68_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/512701790/large.jpg",
           "attribution": "(c) 一颗行走的白菜, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3519,15 +3824,18 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i69_1.jpg",
-          "attribution": "(c) Thijs Valkenburg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/45740525/large.jpg",
+          "attribution": "(c) Martijn Lind, all rights reserved"
         },
         {
           "url": "images/inat/inat_i69_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/254867858/large.jpg",
           "attribution": "(c) Thijs Valkenburg, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i69_3.jpg",
-          "attribution": "(c) Martijn Lind, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/254869653/large.jpg",
+          "attribution": "(c) Thijs Valkenburg, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3570,23 +3878,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i70_1.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531790778/large.jpg",
+          "attribution": "(c) Suzu Sato, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i70_2.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320848580/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i70_3.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "url": "images/inat/inat_i70_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/88514491/large.jpeg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i70_4.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57935861/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i70_5.jpg",
-          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57936552/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3609,23 +3922,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i71_1.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138756831/large.jpg",
+          "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i71_2.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138756815/large.jpg",
+          "attribution": "(c) Masatoshi Sone, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i71_3.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/337012569/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i71_4.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/227073559/large.jpg",
+          "attribution": "(c) antzheng, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i71_5.jpg",
-          "attribution": "(c) vyoledt, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i71_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/437531250/large.jpeg",
+          "attribution": "(c) 斜绿天蛾, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3655,24 +3973,29 @@ const insectData = [
       "name": "Gryllidea",
       "photos": [
         {
-          "url": "images/inat/inat_i72_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i72_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792421/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i72_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "url": "images/inat/inat_i72_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792446/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i72_3.jpg",
-          "attribution": "(c) Zeke Blankenship, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5290646/large.jpg",
+          "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i72_4.jpg",
-          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410921/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i72_5.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410923/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -3707,23 +4030,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i73_1.jpg",
-          "attribution": "(c) chentian, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/223460544/large.jpg",
+          "attribution": "(c) Shi Qi, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i73_2.jpg",
-          "attribution": "(c) chentian, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i73_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/328661242/large.jpeg",
+          "attribution": "(c) Li Jianbo, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i73_3.jpg",
-          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/558301979/large.jpg",
+          "attribution": "(c) 昆虫学liuye, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i73_4.jpg",
-          "attribution": "(c) LannaMountainsCharlie, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/614751453/large.jpg",
+          "attribution": "(c) Pam Piombino, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i73_5.jpg",
-          "attribution": "(c) LannaMountainsCharlie, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/479515913/large.jpg",
+          "attribution": "(c) w_nightbug, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3763,23 +4091,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i74_1.jpg",
-          "attribution": "(c) kusa-to-uo, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/93559481/large.jpg",
+          "attribution": "(c) Nullkooland, all rights reserved"
         },
         {
           "url": "images/inat/inat_i74_2.jpg",
-          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/93559501/large.jpg",
+          "attribution": "(c) Nullkooland, all rights reserved"
         },
         {
           "url": "images/inat/inat_i74_3.jpg",
-          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555826041/large.jpg",
+          "attribution": "(c) campbellfmh, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i74_4.jpg",
-          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555826046/large.jpg",
+          "attribution": "(c) campbellfmh, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i74_5.jpg",
-          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555826040/large.jpg",
+          "attribution": "(c) campbellfmh, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3817,24 +4150,29 @@ const insectData = [
       "name": "Xenogryllus maichauensis",
       "photos": [
         {
-          "url": "images/inat/inat_i75_1.jpg",
-          "attribution": "(c) imagineed, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i75_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229424241/large.jpeg",
+          "attribution": "(c) 刘光裕 Liu Guangyu, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i75_2.jpg",
-          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i75_3.jpeg",
+          "url": "images/inat/inat_i75_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/420218500/large.jpeg",
           "attribution": "(c) caofazexiang, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i75_4.jpg",
+          "url": "images/inat/inat_i75_3.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/222009705/large.jpg",
           "attribution": "(c) jiangyou, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i75_5.jpeg",
-          "attribution": "(c) Spark, all rights reserved"
+          "url": "images/inat/inat_i75_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/457655668/large.jpg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i75_5.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/401141024/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -3881,23 +4219,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i76_1.jpg",
-          "attribution": "(c) nokbeetles, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/208224986/large.jpg",
+          "attribution": "(c) PK Yeung, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i76_2.jpg",
-          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i76_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20444600/large.jpeg",
+          "attribution": "(c) biobank-lantauhk, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i76_3.jpg",
-          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i76_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20444603/large.jpeg",
+          "attribution": "(c) biobank-lantauhk, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i76_4.jpg",
-          "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i76_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20444605/large.jpeg",
+          "attribution": "(c) biobank-lantauhk, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i76_5.jpg",
-          "attribution": "(c) jiangyou, all rights reserved"
+          "url": "images/inat/inat_i76_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20444607/large.jpeg",
+          "attribution": "(c) biobank-lantauhk, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -3932,23 +4275,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i77_1.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374971118/large.jpg",
+          "attribution": "(c) Dr Pamela Muggeridge, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i77_2.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i77_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374970965/large.jpeg",
+          "attribution": "(c) Dr Pamela Muggeridge, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i77_3.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/567257910/large.jpg",
+          "attribution": "(c) 九天, all rights reserved"
         },
         {
           "url": "images/inat/inat_i77_4.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/567257940/large.jpg",
+          "attribution": "(c) 九天, all rights reserved"
         },
         {
           "url": "images/inat/inat_i77_5.jpg",
-          "attribution": "(c) wresy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/567257967/large.jpg",
+          "attribution": "(c) 九天, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -3984,23 +4332,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i78_1.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531790778/large.jpg",
+          "attribution": "(c) Suzu Sato, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i78_2.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320848580/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i78_3.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "url": "images/inat/inat_i78_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/88514491/large.jpeg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i78_4.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57935861/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i78_5.jpg",
-          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57936552/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4063,23 +4416,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i79_1.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531790778/large.jpg",
+          "attribution": "(c) Suzu Sato, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i79_2.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320848580/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i79_3.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "url": "images/inat/inat_i79_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/88514491/large.jpeg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i79_4.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57935861/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i79_5.jpg",
-          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57936552/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4114,23 +4472,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i80_1.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531790778/large.jpg",
+          "attribution": "(c) Suzu Sato, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i80_2.jpg",
-          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320848580/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i80_3.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "url": "images/inat/inat_i80_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/88514491/large.jpeg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i80_4.jpg",
-          "attribution": "(c) GD, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57935861/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i80_5.jpg",
-          "attribution": "(c) robotpie, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57936552/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4153,22 +4516,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i81_1.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/321198322/large.jpg",
+          "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i81_2.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/321198345/large.jpg",
           "attribution": "(c) jiangyou, all rights reserved"
         },
         {
           "url": "images/inat/inat_i81_3.jpg",
-          "attribution": "(c) jiangyou, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/453009487/large.jpg",
+          "attribution": "(c) Fan Gao, all rights reserved"
         },
         {
           "url": "images/inat/inat_i81_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/317616138/large.jpeg",
           "attribution": "(c) Bayu Sahabat satwa, all rights reserved"
         },
         {
           "url": "images/inat/inat_i81_5.jpg",
+          "largeUrl": "https://static.inaturalist.org/photos/231604005/large.jpg",
           "attribution": "(c) jiangyou, all rights reserved"
         }
       ],
@@ -4199,24 +4567,29 @@ const insectData = [
       "name": "Gryllidae",
       "photos": [
         {
-          "url": "images/inat/inat_i82_1.jpg",
-          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i82_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792421/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i82_2.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i82_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792446/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i82_3.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410921/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i82_4.jpg",
-          "attribution": "(c) Yves Bas, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410923/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
-          "url": "images/inat/inat_i82_5.jpg",
-          "attribution": "(c) luisaxiomara, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i82_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/361452010/large.jpeg",
+          "attribution": "(c) kaymac127, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4267,23 +4640,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i83_1.jpg",
-          "attribution": "(c) sunny_dee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/148680057/large.jpg",
+          "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i83_2.jpg",
-          "attribution": "(c) sunny_dee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/148680176/large.jpg",
+          "attribution": "(c) Albert Kang, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i83_3.jpg",
-          "attribution": "(c) Nusantara Wilderness, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i83_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245510340/large.jpeg",
+          "attribution": "(c) tony_robillard, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i83_4.jpg",
-          "attribution": "(c) Nusantara Wilderness, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i83_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245509345/large.jpeg",
+          "attribution": "(c) tony_robillard, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i83_5.jpg",
-          "attribution": "(c) Jean-Marie Frenoux, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i83_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/45410702/large.jpeg",
+          "attribution": "(c) plea84, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4318,22 +4696,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i84_1.jpg",
-          "attribution": "(c) rofmsyb, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/536444740/large.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i84_2.jpg",
-          "attribution": "(c) angryphyco, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/536444743/large.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i84_3.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/536444720/large.jpg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i84_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/536444719/large.jpg",
           "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i84_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/536444724/large.jpg",
           "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4362,23 +4745,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i85_1.jpg",
-          "attribution": "(c) 樂行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248244089/large.jpg",
+          "attribution": "(c) Ralph Martin, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i85_2.jpg",
-          "attribution": "(c) sorensoren, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248244112/large.jpg",
+          "attribution": "(c) Ralph Martin, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i85_3.jpg",
-          "attribution": "no rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248244122/large.jpg",
+          "attribution": "(c) Ralph Martin, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i85_4.jpg",
-          "attribution": "(c) monocycler, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248244105/large.jpg",
+          "attribution": "(c) Ralph Martin, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i85_5.jpg",
-          "attribution": "(c) monocycler, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248244100/large.jpg",
+          "attribution": "(c) Ralph Martin, some rights reserved (CC BY-NC-ND)"
         }
       ],
       "checked_for_5": true
@@ -4413,23 +4801,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i86_1.jpg",
-          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574368395/large.jpg",
+          "attribution": "(c) yecaitrainer, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i86_2.jpg",
-          "attribution": "(c) 설성검, all rights reserved"
+          "url": "images/inat/inat_i86_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/271132735/large.jpeg",
+          "attribution": "(c) Katydid Katydid, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i86_3.jpg",
-          "attribution": "(c) 김태호, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i86_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/108286463/large.jpeg",
+          "attribution": "(c) Бадамнямбуу, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i86_4.jpg",
-          "attribution": "(c) 유월, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i86_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/304396674/large.jpeg",
+          "attribution": "(c) Денис, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i86_5.jpg",
-          "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)"
+          "url": "images/inat/inat_i86_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/30890826/large.jpeg",
+          "attribution": "(c) Татьяна Маврина, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -4472,23 +4865,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i87_1.jpg",
-          "attribution": "(c) Zara, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/325724222/large.jpg",
+          "attribution": "(c) RattyExplores, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i87_2.jpg",
-          "attribution": "(c) Zara, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/325724228/large.jpg",
+          "attribution": "(c) RattyExplores, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i87_3.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487515/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i87_4.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487518/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i87_5.jpg",
-          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/529487520/large.jpg",
+          "attribution": "(c) Rui, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4512,22 +4910,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i88_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/606613292/large.jpg",
           "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i88_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/606613303/large.jpg",
           "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i88_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/606613317/large.jpg",
           "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i88_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/606613326/large.jpg",
           "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i88_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/607091989/large.jpg",
           "attribution": "(c) Elysia, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4564,6 +4967,7 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i89_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/485791320/large.jpg",
           "attribution": "(c) bobbybao, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4604,23 +5008,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i90_1.jpg",
-          "attribution": "(c) 夜行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52079492/large.jpg",
+          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i90_2.jpg",
-          "attribution": "(c) 夜行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92239295/large.jpg",
+          "attribution": "(c) Ryosuke Kuwahara, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i90_3.jpg",
-          "attribution": "(c) 夜行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/90685426/large.jpg",
+          "attribution": "(c) Gregory Mihaich, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i90_4.jpg",
-          "attribution": "(c) 夜行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/90685388/large.jpg",
+          "attribution": "(c) Gregory Mihaich, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i90_5.jpg",
-          "attribution": "(c) 夜行, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/90685407/large.jpg",
+          "attribution": "(c) Gregory Mihaich, some rights reserved (CC BY-NC-SA)"
         }
       ],
       "checked_for_5": true
@@ -4660,23 +5069,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i91_1.jpg",
-          "attribution": "(c) Chakra Pani, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/590965994/large.jpg",
+          "attribution": "(c) Dhruva Punde, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i91_2.jpg",
-          "attribution": "(c) Aditi Chanchala Yadav, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/590966066/large.jpg",
+          "attribution": "(c) Dhruva Punde, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i91_3.jpg",
-          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i91_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/455265129/large.jpeg",
+          "attribution": "(c) Ashish Ujalambe, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i91_4.jpg",
-          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i91_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/241231245/large.jpeg",
+          "attribution": "(c) yamzies, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i91_5.jpg",
-          "attribution": "(c) SL Penang, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/335522692/large.jpg",
+          "attribution": "(c) shyamkumar puravankara, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4719,23 +5133,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i92_1.jpg",
-          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/571751317/large.jpg",
+          "attribution": "(c) PLee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i92_2.jpg",
-          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/605088555/large.jpg",
+          "attribution": "(c) Timmy, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i92_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/666409147/large.jpg",
           "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i92_4.jpg",
-          "attribution": "(c) Timmy, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/666409189/large.jpg",
+          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i92_5.jpg",
-          "attribution": "(c) PLee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/666409226/large.jpg",
+          "attribution": "(c) Cao Yihan, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4790,24 +5209,29 @@ const insectData = [
       "name": "Hexacentrus unicolor",
       "photos": [
         {
-          "url": "images/inat/inat_i93_1.jpg",
-          "attribution": "(c) 李明龍, all rights reserved"
+          "url": "images/inat/inat_i93_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262034103/large.jpeg",
+          "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i93_2.jpg",
-          "attribution": "(c) Debashis Chowdhury, all rights reserved"
+          "url": "images/inat/inat_i93_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262034319/large.jpeg",
+          "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i93_3.jpg",
-          "attribution": "(c) Aditi Chanchala Yadav, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i93_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262034837/large.jpeg",
+          "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i93_4.jpg",
-          "attribution": "no rights reserved"
+          "url": "images/inat/inat_i93_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262034562/large.jpeg",
+          "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i93_5.jpg",
-          "attribution": "no rights reserved"
+          "url": "images/inat/inat_i93_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262033925/large.jpeg",
+          "attribution": "(c) Rui Da Silva Pinto, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -4879,24 +5303,29 @@ const insectData = [
       "name": "Hexacentrus fuscipes",
       "photos": [
         {
-          "url": "images/inat/inat_i95_1.jpg",
-          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i95_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/21953730/large.jpeg",
+          "attribution": "(c) Jerome Ko, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i95_2.jpg",
-          "attribution": "(c) kenhe, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i95_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/21953739/large.jpeg",
+          "attribution": "(c) Jerome Ko, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i95_3.jpg",
-          "attribution": "(c) miaochunyu, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i95_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20250543/large.jpeg",
+          "attribution": "(c) Max Hsieh(雁子), some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i95_4.jpg",
-          "attribution": "(c) 管牧山, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i95_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20250534/large.jpeg",
+          "attribution": "(c) Max Hsieh(雁子), some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i95_5.jpg",
-          "attribution": "(c) 何新梅, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/568965045/large.jpg",
+          "attribution": "(c) Hsieh Yung Wei, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -4956,24 +5385,29 @@ const insectData = [
       "name": "Conocephalus maculatus",
       "photos": [
         {
-          "url": "images/inat/inat_i97_1.jpg",
-          "attribution": "(c) Timothe Benazet-Fays, all rights reserved"
+          "url": "images/inat/inat_i97_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430768591/large.jpeg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i97_2.jpg",
-          "attribution": "(c) 도리, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i97_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430768644/large.jpeg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i97_3.jpg",
-          "attribution": "(c) 도리, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i97_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430768676/large.jpeg",
+          "attribution": "(c) 王琰, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i97_4.jpg",
-          "attribution": "(c) Alec Hopping, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/106976354/large.jpg",
+          "attribution": "(c) 陳柏緯, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i97_5.jpg",
-          "attribution": "(c) Theophile Thomas, all rights reserved"
+          "url": "images/inat/inat_i97_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133318169/large.jpeg",
+          "attribution": "no rights reserved"
         }
       ],
       "checked_for_5": true
@@ -5012,23 +5446,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i98_1.jpg",
-          "attribution": "(c) Meera Nair, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103245810/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i98_2.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i98_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/13047600/large.jpeg",
+          "attribution": "(c) Tiffany Lum, all rights reserved"
         },
         {
           "url": "images/inat/inat_i98_3.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/12511344/large.jpg",
+          "attribution": "(c) Tiffany Lum, all rights reserved"
         },
         {
           "url": "images/inat/inat_i98_4.jpg",
-          "attribution": "(c) david_guo618, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/49773014/large.jpg",
+          "attribution": "(c) gcynature, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i98_5.jpg",
-          "attribution": "(c) luuuun, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/49773013/large.jpg",
+          "attribution": "(c) gcynature, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5063,23 +5502,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i99_1.jpg",
-          "attribution": "(c) chigakiri, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/602167670/large.jpg",
+          "attribution": "(c) CC黎明, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i99_2.jpg",
-          "attribution": "(c) chigakiri, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/591166941/large.jpg",
+          "attribution": "(c) athruapehu, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i99_3.jpg",
-          "attribution": "(c) chigakiri, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/591166939/large.jpg",
+          "attribution": "(c) athruapehu, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i99_4.jpg",
-          "attribution": "(c) chigakiri, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/576865441/large.jpg",
+          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i99_5.jpg",
-          "attribution": "(c) conchuningen, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/559344262/large.jpg",
+          "attribution": "(c) 老山敬德, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5122,24 +5566,29 @@ const insectData = [
       "name": "Euconocephalus nasutus",
       "photos": [
         {
-          "url": "images/inat/inat_i100_1.jpg",
-          "attribution": "(c) Staci S., all rights reserved"
+          "url": "images/inat/inat_i100_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/475817041/large.jpeg",
+          "attribution": "(c) nokbeetles, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i100_2.jpg",
-          "attribution": "(c) Staci S., all rights reserved"
+          "url": "images/inat/inat_i100_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/475817075/large.jpeg",
+          "attribution": "(c) nokbeetles, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i100_3.jpg",
-          "attribution": "(c) Staci S., all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/520679104/large.jpg",
+          "attribution": "(c) NAS MIZ, all rights reserved"
         },
         {
           "url": "images/inat/inat_i100_4.jpg",
-          "attribution": "(c) Damien Wallace, some rights reserved (CC BY)"
+          "largeUrl": "https://static.inaturalist.org/photos/520679182/large.jpg",
+          "attribution": "(c) NAS MIZ, all rights reserved"
         },
         {
           "url": "images/inat/inat_i100_5.jpg",
-          "attribution": "(c) Damien Wallace, some rights reserved (CC BY)"
+          "largeUrl": "https://static.inaturalist.org/photos/520679209/large.jpg",
+          "attribution": "(c) NAS MIZ, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -5178,23 +5627,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i101_1.jpg",
-          "attribution": "(c) michaeltestori, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237435248/large.jpg",
+          "attribution": "(c) Lucas Rubio, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i101_2.jpg",
-          "attribution": "(c) Meera Nair, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237435260/large.jpg",
+          "attribution": "(c) Lucas Rubio, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i101_3.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103245810/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i101_4.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i101_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25595604/large.jpeg",
+          "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i101_5.jpg",
-          "attribution": "(c) david_guo618, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i101_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/153051068/large.jpeg",
+          "attribution": "(c) Jack Cochran, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5212,23 +5666,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i102_1.jpg",
-          "attribution": "(c) michaeltestori, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237435248/large.jpg",
+          "attribution": "(c) Lucas Rubio, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i102_2.jpg",
-          "attribution": "(c) Meera Nair, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237435260/large.jpg",
+          "attribution": "(c) Lucas Rubio, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i102_3.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103245810/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i102_4.jpg",
-          "attribution": "(c) Anubhav Agarwal, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i102_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25595604/large.jpeg",
+          "attribution": "(c) Paul Tavares, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i102_5.jpg",
-          "attribution": "(c) david_guo618, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i102_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/153051068/large.jpeg",
+          "attribution": "(c) Jack Cochran, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5262,12 +5721,14 @@ const insectData = [
       "name": "Conocephalus dorsalidentatus",
       "photos": [
         {
-          "url": "images/inat/inat_i103_1.jpeg",
-          "attribution": "(c) Yan Xuyang, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i103_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/239283139/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i103_2.jpg",
-          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i103_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314191151/large.jpeg",
+          "attribution": "(c) Yan Xuyang, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5307,23 +5768,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i104_1.jpg",
-          "attribution": "(c) longarms, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/470594365/large.jpg",
+          "attribution": "(c) Spark, all rights reserved"
         },
         {
           "url": "images/inat/inat_i104_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/626212598/large.jpg",
           "attribution": "(c) Joshua Wong, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i104_3.jpg",
-          "attribution": "(c) john lenagan, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237323666/large.jpg",
+          "attribution": "(c) 登坂久雄, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i104_4.jpg",
-          "attribution": "(c) Doreen, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237323677/large.jpg",
+          "attribution": "(c) 登坂久雄, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i104_5.jpg",
-          "attribution": "(c) Doreen, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237323691/large.jpg",
+          "attribution": "(c) 登坂久雄, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5367,23 +5833,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i105_1.jpg",
-          "attribution": "(c) 陳冠蓓, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/591476751/large.jpg",
+          "attribution": "(c) hajime_hojo, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i105_2.jpg",
-          "attribution": "(c) Chakra Pani, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i105_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153253016/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i105_3.jpg",
-          "attribution": "(c) Samuel Liao, all rights reserved"
+          "url": "images/inat/inat_i105_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153253039/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i105_4.jpg",
-          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i105_4.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153253023/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i105_5.jpg",
-          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i105_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/153253058/large.jpeg",
+          "attribution": "(c) Geonhyeok Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -5418,23 +5889,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i106_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i106_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i106_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i106_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i106_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i106_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5457,23 +5933,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i107_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i107_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i107_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i107_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i107_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i107_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5500,23 +5981,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i108_1.jpg",
-          "attribution": "(c) LorenzoZ, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25424184/large.jpg",
+          "attribution": "(c) athorson, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i108_2.jpg",
-          "attribution": "(c) daisywu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/243608211/large.jpg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i108_3.jpg",
-          "attribution": "(c) daisywu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/243608216/large.jpg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i108_4.jpg",
-          "attribution": "(c) mercury9nine, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/317055714/large.jpg",
+          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i108_5.jpg",
-          "attribution": "(c) mercury9nine, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/317055703/large.jpg",
+          "attribution": "(c) Nakatada Wachi, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5544,23 +6030,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i109_1.jpg",
-          "attribution": "(c) Elias Barlow, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/352384226/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i109_2.jpg",
-          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/352384225/large.jpg",
+          "attribution": "(c) Paul B., some rights reserved (CC BY-NC-ND)"
         },
         {
-          "url": "images/inat/inat_i109_3.jpg",
-          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i109_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/280965724/large.jpeg",
+          "attribution": "(c) 潘立傑 LICHIEH_PAN, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i109_4.jpg",
-          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9475464/large.jpg",
+          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i109_5.jpg",
-          "attribution": "(c) JaeHu Kim, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9475465/large.jpg",
+          "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY)"
         }
       ],
       "checked_for_5": true
@@ -5595,23 +6086,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i110_1.jpg",
-          "attribution": "(c) 云鸮, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/367857497/large.jpg",
+          "attribution": "(c) szjy, all rights reserved"
         },
         {
           "url": "images/inat/inat_i110_2.jpg",
-          "attribution": "(c) 政策, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/556804024/large.jpg",
+          "attribution": "(c) 鈴木智大, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i110_3.jpg",
-          "attribution": "(c) ph_hsu, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/506543672/large.jpg",
+          "attribution": "(c) Huang,Yu-Shiang, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i110_4.jpg",
-          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/506543699/large.jpg",
+          "attribution": "(c) Huang,Yu-Shiang, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i110_5.jpg",
-          "attribution": "(c) 褄黒ハル, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i110_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/24402514/large.jpeg",
+          "attribution": "(c) Faye Lo, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -5646,23 +6142,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i111_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i111_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i111_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i111_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i111_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i111_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5697,23 +6198,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i112_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i112_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i112_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i112_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i112_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i112_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5748,24 +6254,29 @@ const insectData = [
       "name": "Pseudophyllus titan",
       "photos": [
         {
-          "url": "images/inat/inat_i113_1.jpg",
-          "attribution": "(c) 𝗖𝗵𝗲𝗲𝘄𝗮𝘀𝗮𝘁 𝗣𝗵𝗮𝘁𝘁𝗵𝗮𝗿𝗮𝗸𝘂𝗹𝗻𝗶𝗷 (𝗕𝗲𝗮𝗺), all rights reserved"
+          "url": "images/inat/inat_i113_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184209047/large.jpeg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i113_2.jpg",
-          "attribution": "(c) tangxing, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i113_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184287468/large.jpeg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i113_3.jpg",
-          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i113_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184287490/large.jpeg",
+          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i113_4.jpg",
-          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/87743648/large.jpg",
+          "attribution": "(c) morningstar pohsnem, all rights reserved"
         },
         {
           "url": "images/inat/inat_i113_5.jpg",
-          "attribution": "(c) David Dalmeijer, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/87743666/large.jpg",
+          "attribution": "(c) morningstar pohsnem, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -5824,23 +6335,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i114_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i114_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i114_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i114_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i114_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i114_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5893,23 +6409,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i116_1.jpg",
-          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351687496/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i116_2.jpg",
-          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351687685/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i116_3.jpg",
-          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351687579/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i116_4.jpg",
-          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351687782/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i116_5.jpg",
-          "attribution": "(c) Melvin Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351687615/large.jpg",
+          "attribution": "(c) Simba, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5943,24 +6464,29 @@ const insectData = [
       "name": "Tympanophyllum maximum",
       "photos": [
         {
-          "url": "images/inat/inat_i117_1.jpg",
-          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i117_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237890595/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i117_2.jpg",
-          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i117_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237890617/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i117_3.jpg",
-          "attribution": "(c) Qi Ao Wei, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/363409648/large.jpg",
+          "attribution": "(c) shensike, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i117_4.jpg",
-          "attribution": "(c) flyingfishliu, all rights reserved"
+          "url": "images/inat/inat_i117_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/236959934/large.jpeg",
+          "attribution": "(c) 柠一, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i117_5.jpg",
-          "attribution": "(c) 周瑜, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/608642043/large.jpg",
+          "attribution": "(c) Sakern | 永隔一江水, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -5999,23 +6525,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i118_1.jpg",
-          "attribution": "(c) Thành Phan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/29016703/large.jpg",
+          "attribution": "(c) razzaxxe, all rights reserved"
         },
         {
           "url": "images/inat/inat_i118_2.jpg",
-          "attribution": "(c) 通通, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4498178/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i118_3.jpg",
-          "attribution": "(c) Jeremy Phan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4498177/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i118_4.jpg",
-          "attribution": "(c) Dr. Guido Bohne, some rights reserved (CC BY-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4498176/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i118_5.jpg",
-          "attribution": "(c) Dr. Guido Bohne, some rights reserved (CC BY-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/181286455/large.jpg",
+          "attribution": "(c) Jan Fischer Rasmussen, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -6053,24 +6584,29 @@ const insectData = [
       "name": "Tegra novaehollandiae",
       "photos": [
         {
-          "url": "images/inat/inat_i119_1.jpg",
-          "attribution": "(c) Wing Carrie, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i119_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/289169362/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i119_2.jpg",
-          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i119_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/289169377/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i119_3.jpg",
-          "attribution": "(c) jordon mike, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i119_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/289169390/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i119_4.jpg",
-          "attribution": "(c) Milky_LZN, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/526388589/large.jpg",
+          "attribution": "(c) sky_chui, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i119_5.jpg",
-          "attribution": "(c) Leonard Worthington, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/526576345/large.jpg",
+          "attribution": "(c) sky_chui, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6100,24 +6636,24 @@ const insectData = [
       "name": "Tettigoniidae",
       "photos": [
         {
-          "url": "images/inat/inat_i120_1.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i120_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i120_2.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i120_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894248/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i120_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i120_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/24082991/large.jpeg",
+          "attribution": "(c) Silvia Córdoba, all rights reserved"
         },
         {
           "url": "images/inat/inat_i120_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i120_5.jpg",
-          "attribution": "(c) Erika, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26488177/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6167,24 +6703,29 @@ const insectData = [
       "name": "Chloracris brunneri",
       "photos": [
         {
-          "url": "images/inat/inat_i121_1.jpg",
-          "attribution": "(c) smilu, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i121_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/209221885/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i121_2.jpg",
-          "attribution": "(c) ccccccarpenter, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i121_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/209221895/large.jpeg",
+          "attribution": "(c) guanhong, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i121_3.jpg",
-          "attribution": "(c) Coffee, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/409723799/large.jpg",
+          "attribution": "no rights reserved"
         },
         {
           "url": "images/inat/inat_i121_4.jpg",
-          "attribution": "(c) waneyeQT, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/495410400/large.jpg",
+          "attribution": "(c) momo shou, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i121_5.jpg",
-          "attribution": "(c) Sasa Chozah, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/495410514/large.jpg",
+          "attribution": "(c) momo shou, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6222,24 +6763,29 @@ const insectData = [
       "name": "Lipotactes dorsaspina",
       "photos": [
         {
-          "url": "images/inat/inat_i122_1.jpeg",
-          "attribution": "(c) agelena, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i122_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20956602/large.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i122_2.jpg",
-          "attribution": "(c) zhangyujuan, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20956970/large.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i122_3.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20957025/large.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i122_4.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20957151/large.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i122_5.jpg",
-          "attribution": "(c) Fan Gao, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20957154/large.jpg",
+          "attribution": "(c) Michael Zelun Lee, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6274,22 +6820,27 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i123_1.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/573180492/large.jpg",
           "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i123_2.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/573180520/large.jpg",
           "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i123_3.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/573180544/large.jpg",
           "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i123_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/573180559/large.jpg",
           "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i123_5.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/573181441/large.jpg",
           "attribution": "(c) mrc2002, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6341,23 +6892,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i124_1.jpg",
-          "attribution": "(c) Rubi Gogoi, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/330159511/large.jpg",
+          "attribution": "(c) Miles 小智, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i124_2.jpg",
-          "attribution": "(c) Leon Xu, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/330159534/large.jpg",
+          "attribution": "(c) Miles 小智, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i124_3.jpg",
-          "attribution": "(c) tiaraki, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/330159554/large.jpg",
+          "attribution": "(c) Miles 小智, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i124_4.jpg",
-          "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/330159569/large.jpg",
+          "attribution": "(c) Miles 小智, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i124_5.jpg",
-          "attribution": "(c) M Nur Yahya, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i124_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/88320948/large.jpeg",
+          "attribution": "(c) priscatsui, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6388,15 +6944,18 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i125_1.jpeg",
-          "attribution": "(c) Vanjoy J. Sanchez, all rights reserved"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104326154/large.jpeg",
+          "attribution": "(c) Viral joshi, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i125_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104326161/large.jpeg",
           "attribution": "(c) Viral joshi, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i125_3.jpeg",
-          "attribution": "(c) Viral joshi, some rights reserved (CC BY)"
+          "largeUrl": "https://static.inaturalist.org/photos/171405080/large.jpeg",
+          "attribution": "(c) Vanjoy J. Sanchez, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -6431,23 +6990,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i126_1.jpg",
-          "attribution": "(c) Shiwan Lu, some rights reserved (CC BY-NC-SA)"
+          "largeUrl": "https://static.inaturalist.org/photos/397333219/large.jpg",
+          "attribution": "(c) Ceapon, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i126_2.jpg",
-          "attribution": "(c) conchuningen, all rights reserved"
+          "url": "images/inat/inat_i126_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/12725857/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i126_3.jpg",
-          "attribution": "(c) Tōtōmi.cameraaa.JPN, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i126_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/190816744/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         },
         {
           "url": "images/inat/inat_i126_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/569913287/large.jpg",
           "attribution": "(c) Tōtōmi.cameraaa.JPN, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i126_5.jpg",
-          "attribution": "(c) 零翅, some rights reserved (CC BY-NC-ND)"
+          "url": "images/inat/inat_i126_5.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/190827855/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
         }
       ],
       "checked_for_5": true
@@ -6469,24 +7033,29 @@ const insectData = [
       "name": "Gryllidae",
       "photos": [
         {
-          "url": "images/inat/inat_i127_1.jpg",
-          "attribution": "(c) Clarissa Sfalsin de Souza, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i127_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792421/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i127_2.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i127_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184792446/large.jpeg",
+          "attribution": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i127_3.jpg",
-          "attribution": "(c) eldelatempla, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410921/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
           "url": "images/inat/inat_i127_4.jpg",
-          "attribution": "(c) Yves Bas, some rights reserved (CC BY)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30410923/large.jpg",
+          "attribution": "(c) Roberto Sindaco, some rights reserved (CC BY-NC-SA)"
         },
         {
-          "url": "images/inat/inat_i127_5.jpg",
-          "attribution": "(c) luisaxiomara, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i127_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/361452010/large.jpeg",
+          "attribution": "(c) kaymac127, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6516,24 +7085,24 @@ const insectData = [
       "name": "Tettigoniidae",
       "photos": [
         {
-          "url": "images/inat/inat_i128_1.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i128_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i128_2.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i128_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894248/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i128_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i128_3.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/24082991/large.jpeg",
+          "attribution": "(c) Silvia Córdoba, all rights reserved"
         },
         {
           "url": "images/inat/inat_i128_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
-        },
-        {
-          "url": "images/inat/inat_i128_5.jpg",
-          "attribution": "(c) Erika, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26488177/large.jpg",
+          "attribution": "(c) budak, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6575,24 +7144,29 @@ const insectData = [
       "name": "Ruspolia",
       "photos": [
         {
-          "url": "images/inat/inat_i129_1.jpg",
-          "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)"
+          "url": "images/inat/inat_i129_1.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/440606524/large.jpeg",
+          "attribution": "(c) Izabela Kujawiak, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i129_2.jpg",
-          "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)"
+          "url": "images/inat/inat_i129_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/327850480/large.jpeg",
+          "attribution": "(c) Paul Yetman, some rights reserved (CC BY-NC-ND)"
         },
         {
           "url": "images/inat/inat_i129_3.jpg",
-          "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/624448944/large.jpg",
+          "attribution": "(c) bukoba_steve, some rights reserved (CC BY)"
         },
         {
           "url": "images/inat/inat_i129_4.jpg",
-          "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/624448945/large.jpg",
+          "attribution": "(c) bukoba_steve, some rights reserved (CC BY)"
         },
         {
-          "url": "images/inat/inat_i129_5.jpg",
-          "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)"
+          "url": "images/inat/inat_i129_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/228019837/large.jpeg",
+          "attribution": "(c) lastovka, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6627,23 +7201,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i130_1.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851032/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i130_2.jpg",
-          "attribution": "(c) Graem Hargrove, all rights reserved"
+          "largeUrl": "https://static.inaturalist.org/photos/7851034/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i130_3.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851035/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
           "url": "images/inat/inat_i130_4.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/7851036/large.jpg",
+          "attribution": "(c) Alice Abela, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i130_5.jpg",
-          "attribution": "(c) Fernando Berg, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i130_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/192894189/large.jpeg",
+          "attribution": "(c) Matheus M. Santos, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6681,24 +7260,29 @@ const insectData = [
       "name": "Pseudorhynchus",
       "photos": [
         {
-          "url": "images/inat/inat_i131_1.jpg",
-          "attribution": "(c) GLENN STOCKIL, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i131_1.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374982312/large.jpeg",
+          "attribution": "(c) alexedwards, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i131_2.jpg",
-          "attribution": "(c) GLENN STOCKIL, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i131_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374982416/large.jpeg",
+          "attribution": "(c) alexedwards, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i131_3.jpg",
-          "attribution": "(c) 皓皓, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i131_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374982507/large.jpeg",
+          "attribution": "(c) alexedwards, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i131_4.jpg",
-          "attribution": "(c) Vancia SU, all rights reserved"
+          "url": "images/inat/inat_i131_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374982597/large.jpeg",
+          "attribution": "(c) alexedwards, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i131_5.jpg",
-          "attribution": "(c) Adrien Cantat, some rights reserved (CC BY-NC)"
+          "url": "images/inat/inat_i131_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374982663/large.jpeg",
+          "attribution": "(c) alexedwards, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6725,23 +7309,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i132_1.jpg",
-          "attribution": "(c) Andiswa, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/481289542/large.jpg",
+          "attribution": "(c) Matthieu Berroneau, all rights reserved"
         },
         {
-          "url": "images/inat/inat_i132_2.jpg",
-          "attribution": "(c) Len deBeer, all rights reserved"
+          "url": "images/inat/inat_i132_2.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14988277/large.jpeg",
+          "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i132_3.jpg",
-          "attribution": "(c) Kyle Campbell, some rights reserved (CC BY-ND)"
+          "url": "images/inat/inat_i132_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14988273/large.jpeg",
+          "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i132_4.jpg",
-          "attribution": "(c) Petra Antl, all rights reserved"
+          "url": "images/inat/inat_i132_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/346617341/large.jpeg",
+          "attribution": "(c) Marianne Broug, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i132_5.jpg",
-          "attribution": "(c) Sarah Raisya, all rights reserved"
+          "url": "images/inat/inat_i132_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/346618328/large.jpeg",
+          "attribution": "(c) Marianne Broug, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6768,23 +7357,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i133_1.jpg",
-          "attribution": "(c) 甲殻蟲翻身, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223256918/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i133_2.jpg",
-          "attribution": "(c) kenhe, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223425598/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i133_3.jpg",
-          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223425605/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
           "url": "images/inat/inat_i133_4.jpg",
-          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://static.inaturalist.org/photos/568965110/large.jpg",
+          "attribution": "(c) Hsieh Yung Wei, all rights reserved"
         },
         {
           "url": "images/inat/inat_i133_5.jpg",
-          "attribution": "(c) Hiroki Shudo, some rights reserved (CC BY-NC)"
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/237521569/large.jpg",
+          "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         }
       ],
       "checked_for_5": true
@@ -6817,23 +7411,28 @@ const insectData = [
       "photos": [
         {
           "url": "images/inat/inat_i134_1.jpg",
-          "attribution": "(c) GD, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i134_2.jpg",
-          "attribution": "(c) Geonhyeok Kim, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i134_3.jpg",
-          "attribution": "(c) Geonhyeok Kim, all rights reserved"
-        },
-        {
-          "url": "images/inat/inat_i134_4.jpg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92408403/large.jpg",
           "attribution": "(c) orthoptera-jp, some rights reserved (CC BY-NC)"
         },
         {
-          "url": "images/inat/inat_i134_5.jpeg",
+          "url": "images/inat/inat_i134_2.jpeg",
+          "largeUrl": "https://static.inaturalist.org/photos/23334792/large.jpeg",
+          "attribution": "(c) Taewoo Kim, all rights reserved"
+        },
+        {
+          "url": "images/inat/inat_i134_3.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443128912/large.jpeg",
           "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i134_4.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/443128946/large.jpeg",
+          "attribution": "(c) midori_yaroo, some rights reserved (CC BY-NC)"
+        },
+        {
+          "url": "images/inat/inat_i134_5.jpeg",
+          "largeUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/320081322/large.jpeg",
+          "attribution": "no rights reserved"
         }
       ],
       "checked_for_5": true

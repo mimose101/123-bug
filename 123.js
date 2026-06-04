@@ -410,7 +410,7 @@
                         <div class="inat-photo-gallery">
                             ${inat.photos.slice(0, 5).map((p, i) => `
                                 <div class="inat-photo-item">
-                                    <img src="${p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
+                                    <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
                                     <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
                                 </div>
                             `).join('')}
@@ -911,7 +911,6 @@
                 audio.addEventListener('loadedmetadata', () => {
                     timeIndicator.textContent = `00:00 / ${formatTime(audio.duration)}`;
                 });
-
                 audio.addEventListener('error', () => {
                     playIcon.style.display = 'block';
                     pauseIcon.style.display = 'none';
@@ -990,6 +989,94 @@
             touch-action: none;
             -webkit-user-select: none;
         `;
+
+        // 高清大图异步加载器局部变量
+        let activeImageLoader = null;
+
+        // 创建高清提示状态标签 (HD Badge)
+        const hdBadge = document.createElement('div');
+        hdBadge.style.cssText = `
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            backdrop-filter: blur(10px);
+            z-index: 100003;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            border: 1px solid rgba(255,255,255,0.1);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        `;
+
+        // 高清图异步加载逻辑
+        function loadLargeImage(url) {
+            if (!url || url === img.src) {
+                hdBadge.style.opacity = '0';
+                return;
+            }
+
+            // 动态注入 loading 旋转样式
+            if (!document.getElementById('hd-spinner-style')) {
+                const style = document.createElement('style');
+                style.id = 'hd-spinner-style';
+                style.innerHTML = `
+                    @keyframes hd-spin {
+                        0% { transform: rotate(0deg); }
+                        100% { transform: rotate(360deg); }
+                    }
+                    .hd-spinner {
+                        width: 12px;
+                        height: 12px;
+                        border: 2px solid rgba(255,255,255,0.3);
+                        border-top-color: #fff;
+                        border-radius: 50%;
+                        display: inline-block;
+                        animation: hd-spin 0.8s linear infinite;
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+
+            hdBadge.style.opacity = '1';
+            hdBadge.innerHTML = `<span class="hd-spinner"></span> 正在加载高清图...`;
+
+            const tempImg = new Image();
+            activeImageLoader = tempImg;
+            tempImg.src = url;
+            tempImg.onload = () => {
+                if (activeImageLoader === tempImg) {
+                    img.style.opacity = '0.5';
+                    setTimeout(() => {
+                        img.src = url;
+                        img.style.opacity = '1';
+                    }, 100);
+                    hdBadge.innerHTML = `<span style="color:#4CAF50; font-weight:bold; text-shadow:0 0 4px rgba(76,175,80,0.4);">HD</span> 已加载高清`;
+                    setTimeout(() => {
+                        if (activeImageLoader === tempImg) {
+                            hdBadge.style.opacity = '0';
+                        }
+                    }, 2000);
+                }
+            };
+            tempImg.onerror = () => {
+                if (activeImageLoader === tempImg) {
+                    hdBadge.innerHTML = `<span style="color:#FF5722; font-weight:bold;">⚠️</span> 载入高清失败`;
+                    setTimeout(() => {
+                        if (activeImageLoader === tempImg) {
+                            hdBadge.style.opacity = '0';
+                        }
+                    }, 3000);
+                }
+            };
+        }
 
         const imgContainer = document.createElement('div');
         imgContainer.style.cssText = `
@@ -1249,6 +1336,7 @@
         modal.appendChild(prevBtn);
         modal.appendChild(nextBtn);
         modal.appendChild(caption);
+        modal.appendChild(hdBadge);
         document.body.appendChild(modal);
 
         function updateImage(index, direction) {
