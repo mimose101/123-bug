@@ -1944,3 +1944,21 @@ body.light-theme mark.search-highlight {
 .toc a:hover .toc-audio-icon {
     opacity: 1;
 }
+
+/* 左侧导航有 iNaturalist 生态图鉴的鸣虫绿叶小图标样式 */
+.toc-inat-icon {
+    font-size: 0.72rem;
+    margin-left: 4px;
+    vertical-align: middle;
+    opacity: 0.75;
+    display: inline-block;
+    transition: opacity 0.2s;
+}
+
+.toc a:hover .toc-inat-icon {
+    opacity: 1;
+}
+
+body.light-theme .toc-inat-icon {
+    opacity: 0.9;
+}

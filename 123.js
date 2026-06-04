@@ -2083,6 +2083,30 @@
         });
     }
 
+    // 在左部导航（TOC 目录）中有 iNaturalist 生态图鉴的鸣虫旁加上 🍀 图标
+    function initTocInatIcons() {
+        if (typeof insectData === 'undefined') return;
+        insectData.forEach(item => {
+            if (item.inaturalist && item.inaturalist.photos && item.inaturalist.photos.length > 0) {
+                const match = item.textHtml.match(/id="i(\d+)"/);
+                if (match) {
+                    const speciesNum = match[1];
+                    const link = document.querySelector(`.toc a[href="#i${speciesNum}"]`);
+                    if (link) {
+                        // 避免重复添加
+                        if (!link.querySelector('.toc-inat-icon')) {
+                            const icon = document.createElement('span');
+                            icon.className = 'toc-inat-icon';
+                            icon.textContent = ' 🍀';
+                            link.appendChild(icon);
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+
     /* ==========================================================
        🚀 13. DOM 就绪入口
        ========================================================== */
@@ -2106,6 +2130,7 @@
         initScrollSpy();
         initSpectrogramFolding();
         initTocAudioIcons();
+        initTocInatIcons();
 
         // 窗口变化自适应重置
         window.addEventListener('resize', () => {
