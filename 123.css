@@ -929,17 +929,177 @@ body.light-theme .mode-btn.active {
     font-style: italic;
 }
 
-/* 2. 详情画册双栏模式 */
+/* 2. 详情画册分级布局模式 */
 .specimen-layout {
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 30px;
     box-shadow: var(--shadow-lg);
     position: relative;
+}
+
+.specimen-top-section {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 30px;
+}
+
+.specimen-display-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+}
+
+.specimen-info-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+}
+
+.specimen-middle-section {
+    width: 100%;
+    border-top: 1px dashed var(--border);
+    border-bottom: 1px dashed var(--border);
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+.specimen-middle-section .custom-audio-player {
+    background: rgba(0, 230, 118, 0.06);
+}
+
+body.light-theme .specimen-middle-section .custom-audio-player {
+    background: rgba(27, 94, 32, 0.06);
+}
+
+.specimen-bottom-section {
+    width: 100%;
+}
+
+/* 折叠式声谱图 */
+.spectrogram-toggle-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.spectrogram-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.3s;
+}
+
+.spectrogram-toggle-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--primary-pale);
+}
+
+.spectrogram-toggle-btn.active {
+    background: var(--primary);
+    color: #000;
+    border-color: var(--primary);
+}
+
+body.light-theme .spectrogram-toggle-btn.active {
+    color: #fff;
+}
+
+.spectrogram-foldable {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Horizontal scrolling for ecological photos */
+.inat-horizontal {
+    background: rgba(0, 150, 136, 0.03);
+    border-color: rgba(0, 150, 136, 0.2);
+    width: 100%;
+}
+
+.inat-photo-scroll-container {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 4px 4px 12px 4px;
+    margin-top: 14px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.inat-photo-scroll-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.inat-photo-scroll-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 3px;
+}
+
+body.light-theme .inat-photo-scroll-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.inat-photo-scroll-container::-webkit-scrollbar-thumb {
+    background: rgba(0, 150, 136, 0.25);
+    border-radius: 3px;
+}
+
+.inat-photo-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 150, 136, 0.45);
+}
+
+.inat-photo-scroll-container .inat-photo-item {
+    flex: 0 0 200px;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 1px solid rgba(0, 150, 136, 0.15);
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.inat-photo-scroll-container .inat-photo-item:hover {
+    transform: translateY(-2px);
+    border-color: #009688;
+}
+
+.inat-photo-scroll-container .inat-photo-item img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.inat-photo-scroll-container .inat-photo-attribution {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    padding: 6px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgba(0,0,0,0.2);
+}
+
+body.light-theme .inat-photo-scroll-container .inat-photo-item {
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .specimen-display {
@@ -1327,26 +1487,23 @@ body.light-theme .info-card-item-modern:hover {
 }
 
 .inat-link-btn {
-    background: rgba(116, 172, 0, 0.06);
-    color: #649600 !important;
-    border: 1px solid rgba(116, 172, 0, 0.25);
+    background: #74ac00;
+    color: #fff !important;
     text-decoration: none !important;
-    padding: 3px 10px;
-    border-radius: 12px;
-    font-size: 0.7rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
     font-weight: 600;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    transition: all 0.25s var(--ease-out);
+    box-shadow: 0 2px 6px rgba(116, 172, 0, 0.25);
+    transition: all 0.2s;
 }
 
 .inat-link-btn:hover {
-    background: #74ac00;
-    color: #fff !important;
-    border-color: #74ac00;
-    transform: translateY(-1px);
-    box-shadow: 0 3px 8px rgba(116, 172, 0, 0.2);
+    background: #8cc41f;
+    transform: scale(1.03);
 }
 
 .inat-link-btn svg {
@@ -1355,135 +1512,37 @@ body.light-theme .info-card-item-modern:hover {
 }
 
 .inat-photo-gallery {
-    display: flex;
-    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 12px;
-    margin-top: 8px;
-    padding: 6px 4px 8px 4px;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* 极简精致的横向滚动条 */
-.inat-photo-gallery::-webkit-scrollbar {
-    height: 4px;
-}
-.inat-photo-gallery::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: 2px;
-}
-.inat-photo-gallery::-webkit-scrollbar-thumb {
-    background: rgba(0, 150, 136, 0.12);
-    border-radius: 2px;
-    transition: background 0.2s;
-}
-.inat-photo-gallery::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 150, 136, 0.3);
+    margin-top: 14px;
 }
 
 .inat-photo-item {
-    position: relative;
-    flex: 0 0 170px;
-    scroll-snap-align: start;
     border-radius: var(--radius-sm);
     overflow: hidden;
     border: 1px solid rgba(0, 150, 136, 0.15);
-    background: rgba(0, 0, 0, 0.03);
+    background: rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
-}
-
-.inat-photo-item:hover {
-    transform: translateY(-3px);
-    border-color: rgba(0, 150, 136, 0.35);
-    box-shadow: 0 6px 14px rgba(0, 150, 136, 0.12);
 }
 
 .inat-photo-item img {
     width: 100%;
-    height: 110px;
+    height: 120px;
     object-fit: cover;
     cursor: zoom-in;
-    transition: transform 0.4s var(--ease-out);
-}
-
-.inat-photo-item:hover img {
-    transform: scale(1.04);
-}
-
-/* 精致的放大提示遮罩层 */
-.inat-photo-item .zoom-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110px;
-    background: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(2.5px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s var(--ease-out);
-    z-index: 1;
-}
-
-.inat-photo-item:hover .zoom-overlay {
-    opacity: 1;
-}
-
-.inat-photo-item .zoom-overlay svg {
-    width: 22px;
-    height: 22px;
-    fill: rgba(255, 255, 255, 0.9);
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-    transform: scale(0.8);
-    transition: transform 0.3s var(--ease-out);
-}
-
-.inat-photo-item:hover .zoom-overlay svg {
-    transform: scale(1);
 }
 
 .inat-photo-attribution {
     font-size: 0.65rem;
     color: var(--text-muted);
-    padding: 5px 8px;
+    padding: 4px 8px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    background: rgba(0, 0, 0, 0.02);
-    border-top: 1px solid rgba(0, 150, 136, 0.06);
-    z-index: 2;
-}
-
-.inat-badge-modern {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    background: rgba(0, 150, 136, 0.04);
-    border: 1px solid rgba(0, 150, 136, 0.12);
-    padding: 3px 8px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    margin-top: 2px;
-}
-
-.inat-badge-modern .badge-label {
-    font-weight: 600;
-    color: #009688;
-}
-
-.inat-badge-modern .badge-value {
-    font-weight: 500;
-    font-style: italic;
-    color: var(--text-main);
+    background: rgba(0,0,0,0.05);
 }
 
 /* ==========================================================
@@ -1632,7 +1691,7 @@ body.light-theme figcaption {
    📱 10. 手机移动端自适应 (Mobile Emulation)
    ========================================================== */
 @media (max-width: 992px) {
-    .specimen-layout {
+    .specimen-top-section {
         grid-template-columns: 1fr;
     }
 }

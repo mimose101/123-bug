@@ -289,7 +289,7 @@
     /* ==========================================================
        🖼️ 6. 三种展示模式切换与主渲染核心
        ========================================================== */
-    function renderSpeciesHtml(item, query = '', showHeader = true) {
+    function renderSpeciesHtml(item, query = '', showHeader = true, excludeInat = false) {
         let html = item.textHtml;
         const h3Match = html.match(/<h3([^>]*)>([\s\S]*?)<\/h3>/i);
         if (!h3Match) return html;
@@ -392,67 +392,47 @@
             `;
         }
 
-
-
-        if (item.inaturalist) {
-            const inat = item.inaturalist;
-            // 比较学术对照名与物种中名，如果完全重合或只差首尾空格，则不再冗余显示
-            let showAcademicName = false;
-            if (inat.displayName) {
-                const cleanDisplay = inat.displayName.trim().toLowerCase();
-                const cleanChinese = rawChineseName.trim().toLowerCase();
-                if (cleanDisplay !== cleanChinese) {
-                    showAcademicName = true;
-                }
-            }
-            
-            cardHtml += `
-                <div class="info-card-item-modern inat-info-modern">
-                    <div class="info-card-title-modern">
-                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
-                        <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
-                    </div>
-                    ${showAcademicName ? `
-                        <div class="inat-badge-modern">
-                            <span class="badge-label">学术对照名:</span>
-                            <span class="badge-value">${highlight(inat.displayName)}</span>
+        if (!excludeInat) {
+            if (item.inaturalist) {
+                const inat = item.inaturalist;
+                // 总是显示学术对照名，以保证排版一致性
+                const showAcademicName = !!inat.displayName;
+                
+                cardHtml += `
+                    <div class="info-card-item-modern inat-info-modern">
+                        <div class="info-card-title-modern">
+                            <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                            <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
                         </div>
-                    ` : ''}
-                    ${inat.photos && inat.photos.length > 0 ? `
-                        <div class="inat-photo-gallery">
-                            ${inat.photos.slice(0, 5).map((p, i) => `
-                                <div class="inat-photo-item">
-                                    <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
-                                    <div class="zoom-overlay">
-                                        <svg viewBox="0 0 24 24">
-                                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-                                        </svg>
+                        ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
+                        ${inat.photos && inat.photos.length > 0 ? `
+                            <div class="inat-photo-gallery">
+                                ${inat.photos.slice(0, 5).map((p, i) => `
+                                    <div class="inat-photo-item">
+                                        <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
+                                        <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
                                     </div>
-                                    <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    ` : `
-                        <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; padding: 10px 0; font-style: italic; text-align:justify;">
-                            该物种在 iNaturalist 数据库中暂无公开的生态观察照片。您可以点击右上角前往官网查看更多观察记录。
-                        </div>
-                    `}
-                </div>
-            `;
-        } else {
-            // 对于未匹配到 iNaturalist 的种类，提供精美的提示
-            cardHtml += `
-                <div class="info-card-item-modern inat-info-modern" style="opacity: 0.85; border-style: dashed;">
-                    <div class="info-card-title-modern">
-                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                                `).join('')}
+                            </div>
+                        ` : `
+                            <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; padding: 10px 0; font-style: italic; text-align:justify;">
+                                该物种在 iNaturalist 数据库中暂无公开的生态观察照片。您可以点击右上角前往官网查看更多观察记录。
+                            </div>
+                        `}
                     </div>
-                    <div class="inat-badge-modern">
-                        <span class="badge-label" style="color:var(--text-muted);">学术对照名:</span>
-                        <span class="badge-value" style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span>
+                `;
+            } else {
+                // 对于未匹配到 iNaturalist 的种类，提供精美的提示
+                cardHtml += `
+                    <div class="info-card-item-modern inat-info-modern" style="opacity: 0.85; border-style: dashed;">
+                        <div class="info-card-title-modern">
+                            <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                        </div>
+                        <div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:var(--text-muted); margin-right:6px;">学术对照名:</span><span style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span></div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。</div>
                     </div>
-                    <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。</div>
-                </div>
-            `;
+                `;
+            }
         }
 
         cardHtml += `</div>`;
@@ -544,49 +524,58 @@
                     <!-- 物种详情展板 -->
                     <div class="combined-detail-panel" style="width:100%;">
                         <div class="specimen-layout" id="i${activeSpecNum}" data-species-num="${activeSpecNum}">
-                            <!-- 左栏：大图、播放器与声图 -->
-                            <div class="specimen-display">
-                                <div class="specimen-img-carousel">
-                                    <img src="${galleryImgs[0].src}" alt="${galleryImgs[0].caption}" loading="lazy" onerror="this.src='images/fallback.jpg';" />
-                                    <div class="specimen-img-attribution">${galleryImgs[0].caption}</div>
+                            <!-- 上层：左侧主图及缩略图 + 右侧基本信息和形态习性 -->
+                            <div class="specimen-top-section">
+                                <div class="specimen-display-aside">
+                                    <div class="specimen-img-carousel">
+                                        <img src="${galleryImgs[0].src}" alt="${galleryImgs[0].caption}" loading="lazy" onerror="this.src='images/fallback.jpg';" />
+                                        <div class="specimen-img-attribution">${galleryImgs[0].caption}</div>
+                                    </div>
+                                    
+                                    ${galleryImgs.length > 1 ? `
+                                    <div class="specimen-thumb-gallery">
+                                        ${galleryImgs.map((img, idx) => `
+                                            <div class="specimen-thumb-item ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+                                                <img src="${img.src}" alt="${img.caption}" loading="lazy" onerror="this.src='images/fallback.jpg';" />
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                    ` : ''}
                                 </div>
                                 
-                                ${galleryImgs.length > 1 ? `
-                                <div class="specimen-thumb-gallery">
-                                    ${galleryImgs.map((img, idx) => `
-                                        <div class="specimen-thumb-item ${idx === 0 ? 'active' : ''}" data-index="${idx}">
-                                            <img src="${img.src}" alt="${img.caption}" loading="lazy" onerror="this.src='images/fallback.jpg';" />
+                                <div class="specimen-info-aside">
+                                    <div class="specimen-title-row">
+                                        <span class="specimen-tag-badge">#${activeSpecNum.padStart(3, '0')}</span>
+                                        <div class="specimen-names-box">
+                                            <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)/i)[1]}</div>
+                                            <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
                                         </div>
-                                    `).join('')}
+                                        <button class="favorite-btn-modern ${getFavorites().includes(activeSpecNum) ? 'active' : ''}" data-species-num="${activeSpecNum}">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    
+                                    <div style="flex:1; overflow-y:auto; padding-right:6px;">
+                                        ${renderSpeciesHtml(activeItem, '', false, true)}
+                                    </div>
                                 </div>
-                                ` : ''}
-                                
-                                ${activeItem.audio ? renderPlayerHtml(activeItem) : `
-                                    <div class="info-card-item-modern" style="text-align:center; padding: 30px 10px;">
-                                        <div style="font-size:1.8rem; margin-bottom:8px;">🔇</div>
+                            </div>
+                            
+                            <!-- 中层：音频播放器（全宽）与折叠声谱图 -->
+                            <div class="specimen-middle-section">
+                                ${activeItem.audio ? renderFoldablePlayerHtml(activeItem) : `
+                                    <div class="info-card-item-modern" style="text-align:center; padding: 20px 10px;">
+                                        <div style="font-size:1.5rem; margin-bottom:8px;">🔇</div>
                                         <div style="color:var(--text-muted); font-size:0.8rem;">该鸣虫暂无野生叫声音频数据</div>
                                     </div>
                                 `}
                             </div>
                             
-                            <!-- 右栏：基本信息与形态习性 -->
-                            <div class="specimen-details">
-                                <div class="specimen-title-row">
-                                    <span class="specimen-tag-badge">#${activeSpecNum.padStart(3, '0')}</span>
-                                    <div class="specimen-names-box">
-                                        <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)/i)[1]}</div>
-                                        <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
-                                    </div>
-                                    <button class="favorite-btn-modern ${getFavorites().includes(activeSpecNum) ? 'active' : ''}" data-species-num="${activeSpecNum}">
-                                        <svg viewBox="0 0 24 24">
-                                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                                        </svg>
-                                    </button>
-                                </div>
-                                
-                                <div style="flex:1; overflow-y:auto; padding-right:6px;">
-                                    ${renderSpeciesHtml(activeItem, '', false)}
-                                </div>
+                            <!-- 下层：iNaturalist 生态观察图鉴（横向滚动条） -->
+                            <div class="specimen-bottom-section">
+                                ${renderHorizontalInatSection(activeItem)}
                             </div>
                         </div>
                         
@@ -644,6 +633,110 @@
                 <span class="audio-recordist">🎤 录制: ${item.audio.recordist} | XC ${item.audio.quality}级野生叫声</span>
             </div>
         `;
+    }
+
+    function renderFoldablePlayerHtml(item) {
+        const specNum = item.textHtml.match(/id="i(\d+)"/)[1];
+        return `
+            <div class="custom-audio-player" data-audio-src="${item.audio.file}" data-species-num="${specNum}">
+                <button class="audio-play-btn" aria-label="播放叫声">
+                    <svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    <svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    <svg class="loading-icon" viewBox="0 0 50 50" style="display:none; animation: audio-spin 1s linear infinite; width:18px; height:18px; stroke:currentColor; stroke-width:4; fill:none; stroke-linecap:round;">
+                        <circle cx="25" cy="25" r="20" stroke="rgba(255,255,255,0.2)"></circle>
+                        <path d="M25,5A20,20 0 0,1 45,25"></path>
+                    </svg>
+                </button>
+                <div class="audio-progress-container">
+                    <div class="audio-progress-bar">
+                        <div class="audio-progress-fill"></div>
+                    </div>
+                    <div class="audio-time-indicator">00:00 / ${item.audio.length || '00:00'}</div>
+                </div>
+                
+                <!-- 微型声波频谱动效 -->
+                <div class="mini-visualizer">
+                    <div class="visualizer-bar"></div>
+                    <div class="visualizer-bar"></div>
+                    <div class="visualizer-bar"></div>
+                    <div class="visualizer-bar"></div>
+                </div>
+            </div>
+            
+            <div class="spectrogram-toggle-container">
+                <button class="spectrogram-toggle-btn" type="button">
+                    <span class="toggle-icon">📊</span> <span class="toggle-text">显示声谱图</span>
+                </button>
+            </div>
+            
+            <div class="spectrogram-foldable">
+                <div class="spectrogram-container" style="margin-top: 10px;">
+                    <div class="spectrogram-wrapper">
+                        <img class="spectrogram-img skeleton-box" src="${item.audio.spectrogram.startsWith('http') ? 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(item.audio.spectrogram) : item.audio.spectrogram}" alt="声谱图" loading="lazy" onload="this.classList.remove('skeleton-box')" />
+                        <div class="spectrogram-progress-line"></div>
+                        <div class="spectrogram-overlay"></div>
+                    </div>
+                    <span class="audio-recordist">🎤 录制: ${item.audio.recordist} | XC ${item.audio.quality}级野生叫声</span>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderHorizontalInatSection(item, query = '') {
+        const h3Match = item.textHtml.match(/<h3([^>]*)>([\s\S]*?)<\/h3>/i);
+        let rawChineseName = '鸣虫';
+        if (h3Match) {
+            const innerHtml = h3Match[2].trim();
+            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
+            if (titleMatch) {
+                rawChineseName = titleMatch[2];
+            }
+        }
+
+        function highlight(txt) {
+            if (!query) return txt;
+            const regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+            return txt.replace(regex, '<mark class="search-highlight">$1</mark>');
+        }
+
+        if (item.inaturalist) {
+            const inat = item.inaturalist;
+            const showAcademicName = !!inat.displayName;
+            
+            return `
+                <div class="info-card-item-modern inat-info-modern inat-horizontal">
+                    <div class="info-card-title-modern">
+                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                        <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
+                    </div>
+                    ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
+                    ${inat.photos && inat.photos.length > 0 ? `
+                        <div class="inat-photo-scroll-container">
+                            ${inat.photos.slice(0, 5).map((p, i) => `
+                                <div class="inat-photo-item">
+                                    <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
+                                    <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : `
+                        <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; padding: 10px 0; font-style: italic; text-align:justify;">
+                            该物种在 iNaturalist 数据库中暂无公开的生态观察照片。您可以点击右上角前往官网查看更多观察记录。
+                        </div>
+                    `}
+                </div>
+            `;
+        } else {
+            return `
+                <div class="info-card-item-modern inat-info-modern inat-horizontal" style="opacity: 0.85; border-style: dashed;">
+                    <div class="info-card-title-modern">
+                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                    </div>
+                    <div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:var(--text-muted); margin-right:6px;">学术对照名:</span><span style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span></div>
+                    <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。</div>
+                </div>
+            `;
+        }
     }
 
     // 绑定多模式切换与标本馆左右导航事件
@@ -825,7 +918,7 @@
             const timeIndicator = player.querySelector('.audio-time-indicator');
 
             // 声谱图
-            const specContainer = player.closest('.sound-info-modern, .specimen-display, .species-card-modern').querySelector('.spectrogram-container');
+            const specContainer = player.closest('.sound-info-modern, .specimen-display, .species-card-modern, .specimen-middle-section').querySelector('.spectrogram-container');
             let specLine = null;
             let specOverlay = null;
             if (specContainer) {
@@ -1882,6 +1975,32 @@
         });
     }
 
+    function initSpectrogramFolding() {
+        document.addEventListener('click', (e) => {
+            const btn = e.target.closest('.spectrogram-toggle-btn');
+            if (btn) {
+                e.stopPropagation();
+                const section = btn.closest('.specimen-middle-section');
+                if (!section) return;
+                const foldable = section.querySelector('.spectrogram-foldable');
+                if (!foldable) return;
+                
+                const text = btn.querySelector('.toggle-text');
+                if (foldable.classList.contains('expanded')) {
+                    foldable.classList.remove('expanded');
+                    foldable.style.maxHeight = '0px';
+                    if (text) text.textContent = '显示声谱图';
+                    btn.classList.remove('active');
+                } else {
+                    foldable.classList.add('expanded');
+                    foldable.style.maxHeight = foldable.scrollHeight + 'px';
+                    if (text) text.textContent = '隐藏声谱图';
+                    btn.classList.add('active');
+                }
+            }
+        });
+    }
+
     // 在左部导航（TOC 目录）中有音频的鸣虫旁加上 🔈 图标
     function initTocAudioIcons() {
         if (typeof insectData === 'undefined') return;
@@ -1926,6 +2045,7 @@
         initCollapsibleToc();
         initFavoritesDelegation();
         initScrollSpy();
+        initSpectrogramFolding();
         initTocAudioIcons();
 
         // 窗口变化自适应重置
