@@ -1229,6 +1229,7 @@ body.light-theme .inat-photo-scroll-container .inat-photo-item {
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+    margin-top: 18px;
 }
 
 body.light-theme .custom-audio-player {
