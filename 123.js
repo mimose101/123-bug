@@ -489,7 +489,7 @@
                 const specNum = item.textHtml.match(/id="i(\d+)"/)[1];
                 bodyHtml += `
                     <div class="species-card-modern" id="i${specNum}" data-species-num="${specNum}">
-                        ${renderSpeciesHtml(item)}
+                        ${renderSpeciesHtml(item, '', true, true)}
                         ${item.images && item.images.length > 0 ? `
                             <div class="image-container">
                                 ${item.images.map(img => `
@@ -501,6 +501,7 @@
                             </div>
                         ` : ''}
                         ${item.audio ? renderPlayerHtml(item) : ''}
+                        ${renderListInatSection(item)}
                     </div>
                 `;
             });
@@ -729,6 +730,63 @@
         } else {
             return `
                 <div class="info-card-item-modern inat-info-modern inat-horizontal" style="opacity: 0.85; border-style: dashed;">
+                    <div class="info-card-title-modern">
+                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                    </div>
+                    <div class="inat-badge-modern" style="margin-bottom:8px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:var(--text-muted); margin-right:6px;">学术对照名:</span><span style="color:var(--text-muted); font-style:italic;">暂无精确匹配</span></div>
+                    <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; text-align:justify;">未在 iNaturalist 数据库中匹配到该品种的精确观察图鉴。</div>
+                </div>
+            `;
+        }
+    }
+
+    function renderListInatSection(item, query = '') {
+        const h3Match = item.textHtml.match(/<h3([^>]*)>([\s\S]*?)<\/h3>/i);
+        let rawChineseName = '鸣虫';
+        if (h3Match) {
+            const innerHtml = h3Match[2].trim();
+            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
+            if (titleMatch) {
+                rawChineseName = titleMatch[2];
+            }
+        }
+
+        function highlight(txt) {
+            if (!query) return txt;
+            const regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+            return txt.replace(regex, '<mark class="search-highlight">$1</mark>');
+        }
+
+        if (item.inaturalist) {
+            const inat = item.inaturalist;
+            const showAcademicName = !!inat.displayName;
+            
+            return `
+                <div class="info-card-item-modern inat-info-modern" style="margin-top: 16px;">
+                    <div class="info-card-title-modern">
+                        <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
+                        <a class="inat-link-btn" href="https://www.inaturalist.org/taxa/${inat.taxonId}" target="_blank" rel="noopener noreferrer">图鉴官网 →</a>
+                    </div>
+                    ${showAcademicName ? `<div class="inat-badge-modern" style="margin-bottom:12px; font-size:0.95rem; line-height:1.5;"><span style="font-weight:bold; color:#009688; margin-right:6px;">学术对照名:</span><span style="font-weight:600; color:var(--text-main);">${highlight(inat.displayName)}</span></div>` : ''}
+                    ${inat.photos && inat.photos.length > 0 ? `
+                        <div class="inat-photo-gallery">
+                            ${inat.photos.slice(0, 5).map((p, i) => `
+                                <div class="inat-photo-item">
+                                    <img src="${p.url}" data-large="${p.largeUrl || p.url}" alt="${rawChineseName}-生态照片-${i+1}" loading="lazy" />
+                                    <div class="inat-photo-attribution" title="${p.attribution}">${p.attribution}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : `
+                        <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.5; padding: 10px 0; font-style: italic; text-align:justify;">
+                            该物种在 iNaturalist 数据库中暂无公开的生态观察照片。您可以点击右上角前往官网查看更多观察记录。
+                        </div>
+                    `}
+                </div>
+            `;
+        } else {
+            return `
+                <div class="info-card-item-modern inat-info-modern" style="opacity: 0.85; border-style: dashed; margin-top: 16px;">
                     <div class="info-card-title-modern">
                         <span class="info-icon">☘️ iNaturalist 生态观察图鉴</span>
                     </div>
@@ -1654,7 +1712,7 @@
                     
                     section.innerHTML = `
                         <div style="margin-bottom:10px;"><span class="search-result-tag">${catLabel}</span></div>
-                        ${renderSpeciesHtml(item, query)}
+                        ${renderSpeciesHtml(item, query, true, true)}
                         ${item.images && item.images.length > 0 ? `
                             <div class="image-container">
                                 ${item.images.slice(0, 2).map(img => `
@@ -1666,6 +1724,7 @@
                             </div>
                         ` : ''}
                         ${item.audio ? renderPlayerHtml(item) : ''}
+                        ${renderListInatSection(item, query)}
                     `;
                     
                     searchResultsView.appendChild(section);
