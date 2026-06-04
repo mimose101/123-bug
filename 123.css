@@ -1352,10 +1352,21 @@ body.light-theme .info-card-item-modern:hover {
 }
 
 .inat-photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 12px;
+    display: flex;
+    gap: 10px;
     margin-top: 14px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 6px;
+    -webkit-overflow-scrolling: touch;
+    /* 隐藏滚动条但保持功能 */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.inat-photo-gallery::-webkit-scrollbar {
+    display: none;
 }
 
 .inat-photo-item {
@@ -1363,26 +1374,46 @@ body.light-theme .info-card-item-modern:hover {
     overflow: hidden;
     border: 1px solid rgba(0, 150, 136, 0.15);
     background: rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 auto;
+    width: 160px;
+    scroll-snap-align: start;
+    position: relative;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.inat-photo-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 150, 136, 0.2);
 }
 
 .inat-photo-item img {
     width: 100%;
-    height: 120px;
+    height: 130px;
     object-fit: cover;
     cursor: zoom-in;
+    display: block;
 }
 
 .inat-photo-attribution {
-    font-size: 0.65rem;
-    color: var(--text-muted);
-    padding: 4px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.6rem;
+    color: #fff;
+    padding: 16px 6px 4px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    background: rgba(0,0,0,0.05);
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
+}
+
+.inat-photo-item:hover .inat-photo-attribution {
+    opacity: 1;
 }
 
 /* ==========================================================
