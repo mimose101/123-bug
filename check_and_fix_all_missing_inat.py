@@ -66,6 +66,9 @@ def fetch_inat_photos(taxon_id):
                         img_url = p.get("url")
                         attribution = p.get("attribution")
                         if img_url and attribution:
+                            # 过滤声音频谱图上传者 (orthoptera-jp)
+                            if "orthoptera-jp" in attribution.lower():
+                                continue
                             medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg").replace("square.png", "medium.png")
                             large_url = img_url.replace("square.jpg", "large.jpg").replace("square.jpeg", "large.jpeg").replace("square.png", "large.png")
                             # 防止照片 URL 重复
