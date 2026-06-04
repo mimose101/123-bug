@@ -665,12 +665,12 @@
             </div>
             
             <div class="spectrogram-toggle-container">
-                <button class="spectrogram-toggle-btn" type="button">
-                    <span class="toggle-icon">📊</span> <span class="toggle-text">显示声谱图</span>
+                <button class="spectrogram-toggle-btn active" type="button">
+                    <span class="toggle-icon">📊</span> <span class="toggle-text">隐藏声谱图</span>
                 </button>
             </div>
             
-            <div class="spectrogram-foldable">
+            <div class="spectrogram-foldable expanded" style="max-height: none;">
                 <div class="spectrogram-container" style="margin-top: 10px;">
                     <div class="spectrogram-wrapper">
                         <img class="spectrogram-img skeleton-box" src="${item.audio.spectrogram.startsWith('http') ? 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(item.audio.spectrogram) : item.audio.spectrogram}" alt="声谱图" loading="lazy" onload="this.classList.remove('skeleton-box')" />
