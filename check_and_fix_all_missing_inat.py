@@ -12,6 +12,7 @@ import sys
 import urllib.request
 import urllib.parse
 import time
+import random
 from PIL import Image
 import concurrent.futures
 
@@ -20,48 +21,68 @@ sys.stdout.reconfigure(encoding='utf-8')
 def search_inat_taxon(query_str):
     url = f"https://api.inaturalist.org/v1/taxa?q={urllib.parse.quote(query_str)}"
     headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            res_data = json.loads(resp.read().decode('utf-8'))
-            results = res_data.get("results", [])
-            if results:
-                for r in results:
-                    return r.get("id"), r.get("name"), r.get("preferred_common_name", r.get("english_common_name", ""))
-                return results[0].get("id"), results[0].get("name"), results[0].get("preferred_common_name", "")
-    except Exception as e:
-        print(f"    搜索 Taxon 失败 ({query_str}): {e}")
+    max_retries = 5
+    for retry in range(max_retries):
+        try:
+            time.sleep(random.uniform(0.1, 1.0))
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                res_data = json.loads(resp.read().decode('utf-8'))
+                results = res_data.get("results", [])
+                if results:
+                    for r in results:
+                        return r.get("id"), r.get("name"), r.get("preferred_common_name", r.get("english_common_name", ""))
+                    return results[0].get("id"), results[0].get("name"), results[0].get("preferred_common_name", "")
+                return None
+        except Exception as e:
+            if "429" in str(e):
+                sleep_time = 4 + retry * 4 + random.uniform(1.0, 3.0)
+                print(f"    搜索 Taxon 限流 (429)，等待 {sleep_time:.1f}s 后重试 {retry+1}/{max_retries}...")
+                time.sleep(sleep_time)
+            else:
+                print(f"    搜索 Taxon 失败 ({query_str}): {e}")
+                return None
     return None
 
 def fetch_inat_photos(taxon_id):
     url = f"https://api.inaturalist.org/v1/observations?taxon_id={taxon_id}&photos=true&per_page=10&quality_grade=research,casual"
     headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            res_data = json.loads(resp.read().decode('utf-8'))
-            results = res_data.get("results", [])
-            
-            photos_list = []
-            for obs in results:
-                for p in obs.get("photos", []):
-                    img_url = p.get("url")
-                    attribution = p.get("attribution")
-                    if img_url and attribution:
-                        medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg")
-                        if not any(x['url'] == medium_url for x in photos_list):
-                            photos_list.append({
-                                "url": medium_url,
-                                "attribution": attribution
-                            })
+    max_retries = 5
+    for retry in range(max_retries):
+        try:
+            time.sleep(random.uniform(0.1, 1.2))
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                res_data = json.loads(resp.read().decode('utf-8'))
+                results = res_data.get("results", [])
+                
+                photos_list = []
+                for obs in results:
+                    for p in obs.get("photos", []):
+                        img_url = p.get("url")
+                        attribution = p.get("attribution")
+                        if img_url and attribution:
+                            medium_url = img_url.replace("square.jpg", "medium.jpg").replace("square.jpeg", "medium.jpeg")
+                            if not any(x['url'] == medium_url for x in photos_list):
+                                photos_list.append({
+                                    "url": medium_url,
+                                    "attribution": attribution
+                                })
+                        if len(photos_list) >= 5:
+                            break
                     if len(photos_list) >= 5:
                         break
-                if len(photos_list) >= 5:
-                    break
-            return photos_list
-    except Exception as e:
-        print(f"    获取照片失败 (TaxonID {taxon_id}): {e}")
-        return []
+                return photos_list
+        except Exception as e:
+            if "429" in str(e):
+                sleep_time = 4 + retry * 4 + random.uniform(1.0, 3.0)
+                print(f"    [TaxonID {taxon_id}] 抓取照片限流 (429)，等待 {sleep_time:.1f}s 后重试 {retry+1}/{max_retries}...")
+                time.sleep(sleep_time)
+            else:
+                print(f"    获取照片失败 (TaxonID {taxon_id}): {e}")
+                return []
+    print(f"    [TaxonID {taxon_id}] 抓取照片重试多次失败。")
+    return []
 
 def process_item(item, headers):
     html = item.get("textHtml", "")
@@ -169,7 +190,7 @@ def process_item(item, headers):
     return True
 
 def main():
-    print("========== 开始并行多线程补全 iNaturalist 鸣虫数据 ==========")
+    print("========== 开始自适应限速多线程补全 iNaturalist 鸣虫数据 ==========")
 
     with open("data.js", "r", encoding="utf-8") as f:
         content = f.read().strip()
@@ -186,7 +207,6 @@ def main():
     
     updated_count = 0
 
-    # 过滤出需要处理的 items
     items_to_process = []
     for item in data:
         html = item.get("textHtml", "")
@@ -204,11 +224,10 @@ def main():
         print("\n所有物种已配置最新 iNaturalist 数据，无需更新。")
         return
 
-    print(f"共发现 {len(items_to_process)} 个物种需要抓取/补全 iNaturalist 数据，正在启动线程池...")
+    print(f"共发现 {len(items_to_process)} 个物种需要抓取/补全 iNaturalist 数据，启动限速线程池...")
 
-    # 使用线程池并发抓取
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-        # 提交任务
+    # 并发度降为 3，温和抓取防封
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         futures = {executor.submit(process_item, item, headers): item for item in items_to_process}
         
         for future in concurrent.futures.as_completed(futures):
@@ -224,7 +243,7 @@ def main():
         output = prefix + json.dumps(data, ensure_ascii=False, indent=2) + ";"
         with open("data.js", "w", encoding="utf-8") as f:
             f.write(output)
-        print(f"\n[DONE] 并行修补完成，共更新了 {updated_count} 个物种 of iNaturalist 数据，已保存至 data.js")
+        print(f"\n[DONE] 自适应修补完成，共更新了 {updated_count} 个物种 of iNaturalist 数据，已保存至 data.js")
     else:
         print("\n未发现需要更新的数据。")
 
