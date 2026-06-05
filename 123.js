@@ -1947,7 +1947,10 @@
             const catId = hash.replace('#category/', '');
             
             // 清理搜索视图状态
-            if (searchResultsView) searchResultsView.classList.remove('active');
+            if (searchResultsView) {
+                searchResultsView.classList.remove('active');
+                searchResultsView.innerHTML = '';
+            }
             if (searchInput) searchInput.value = '';
 
             if (hubView) hubView.classList.add('hidden');
@@ -1975,7 +1978,10 @@
             if (header) header.style.display = '';
             
             allViews.forEach(v => v.classList.remove('active'));
-            if (searchResultsView) searchResultsView.classList.remove('active');
+            if (searchResultsView) {
+                searchResultsView.classList.remove('active');
+                searchResultsView.innerHTML = '';
+            }
             if (searchInput) searchInput.value = '';
             
             if (homeBtn) homeBtn.classList.remove('visible');
