@@ -159,7 +159,7 @@
             }) : null;
             
             if (item) {
-                const titleMatch = item.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?/i);
+                const titleMatch = item.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?/i);
                 const cname = titleMatch ? titleMatch[1] : '未知鸣虫';
                 const lname = titleMatch && titleMatch[2] ? titleMatch[2] : '';
                 
@@ -366,7 +366,7 @@
         if (!h3Match) return html;
 
         const innerHtml = h3Match[2].trim();
-        const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
+        const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．、]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
         if (!titleMatch) return html;
 
         const speciesNum = titleMatch[1];
@@ -598,7 +598,7 @@
                 <div class="species-jump-strip">
                     ${catItems.map((item, idx) => {
                         const num = item.textHtml.match(/id="i(\d+)"/)[1];
-                        const name = item.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)/i)[1];
+                        const name = item.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1];
                         const isActive = idx === activeIdx;
                         return `
                             <button class="jump-strip-item ${isActive ? 'active' : ''}" data-index="${idx}" aria-label="跳转到${name}">
@@ -638,8 +638,8 @@
                                     <div class="specimen-title-row">
                                         <span class="specimen-tag-badge">#${activeSpecNum.padStart(3, '0')}</span>
                                         <div class="specimen-names-box">
-                                            <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*([^\s（(\(：:]+)/i)[1]}</div>
-                                            <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
+                                            <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1]}</div>
+                                            <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
                                         </div>
                                         <button class="favorite-btn-modern ${getFavorites().includes(activeSpecNum) ? 'active' : ''}" data-species-num="${activeSpecNum}">
                                             <svg viewBox="0 0 24 24">
@@ -780,7 +780,7 @@
         let rawChineseName = '鸣虫';
         if (h3Match) {
             const innerHtml = h3Match[2].trim();
-            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
+            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．、]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
             if (titleMatch) {
                 rawChineseName = titleMatch[2];
             }
@@ -837,7 +837,7 @@
         let rawChineseName = '鸣虫';
         if (h3Match) {
             const innerHtml = h3Match[2].trim();
-            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
+            const titleMatch = innerHtml.match(/^\s*(\d+)\s*[\.．、]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?[\s：:]*/);
             if (titleMatch) {
                 rawChineseName = titleMatch[2];
             }
@@ -1806,7 +1806,7 @@
                             const h3 = temp.querySelector('h3');
                             if (h3) {
                                 const h3Text = h3.innerText;
-                                const titleMatch = h3Text.match(/^\s*\d+\s*[\.．]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?/);
+                                const titleMatch = h3Text.match(/^\s*\d+\s*[\.．、]\s*([^\s（(\(：:]+)(?:[\(（]([^）\)]+)[\)）])?/);
                                 if (titleMatch) {
                                     cname = titleMatch[1];
                                     lname = titleMatch[2] || '';
