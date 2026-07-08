@@ -582,7 +582,7 @@
                         <h3 class="species-name-modern">${highlight(rawChineseName)}</h3>
                         ${formattedLatin ? `<span class="species-latin-modern">${highlight(formattedLatin)}</span>` : ''}
                     </div>
-                    <button class="share-btn-modern" data-species-num="${speciesNum}" title="复制分享链接" aria-label="分享">
+                    <button class="share-btn-modern" data-species-num="${speciesNum}" data-chinese-name="${rawChineseName}" data-latin-name="${formattedLatin}" title="复制分享链接" aria-label="分享">
                         <svg viewBox="0 0 24 24" style="width:18px; height:18px; fill:currentColor;">
                             <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
                         </svg>
@@ -805,7 +805,7 @@
                                             <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1]}</div>
                                             <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
                                         </div>
-                                        <button class="share-btn-modern" data-species-num="${activeSpecNum}" title="复制分享链接" aria-label="分享">
+                                        <button class="share-btn-modern" data-species-num="${activeSpecNum}" data-chinese-name="${activeItem.textHtml.match(/id="i\d+"[^>]*>[\s\S]*?<h3[^>]*>[\s\S]*?\d+[\.\.．、]\s*([^\s（(（：:]+)/)?.[1] || ''}" data-latin-name="${activeItem.textHtml.match(/id="i\d+"[^>]*>[\s\S]*?<h3[^>]*>[\s\S]*?\d+[\.\.．、]\s*[^\s（(（：:]+(?:[\(（]([^）\)]+)[\)）])?/)?.[1] || ''}" title="复制分享链接" aria-label="分享">
                                             <svg viewBox="0 0 24 24" style="width:18px; height:18px; fill:currentColor;">
                                                 <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
                                             </svg>
@@ -1932,20 +1932,29 @@
                 e.stopPropagation();
                 e.preventDefault();
                 const num = btn.getAttribute('data-species-num');
+                const chineseName = btn.getAttribute('data-chinese-name') || '';
+                const latinName = btn.getAttribute('data-latin-name') || '';
                 const link = `${window.location.origin}${window.location.pathname}#i${num}`;
                 
+                // 拼合复制内容：名称 + 拉丁文名 + 链接
+                let textToCopy = '';
+                if (chineseName) textToCopy += chineseName;
+                if (latinName) textToCopy += `（${latinName}）`;
+                if (textToCopy) textToCopy += '\n';
+                textToCopy += link;
+                
                 // 写入剪贴板
-                navigator.clipboard.writeText(link).then(() => {
-                    showToast('分享链接已复制到剪贴板，快去分享吧！');
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    showToast('已复制名称与链接，快去分享吧！');
                 }).catch(() => {
                     // 兼容旧浏览器
                     const input = document.createElement('input');
-                    input.value = link;
+                    input.value = textToCopy;
                     document.body.appendChild(input);
                     input.select();
                     document.execCommand('copy');
                     document.body.removeChild(input);
-                    showToast('分享链接已复制，快去分享吧！');
+                    showToast('已复制，快去分享吧！');
                 });
             }
         });
