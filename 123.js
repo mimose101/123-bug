@@ -1110,6 +1110,8 @@
             function slideTo(newIdx) {
                 const item = catItems[newIdx];
                 const specNum = item.textHtml.match(/id="i(\d+)"/)[1];
+                // 标记这是一次卡片内的快速切页（上一只/下一只/手势），不要上下滚动页面
+                window.preventDetailScroll = true;
                 window.location.hash = 'i' + specNum;
             }
             
@@ -1165,19 +1167,29 @@
             const layout = container.querySelector('.specimen-layout');
             if (layout) {
                 let touchStartX = 0;
+                let touchStartY = 0;
                 layout.addEventListener('touchstart', (e) => {
                     touchStartX = e.touches[0].clientX;
+                    touchStartY = e.touches[0].clientY;
                 }, { passive: true });
                 
                 layout.addEventListener('touchend', (e) => {
                     const touchEndX = e.changedTouches[0].clientX;
+                    const touchEndY = e.changedTouches[0].clientY;
                     const diff = touchEndX - touchStartX;
-                    if (Math.abs(diff) > 70) {
+                    const diffY = touchEndY - touchStartY;
+                    
+                    // 过滤倾斜度较高或明显的垂直滚动操作，防止垂直翻阅时误触发切页
+                    if (Math.abs(diffY) > 50 || Math.abs(diffY) > Math.abs(diff) * 0.5) {
+                        return;
+                    }
+                    
+                    // 提升水平滑动阈值至 100px，并移除了冗余的 prevBtn 触发，防止轻微手震误触
+                    if (Math.abs(diff) > 100) {
                         if (diff > 0 && prevBtn) {
-                            prevBtn.click(); // 向右划显示前一只
+                            prevBtn.click(); // 向右滑显示前一只
                         } else if (diff < 0 && nextBtn) {
-                            prevBtn.click(); // 容错处理
-                            nextBtn.click(); // 向左划显示下一只
+                            nextBtn.click(); // 向左滑显示下一只
                         }
                     }
                 }, { passive: true });
@@ -2273,14 +2285,6 @@
             }
 
             if (homeBtn) homeBtn.classList.add('visible');
-            
-            // 平滑滚动定位到特定的卡片或卡片顶端
-            setTimeout(() => {
-                const element = document.getElementById('i' + speciesNum);
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            }, 220);
 
             // 移动端自适应关闭目录
             closeMobileToc();
@@ -2426,8 +2430,8 @@
                     parentLi = parentLi.parentElement.closest('li');
                 }
                 
-                // 让高亮的目录自动滚动到合适的可视区域
-                target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                // 让高亮的目录自动滚动到合适的可视区域（用 instant 防止视觉跳动）
+                target.scrollIntoView({ behavior: 'instant', block: 'nearest' });
             }
         }
     }
