@@ -961,7 +961,7 @@
                 <div class="video-item" style="margin-bottom: 16px;">
                     ${v.title ? `<div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:6px; font-weight:600;">${v.title}</div>` : ''}
                     <div class="video-wrapper">
-                        <iframe src="https://player.bilibili.com/player.html?bvid=${v.bvid}&page=1&high_quality=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                        <iframe src="https://player.bilibili.com/player.html?bvid=${v.bvid}&page=1&high_quality=1&as_wide=1&autoplay=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
                     </div>
                 </div>
             `;
@@ -1267,6 +1267,17 @@
             activePlayer.resetThisPlayer();
             activePlayer = null;
         }
+    }
+
+    // 通过重置 iframe src 的方式强行停止所有正在播放的 B 站嵌入视频
+    function stopAllBilibiliVideos() {
+        const iframes = document.querySelectorAll('.video-wrapper iframe');
+        iframes.forEach(iframe => {
+            // 保存并清空 src，让浏览器立即销毁播放器内部状态（包括音频流）
+            const src = iframe.src;
+            iframe.src = '';
+            iframe.src = src;
+        });
     }
 
     function initAudioPlayers(container) {
@@ -2203,6 +2214,8 @@
 
         // 关闭一切可能正在播放的叫声
         stopActiveAudio();
+        // 中断所有正在播放的 B 站嵌入视频
+        stopAllBilibiliVideos();
 
         if (hash.startsWith('#category/')) {
             const catId = hash.replace('#category/', '');
