@@ -424,6 +424,11 @@
                         <h3 class="species-name-modern">${highlight(rawChineseName)}</h3>
                         ${formattedLatin ? `<span class="species-latin-modern">${highlight(formattedLatin)}</span>` : ''}
                     </div>
+                    <button class="share-btn-modern" data-species-num="${speciesNum}" title="复制分享链接" aria-label="分享">
+                        <svg viewBox="0 0 24 24" style="width:18px; height:18px; fill:currentColor;">
+                            <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+                        </svg>
+                    </button>
                     <button class="favorite-btn-modern ${isFavorited ? 'active' : ''}" data-species-num="${speciesNum}" aria-label="收藏">
                         <svg viewBox="0 0 24 24">
                             <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
@@ -642,6 +647,11 @@
                                             <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1]}</div>
                                             <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
                                         </div>
+                                        <button class="share-btn-modern" data-species-num="${activeSpecNum}" title="复制分享链接" aria-label="分享">
+                                            <svg viewBox="0 0 24 24" style="width:18px; height:18px; fill:currentColor;">
+                                                <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+                                            </svg>
+                                        </button>
                                         <button class="favorite-btn-modern ${getFavorites().includes(activeSpecNum) ? 'active' : ''}" data-species-num="${activeSpecNum}">
                                             <svg viewBox="0 0 24 24">
                                                 <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
@@ -940,20 +950,9 @@
             const prevBtn = container.querySelector('.prev-specimen-btn');
             const nextBtn = container.querySelector('.next-specimen-btn');
             function slideTo(newIdx) {
-                stopActiveAudio();
-                specimenActiveIndices[catId] = newIdx;
-                
-                // 添加淡出转场效果
-                const panel = container.querySelector('.combined-detail-panel');
-                if (panel) {
-                    panel.style.opacity = '0';
-                    panel.style.transform = 'translateY(10px)';
-                    panel.style.transition = 'opacity 0.22s, transform 0.22s';
-                }
-                
-                setTimeout(() => {
-                    rebuildCategoryView(catId);
-                }, 200);
+                const item = catItems[newIdx];
+                const specNum = item.textHtml.match(/id="i(\d+)"/)[1];
+                window.location.hash = 'i' + specNum;
             }
             
             // 绑定快速跳转条带点击事件
@@ -1774,6 +1773,69 @@
         });
     }
 
+    // 全局复制分享链接绑定
+    function initShareDelegation() {
+        document.addEventListener('click', (e) => {
+            const btn = e.target.closest('.share-btn-modern');
+            if (btn) {
+                e.stopPropagation();
+                e.preventDefault();
+                const num = btn.getAttribute('data-species-num');
+                const link = `${window.location.origin}${window.location.pathname}#i${num}`;
+                
+                // 写入剪贴板
+                navigator.clipboard.writeText(link).then(() => {
+                    showToast('分享链接已复制到剪贴板，快去分享吧！');
+                }).catch(() => {
+                    // 兼容旧浏览器
+                    const input = document.createElement('input');
+                    input.value = link;
+                    document.body.appendChild(input);
+                    input.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(input);
+                    showToast('分享链接已复制，快去分享吧！');
+                });
+            }
+        });
+    }
+
+    function showToast(msg) {
+        let toast = document.getElementById('global-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'global-toast';
+            toast.style.cssText = `
+                position: fixed;
+                bottom: 100px;
+                left: 50%;
+                transform: translateX(-50%) translateY(20px);
+                background: rgba(12, 20, 15, 0.95);
+                border: 1px solid var(--primary);
+                color: var(--text-main);
+                padding: 10px 24px;
+                border-radius: 30px;
+                font-size: 0.85rem;
+                z-index: 200000;
+                opacity: 0;
+                transition: opacity 0.3s ease, transform 0.3s ease;
+                pointer-events: none;
+                backdrop-filter: blur(8px);
+                box-shadow: 0 4px 15px rgba(0, 230, 118, 0.15);
+            `;
+            document.body.appendChild(toast);
+        }
+        toast.textContent = msg;
+        toast.offsetHeight; // 强行触发 layout
+        toast.style.opacity = '1';
+        toast.style.transform = 'translateX(-50%) translateY(0)';
+        
+        setTimeout(() => {
+            toast.style.opacity = '0';
+            toast.style.transform = 'translateX(-50%) translateY(20px)';
+        }, 2500);
+    }
+
     /* ==========================================================
        🔍 10. 智能搜索 (防抖、多标签)
        ========================================================== */
@@ -2001,6 +2063,70 @@
             // 移动端自适应关闭目录
             closeMobileToc();
             
+        } else if (hash.match(/^#i(\d+)$/)) {
+            const speciesNum = parseInt(hash.match(/^#i(\d+)$/)[1]);
+            const targetCat = getSpeciesCategory(speciesNum);
+
+            // 清理搜索视图状态
+            if (searchResultsView) {
+                searchResultsView.classList.remove('active');
+                searchResultsView.innerHTML = '';
+            }
+            if (searchInput) searchInput.value = '';
+
+            const wasCatActive = document.getElementById('view-' + targetCat).classList.contains('active');
+
+            if (hubView) hubView.classList.add('hidden');
+            if (header) header.style.display = 'none';
+            
+            allViews.forEach(v => v.classList.remove('active'));
+
+            const targetView = document.getElementById('view-' + targetCat);
+            if (targetView) {
+                targetView.classList.add('active');
+                
+                // 标本馆模式下定位当前索引并展示
+                const catItems = typeof insectData !== 'undefined' 
+                    ? insectData.filter(d => d.category === targetCat && d.textHtml.includes('id="i')) 
+                    : [];
+                const index = catItems.findIndex(item => {
+                    const match = item.textHtml.match(/id="i(\d+)"/);
+                    return match && parseInt(match[1]) === speciesNum;
+                });
+                
+                if (index > -1) {
+                    specimenActiveIndices[targetCat] = index;
+                }
+
+                if (wasCatActive && currentViewMode === 'combined') {
+                    // 如果分类已经处于打开状态，且在combined画册模式，为了切换体验，加一个淡出过渡
+                    const panel = targetView.querySelector('.combined-detail-panel');
+                    if (panel) {
+                        panel.style.opacity = '0';
+                        panel.style.transform = 'translateY(10px)';
+                        panel.style.transition = 'opacity 0.22s, transform 0.22s';
+                    }
+                    setTimeout(() => {
+                        rebuildCategoryView(targetCat);
+                    }, 200);
+                } else {
+                    rebuildCategoryView(targetCat);
+                }
+            }
+
+            if (homeBtn) homeBtn.classList.add('visible');
+            
+            // 平滑滚动定位到特定的卡片或卡片顶端
+            setTimeout(() => {
+                const element = document.getElementById('i' + speciesNum);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }, 220);
+
+            // 移动端自适应关闭目录
+            closeMobileToc();
+
         } else {
             // 返回首页
             if (hubView) hubView.classList.remove('hidden');
@@ -2047,36 +2173,7 @@
     }
 
     function jumpToSpecies(speciesNum) {
-        speciesNum = parseInt(speciesNum);
-        const targetCat = getSpeciesCategory(speciesNum);
-
-        // 1. 切换到对应的分类
-        navigateTo(targetCat);
-
-        // 2. 标本馆模式下定位当前索引并展示
-        const catItems = typeof insectData !== 'undefined' 
-            ? insectData.filter(d => d.category === targetCat && d.textHtml.includes('id="i')) 
-            : [];
-        const index = catItems.findIndex(item => {
-            const match = item.textHtml.match(/id="i(\d+)"/);
-            return match && parseInt(match[1]) === speciesNum;
-        });
-        
-        if (index > -1) {
-            specimenActiveIndices[targetCat] = index;
-        }
-        
-        // 重绘视图并平滑滚动到页面主展示区
-        rebuildCategoryView(targetCat);
-        
-        setTimeout(() => {
-            const view = document.getElementById('view-' + targetCat);
-            if (view) {
-                view.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        }, 180);
-        
-        closeMobileToc();
+        window.location.hash = 'i' + speciesNum;
     }
 
     // 监听目录点击拦截，跳转 SPA
@@ -2156,6 +2253,23 @@
                 if (parentLi && parentLi.classList.contains('collapsed')) {
                     parentLi.classList.remove('collapsed');
                 }
+            }
+        } else if (hash.match(/^#i(\d+)$/)) {
+            const target = document.querySelector(`.toc a[href="${hash}"]`);
+            if (target) {
+                target.classList.add('toc-active');
+                
+                // 递归展开所有父级折叠项
+                let parentLi = target.closest('li');
+                while (parentLi) {
+                    if (parentLi.classList.contains('collapsed')) {
+                        parentLi.classList.remove('collapsed');
+                    }
+                    parentLi = parentLi.parentElement.closest('li');
+                }
+                
+                // 让高亮的目录自动滚动到合适的可视区域
+                target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
         }
     }
@@ -2451,6 +2565,7 @@
         initMobileMenu();
         initCollapsibleToc();
         initFavoritesDelegation();
+        initShareDelegation();
         initScrollSpy();
         initSpectrogramFolding();
         initTocAudioIcons();

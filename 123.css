@@ -2298,3 +2298,24 @@ body.light-theme .match-badge-desc { background: rgba(156, 39, 176, 0.1); color:
     border: 0;
 }
 
+/* 10. 分享链接按钮样式 */
+.share-btn-modern {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    margin-right: 8px;
+}
+.share-btn-modern:hover {
+    background: var(--primary-pale);
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
