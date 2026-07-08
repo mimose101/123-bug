@@ -2285,6 +2285,8 @@
             }
 
             if (homeBtn) homeBtn.classList.add('visible');
+            
+            // 切换种类后不自动滚动，保持当前浏览位置
 
             // 移动端自适应关闭目录
             closeMobileToc();
@@ -2430,8 +2432,7 @@
                     parentLi = parentLi.parentElement.closest('li');
                 }
                 
-                // 让高亮的目录自动滚动到合适的可视区域（用 instant 防止视觉跳动）
-                target.scrollIntoView({ behavior: 'instant', block: 'nearest' });
+                // 不自动滚动 TOC 目录，保持侧栏位置不变
             }
         }
     }
