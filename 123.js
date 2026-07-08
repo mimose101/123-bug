@@ -106,6 +106,9 @@
             
             firefliesCtx.clearRect(0, 0, width, height);
             
+            // 每次绘制都检测主题模式，因为随时可能被用户切换
+            const isLightTheme = document.body.classList.contains('light-theme');
+            
             // 每次绘制都重新拉取一次 primary 色值，因为可能会切换日夜主题！
             let curPrimary = primaryColor;
             try {
@@ -155,14 +158,33 @@
                 p.alpha = p.baseAlpha + Math.sin(p.pulseTimer) * 0.15;
                 p.alpha = Math.max(0.05, Math.min(1, p.alpha));
                 
-                // 6. 渲染绘制粒子微光
+                // 6. 浅色模式对比度与绘制增强调整
+                let drawAlpha = p.alpha;
+                let drawSize = p.size;
+                let drawShadowBlur = p.size * 2.5;
+                
+                if (isLightTheme) {
+                    drawAlpha = Math.max(0.35, Math.min(0.9, p.alpha * 1.8)); // 提升亮背景下的不透明度
+                    drawSize = p.size * 1.15; // 稍微变大
+                    drawShadowBlur = p.size * 0.4; // 减弱模糊发光，保持边缘锐利
+                }
+                
+                // 7. 渲染绘制粒子微光
                 firefliesCtx.beginPath();
-                firefliesCtx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                firefliesCtx.arc(p.x, p.y, drawSize, 0, Math.PI * 2);
                 firefliesCtx.fillStyle = curPrimary;
-                firefliesCtx.globalAlpha = p.alpha;
-                firefliesCtx.shadowBlur = p.size * 2.5;
+                firefliesCtx.globalAlpha = drawAlpha;
+                firefliesCtx.shadowBlur = drawShadowBlur;
                 firefliesCtx.shadowColor = curPrimary;
                 firefliesCtx.fill();
+                
+                // 8. 浅色模式下加圈细微的深色描边防止淹没在亮底中
+                if (isLightTheme) {
+                    firefliesCtx.shadowBlur = 0; // 描边不发光
+                    firefliesCtx.strokeStyle = 'rgba(27, 94, 32, 0.22)';
+                    firefliesCtx.lineWidth = 0.5;
+                    firefliesCtx.stroke();
+                }
             });
             
             firefliesCtx.shadowBlur = 0; // 重置
