@@ -92,37 +92,7 @@ body {
     overflow: hidden;
 }
 
-.firefly {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: var(--primary);
-    border-radius: 50%;
-    filter: drop-shadow(0 0 4px var(--primary));
-    opacity: 0;
-    animation: fly 12s infinite ease-in-out;
-}
 
-@keyframes fly {
-    0% {
-        transform: translate(0, 0) scale(0.8);
-        opacity: 0;
-    }
-    10% {
-        opacity: 0.7;
-    }
-    50% {
-        transform: translate(120px, -200px) scale(1.2);
-        opacity: 0.9;
-    }
-    90% {
-        opacity: 0.2;
-    }
-    100% {
-        transform: translate(250px, -450px) scale(0.6);
-        opacity: 0;
-    }
-}
 
 /* ==========================================================
    🎛️ 2. 全局悬浮控制盘与侧滑收藏夹抽屉 (Specimen Drawer)

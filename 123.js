@@ -12,30 +12,166 @@
     /* ==========================================================
        ✨ 1. 初始化背景粒子 (萤火虫)
        ========================================================== */
+    let firefliesCanvas = null;
+    let firefliesCtx = null;
+    let firefliesAnimationId = null;
+    let firefliesList = [];
+    const fireflyMouse = { x: -1000, y: -1000, active: false };
+    let mouseListenersInitialized = false;
+
     function initFireflies() {
         const container = document.getElementById('firefliesContainer');
         if (!container) return;
         
+        // 停止之前的动画循环
+        if (firefliesAnimationId) {
+            cancelAnimationFrame(firefliesAnimationId);
+            firefliesAnimationId = null;
+        }
+
         container.innerHTML = '';
-        const count = window.innerWidth <= 768 ? 10 : 25;
+        
+        firefliesCanvas = document.createElement('canvas');
+        firefliesCanvas.style.cssText = 'position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;';
+        container.appendChild(firefliesCanvas);
+        
+        firefliesCtx = firefliesCanvas.getContext('2d');
+        
+        // 自适应宽高
+        const w = window.innerWidth;
+        const h = window.innerHeight;
+        firefliesCanvas.width = w;
+        firefliesCanvas.height = h;
+        
+        const count = w <= 768 ? 15 : 40;
+        firefliesList = [];
         
         for (let i = 0; i < count; i++) {
-            const firefly = document.createElement('div');
-            firefly.className = 'firefly';
-            
-            // 随机分配初始位置、动画时长和延迟
-            const left = Math.random() * 100;
-            const top = Math.random() * 100;
-            const duration = 8 + Math.random() * 8;
-            const delay = Math.random() * 5;
-            
-            firefly.style.left = `${left}vw`;
-            firefly.style.top = `${top}vh`;
-            firefly.style.animationDuration = `${duration}s`;
-            firefly.style.animationDelay = `${delay}s`;
-            
-            container.appendChild(firefly);
+            firefliesList.push({
+                x: Math.random() * w,
+                y: Math.random() * h,
+                vx: (Math.random() - 0.5) * 0.4,
+                vy: (Math.random() - 0.5) * 0.4,
+                size: 1.5 + Math.random() * 2, // 1.5px - 3.5px
+                alpha: 0.1 + Math.random() * 0.7,
+                baseAlpha: 0.2 + Math.random() * 0.6,
+                pulseSpeed: 0.01 + Math.random() * 0.02,
+                pulseTimer: Math.random() * Math.PI * 2,
+                // 用于随机游走的平滑参数
+                angle: Math.random() * Math.PI * 2,
+                speed: 0.15 + Math.random() * 0.25
+            });
         }
+        
+        // 初始化鼠标事件监听（全局只需绑定一次，防止重复绑定）
+        if (!mouseListenersInitialized) {
+            window.addEventListener('mousemove', (e) => {
+                fireflyMouse.x = e.clientX;
+                fireflyMouse.y = e.clientY;
+                fireflyMouse.active = true;
+            }, { passive: true });
+            
+            window.addEventListener('mouseleave', () => {
+                fireflyMouse.active = false;
+                fireflyMouse.x = -1000;
+                fireflyMouse.y = -1000;
+            }, { passive: true });
+            
+            window.addEventListener('touchmove', (e) => {
+                if (e.touches.length > 0) {
+                    fireflyMouse.x = e.touches[0].clientX;
+                    fireflyMouse.y = e.touches[0].clientY;
+                    fireflyMouse.active = true;
+                }
+            }, { passive: true });
+            
+            window.addEventListener('touchend', () => {
+                fireflyMouse.active = false;
+                fireflyMouse.x = -1000;
+                fireflyMouse.y = -1000;
+            }, { passive: true });
+            
+            mouseListenersInitialized = true;
+        }
+        
+        let primaryColor = '#00E676';
+        try {
+            const bodyStyle = getComputedStyle(document.body);
+            primaryColor = bodyStyle.getPropertyValue('--primary').trim() || primaryColor;
+        } catch(e) {}
+        
+        function tick() {
+            const width = firefliesCanvas.width;
+            const height = firefliesCanvas.height;
+            
+            firefliesCtx.clearRect(0, 0, width, height);
+            
+            // 每次绘制都重新拉取一次 primary 色值，因为可能会切换日夜主题！
+            let curPrimary = primaryColor;
+            try {
+                const bodyStyle = getComputedStyle(document.body);
+                curPrimary = bodyStyle.getPropertyValue('--primary').trim() || primaryColor;
+            } catch(e) {}
+            
+            firefliesList.forEach(p => {
+                // 1. 基础运动：平滑随机游走
+                p.angle += (Math.random() - 0.5) * 0.1;
+                p.vx += Math.cos(p.angle) * p.speed * 0.05;
+                p.vy += Math.sin(p.angle) * p.speed * 0.05;
+                
+                // 2. 鼠标排斥交互
+                if (fireflyMouse.active) {
+                    const dx = p.x - fireflyMouse.x;
+                    const dy = p.y - fireflyMouse.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    const forceRadius = 150; // 排斥半径 150px
+                    
+                    if (dist < forceRadius) {
+                        // 越靠近，排斥力量越大
+                        const force = (forceRadius - dist) / forceRadius;
+                        const pushAngle = Math.atan2(dy, dx);
+                        const pushStrength = 0.8; // 推力强度
+                        
+                        p.vx += Math.cos(pushAngle) * force * pushStrength;
+                        p.vy += Math.sin(pushAngle) * force * pushStrength;
+                    }
+                }
+                
+                // 3. 摩擦阻力，限制最大速度，使移动平滑
+                p.vx *= 0.94;
+                p.vy *= 0.94;
+                
+                p.x += p.vx + Math.cos(p.angle) * p.speed;
+                p.y += p.vy + Math.sin(p.angle) * p.speed;
+                
+                // 4. 边界处理：绕回
+                if (p.x < -20) p.x = width + 20;
+                if (p.x > width + 20) p.x = -20;
+                if (p.y < -20) p.y = height + 20;
+                if (p.y > height + 20) p.y = -20;
+                
+                // 5. 呼吸闪烁效果
+                p.pulseTimer += p.pulseSpeed;
+                p.alpha = p.baseAlpha + Math.sin(p.pulseTimer) * 0.15;
+                p.alpha = Math.max(0.05, Math.min(1, p.alpha));
+                
+                // 6. 渲染绘制粒子微光
+                firefliesCtx.beginPath();
+                firefliesCtx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                firefliesCtx.fillStyle = curPrimary;
+                firefliesCtx.globalAlpha = p.alpha;
+                firefliesCtx.shadowBlur = p.size * 2.5;
+                firefliesCtx.shadowColor = curPrimary;
+                firefliesCtx.fill();
+            });
+            
+            firefliesCtx.shadowBlur = 0; // 重置
+            firefliesCtx.globalAlpha = 1.0;
+            
+            firefliesAnimationId = requestAnimationFrame(tick);
+        }
+        
+        tick();
     }
 
     /* ==========================================================
