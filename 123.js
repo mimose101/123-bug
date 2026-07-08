@@ -805,7 +805,7 @@
                                             <div class="specimen-cname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1]}</div>
                                             <div class="specimen-lname">${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}</div>
                                         </div>
-                                        <button class="share-btn-modern" data-species-num="${activeSpecNum}" data-chinese-name="${activeItem.textHtml.match(/id="i\d+"[^>]*>[\s\S]*?<h3[^>]*>[\s\S]*?\d+[\.\.．、]\s*([^\s（(（：:]+)/)?.[1] || ''}" data-latin-name="${activeItem.textHtml.match(/id="i\d+"[^>]*>[\s\S]*?<h3[^>]*>[\s\S]*?\d+[\.\.．、]\s*[^\s（(（：:]+(?:[\(（]([^）\)]+)[\)）])?/)?.[1] || ''}" title="复制分享链接" aria-label="分享">
+                                        <button class="share-btn-modern" data-species-num="${activeSpecNum}" data-chinese-name="${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*([^\s（(\(：:]+)/i)[1]}" data-latin-name="${activeItem.textHtml.match(/<h3[^>]*>[\s\S]*?\d+[\.．、]\s*[^\s（(\(：:]+(?:[\(（]([^）\)]+)[\)）])?/i)[1] || ''}" title="复制分享链接" aria-label="分享">
                                             <svg viewBox="0 0 24 24" style="width:18px; height:18px; fill:currentColor;">
                                                 <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
                                             </svg>
@@ -1126,11 +1126,16 @@
                 });
             });
 
-            // 自动让 active 按钮居中
+            // 自动让 active 按钮居中，通过容器 level 的 scrollTo 以避免触发外层窗口垂直滚动
             setTimeout(() => {
                 const activeJumpItem = container.querySelector('.jump-strip-item.active');
-                if (activeJumpItem) {
-                    activeJumpItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                const strip = container.querySelector('.species-jump-strip');
+                if (activeJumpItem && strip) {
+                    const stripWidth = strip.clientWidth;
+                    const itemWidth = activeJumpItem.offsetWidth;
+                    const itemLeft = activeJumpItem.offsetLeft;
+                    const targetScrollLeft = itemLeft - (stripWidth / 2) + (itemWidth / 2);
+                    strip.scrollTo({ left: targetScrollLeft, behavior: 'smooth' });
                 }
             }, 100);
             
