@@ -574,6 +574,7 @@
                             </div>
                         ` : ''}
                         ${item.audio ? renderPlayerHtml(item) : ''}
+                        ${item.video ? renderVideoHtml(item) : ''}
                         ${renderListInatSection(item)}
                     </div>
                 `;
@@ -662,6 +663,7 @@
                                         <div style="color:var(--text-muted); font-size:0.8rem;">该鸣虫暂无野生叫声音频数据</div>
                                     </div>
                                 `}
+                                ${activeItem.video ? renderVideoHtml(activeItem) : ''}
                             </div>
                             
                             <!-- 下层：iNaturalist 生态观察图鉴（横向滚动条） -->
@@ -773,6 +775,32 @@
                 </div>
             </div>
         `;
+    }
+
+    function renderVideoHtml(item) {
+        if (!item.video) return '';
+        const videos = Array.isArray(item.video) ? item.video : [item.video];
+        const validVideos = videos.filter(v => v && v.bvid);
+        if (validVideos.length === 0) return '';
+        
+        let html = `
+            <div class="video-container" style="margin-top: 16px;">
+                <div class="info-card-title-modern" style="margin-bottom: 8px;">🎥 推荐视频</div>
+        `;
+        
+        validVideos.forEach(v => {
+            html += `
+                <div class="video-item" style="margin-bottom: 16px;">
+                    ${v.title ? `<div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:6px; font-weight:600;">${v.title}</div>` : ''}
+                    <div class="video-wrapper">
+                        <iframe src="https://player.bilibili.com/player.html?bvid=${v.bvid}&page=1&high_quality=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `</div>`;
+        return html;
     }
 
     function renderHorizontalInatSection(item, query = '') {
@@ -1896,6 +1924,7 @@
                             </div>
                         ` : ''}
                         ${item.audio ? renderPlayerHtml(item) : ''}
+                        ${item.video ? renderVideoHtml(item) : ''}
                         ${renderListInatSection(item, query)}
                     `;
                     
@@ -2289,6 +2318,29 @@
         });
     }
 
+    // 在左部导航（TOC 目录）中有视频的鸣虫旁加上 🎥 图标
+    function initTocVideoIcons() {
+        if (typeof insectData === 'undefined') return;
+        insectData.forEach(item => {
+            if (item.video) {
+                const match = item.textHtml.match(/id="i(\d+)"/);
+                if (match) {
+                    const speciesNum = match[1];
+                    const link = document.querySelector(`.toc a[href="#i${speciesNum}"]`);
+                    if (link) {
+                        // 避免重复添加
+                        if (!link.querySelector('.toc-video-icon')) {
+                            const icon = document.createElement('span');
+                            icon.className = 'toc-video-icon';
+                            icon.textContent = ' 🎥';
+                            link.appendChild(icon);
+                        }
+                    }
+                }
+            }
+        });
+    }
+
 
     // 随机探索
     function initRandomExplore() {
@@ -2403,6 +2455,7 @@
         initSpectrogramFolding();
         initTocAudioIcons();
         initTocInatIcons();
+        initTocVideoIcons();
         
         // 改进功能初始化
         initRandomExplore();
