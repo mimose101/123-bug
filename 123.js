@@ -1163,37 +1163,7 @@
             };
             document.addEventListener('keydown', handleKeyDown);
             
-            // 手机端在详情卡片上的手势左右划动切换
-            const layout = container.querySelector('.specimen-layout');
-            if (layout) {
-                let touchStartX = 0;
-                let touchStartY = 0;
-                layout.addEventListener('touchstart', (e) => {
-                    touchStartX = e.touches[0].clientX;
-                    touchStartY = e.touches[0].clientY;
-                }, { passive: true });
-                
-                layout.addEventListener('touchend', (e) => {
-                    const touchEndX = e.changedTouches[0].clientX;
-                    const touchEndY = e.changedTouches[0].clientY;
-                    const diff = touchEndX - touchStartX;
-                    const diffY = touchEndY - touchStartY;
-                    
-                    // 过滤倾斜度较高或明显的垂直滚动操作，防止垂直翻阅时误触发切页
-                    if (Math.abs(diffY) > 50 || Math.abs(diffY) > Math.abs(diff) * 0.5) {
-                        return;
-                    }
-                    
-                    // 提升水平滑动阈值至 100px，并移除了冗余的 prevBtn 触发，防止轻微手震误触
-                    if (Math.abs(diff) > 100) {
-                        if (diff > 0 && prevBtn) {
-                            prevBtn.click(); // 向右滑显示前一只
-                        } else if (diff < 0 && nextBtn) {
-                            nextBtn.click(); // 向左滑显示下一只
-                        }
-                    }
-                }, { passive: true });
-            }
+
 
             // == 14. 详情画册多图缩略图点击切换逻辑 ==
             const activeItem = catItems[activeIdx];
